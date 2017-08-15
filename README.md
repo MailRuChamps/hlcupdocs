@@ -1,6 +1,6 @@
 # hlcupdocs
 
-## [../blob/master/HOWTO.md](Описание задачи чемпионата)
+## [Описание задачи чемпионата](https://github.com/sat2707/hlcupdocs/blob/master/HOWTO.md)
 
-## [../blob/master/TANK.md](Запуск стрельбы в yandex-tank)
+## [Запуск стрельбы в yandex-tank локально](https://github.com/sat2707/hlcupdocs/blob/master/HOWTO.md)
 
