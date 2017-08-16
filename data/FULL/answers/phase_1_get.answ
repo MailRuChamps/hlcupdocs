@@ -1,0 +1,1000 @@
+GET	/users/404	200	{"first_name": "\u041a\u043e\u043d\u0441\u0442\u0430\u043d\u0442\u0438\u043d", "last_name": "\u0421\u0442\u0430\u043c\u0430\u0442\u043e\u043f\u043e\u0432", "gender": "m", "email": "eglirut@mail.ru", "birth_date": -444355200, "id": 404}
+GET	/visits/9215	200	{"mark": 1, "visited_at": 1218352748, "user": 370, "id": 9215, "location": 9}
+GET	/locations/56/avg?toDate=1023235200&fromDate=862963200&toAge=48&fromAge=1	200	{"avg": 2.375}
+GET	/visits/9843	200	{"mark": 1, "visited_at": 1176117994, "user": 358, "id": 9843, "location": 75}
+GET	/users/191/visits?fromDate=820454400	200	{"visits": [{"mark": 3, "visited_at": 1064315078, "place": "\u0424\u043e\u043d\u0430\u0440\u044c"}, {"mark": 1, "visited_at": 1066989995, "place": "\u0423\u0441\u0442\u0443\u043f"}, {"mark": 3, "visited_at": 1067350349, "place": "\u0414\u0432\u043e\u0440"}, {"mark": 2, "visited_at": 1074586007, "place": "\u041c\u043e\u0433\u0438\u043b\u0430"}, {"mark": 1, "visited_at": 1085114865, "place": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d"}, {"mark": 4, "visited_at": 1092570286, "place": "\u041e\u0437\u0435\u0440\u043e"}, {"mark": 2, "visited_at": 1103450496, "place": "\u0413\u043e\u0440\u0430"}, {"mark": 1, "visited_at": 1111728332, "place": "\u041d\u0430\u0431\u0435\u0440\u0435\u0436\u043d\u0430\u044f"}, {"mark": 4, "visited_at": 1119451504, "place": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d"}, {"mark": 3, "visited_at": 1160612158, "place": "\u0421\u0435\u0440\u043f\u0430\u043d\u0442\u0438\u043d"}, {"mark": 4, "visited_at": 1218795218, "place": "\u0413\u0430\u0440\u0430\u0436"}, {"mark": 1, "visited_at": 1225604546, "place": "\u0421\u0435\u0440\u043f\u0430\u043d\u0442\u0438\u043d"}, {"mark": 3, "visited_at": 1257320641, "place": "\u0414\u0432\u043e\u0440"}, {"mark": 2, "visited_at": 1301552189, "place": "\u0423\u043b\u043e\u0447\u043a\u0430"}, {"mark": 1, "visited_at": 1311830547, "place": "\u0420\u0443\u0447\u0435\u0439"}, {"mark": 1, "visited_at": 1374700709, "place": "\u0413\u0430\u0440\u0430\u0436"}, {"mark": 1, "visited_at": 1399418072, "place": "\u041c\u0430\u0433\u0430\u0437\u0438\u043d"}]}
+GET	/users/955	200	{"first_name": "\u041f\u0451\u0442\u0440", "last_name": "\u041a\u043b\u0435\u0440\u043e\u043b\u043e\u043a\u043e", "gender": "m", "email": "vedenardo@inbox.ru", "birth_date": 252720000, "id": 955}
+GET	/users/305	200	{"first_name": "\u0414\u0430\u0440\u0438\u044f", "last_name": "\u041b\u0443\u043a\u0430\u0448\u0435\u043b\u043e\u0432\u0430", "gender": "f", "email": "eshumup@icloud.com", "birth_date": -860025600, "id": 305}
+GET	/visits/10178	200	{"mark": 3, "visited_at": 1210190325, "user": 236, "id": 10178, "location": 39}
+GET	/visits/612	200	{"mark": 3, "visited_at": 1100330333, "user": 120, "id": 612, "location": 79}
+GET	/locations/645	200	{"distance": 66, "city": "\u0411\u0435\u043b\u0430\u0442\u0441\u043a", "country": "\u0415\u0433\u0438\u043f\u0435\u0442", "place": "\u0410\u044d\u0440\u043e\u043f\u043e\u0440\u0442", "id": 645}
+GET	/users/515/visits	200	{"visits": [{"mark": 3, "visited_at": 1045540361, "place": "\u041c\u043e\u0440\u0435"}, {"mark": 3, "visited_at": 1049275018, "place": "\u041e\u0444\u0438\u0441"}, {"mark": 4, "visited_at": 1087751911, "place": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c"}, {"mark": 4, "visited_at": 1130119803, "place": "\u0421\u0442\u0430\u0442\u0443\u044f"}, {"mark": 4, "visited_at": 1140847603, "place": "\u0414\u0430\u0447\u0430"}, {"mark": 1, "visited_at": 1152510884, "place": "\u0414\u0435\u0440\u0435\u0432\u043e"}, {"mark": 2, "visited_at": 1231448243, "place": "\u0421\u0442\u0430\u0442\u0443\u044f"}, {"mark": 1, "visited_at": 1303960532, "place": "\u041f\u0430\u0440\u043a"}, {"mark": 1, "visited_at": 1337359468, "place": "\u0421\u043a\u0430\u043b\u0430"}]}
+GET	/locations/5	200	{"distance": 6, "city": "\u0421\u0430\u043d\u043a\u0442\u0441\u0442\u0430\u043d", "country": "\u0411\u0440\u0430\u0437\u0438\u043b\u0438\u044f", "place": "\u0414\u043e\u043c", "id": 5}
+GET	/locations/795	200	{"distance": 37, "city": "\u041a\u0440\u0430\u0441\u043d\u043e\u0434\u0430\u043c", "country": "\u041d\u0438\u0434\u0435\u0440\u043b\u0430\u043d\u0434\u044b", "place": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d", "id": 795}
+GET	/users/bad	404
+GET	/users/340	200	{"first_name": "\u0414\u0430\u043c\u0438\u0440", "last_name": "\u0421\u0442\u0430\u043c\u0430\u0442\u043e\u043a\u0438\u0439", "gender": "m", "email": "adbevduhretgohnihes@yandex.ru", "birth_date": 594950400, "id": 340}
+GET	/visits/8350	200	{"mark": 2, "visited_at": 1230866951, "user": 739, "id": 8350, "location": 434}
+GET	/users/bad	404
+GET	/visits/6534	200	{"mark": 2, "visited_at": 1015112987, "user": 689, "id": 6534, "location": 54}
+GET	/locations/361	200	{"distance": 23, "city": "\u0410\u043c\u0441\u0442\u0435\u0440\u0430\u0442\u0441\u043a", "country": "\u041c\u043e\u043d\u0433\u043e\u043b\u0438\u044f", "place": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d", "id": 361}
+GET	/users/bad	404
+GET	/users/297/visits?toDate=1497830400&country=%D0%A4%D0%B8%D0%BD%D0%BB%D1%8F%D0%BD%D0%B4%D0%B8%D1%8F	200	{"visits": []}
+GET	/locations/220	200	{"distance": 75, "city": "\u0411\u0435\u043b\u0441\u0442\u0430\u043d", "country": "\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f", "place": "\u041c\u043e\u0433\u0438\u043b\u0430", "id": 220}
+GET	/users/714	200	{"first_name": "\u0415\u043b\u0438\u0437\u0430\u0432\u0435\u0442\u0430", "last_name": "\u0425\u043e\u043f\u0443\u0448\u0443\u0441\u044f\u043d", "gender": "f", "email": "menletehestud@inbox.ru", "birth_date": -690163200, "id": 714}
+GET	/users/306	200	{"first_name": "\u041d\u0438\u043a\u0438\u0442\u0430", "last_name": "\u041b\u0443\u043a\u0430\u0448\u0435\u0432\u0438\u0447", "gender": "m", "email": "bederginow@list.me", "birth_date": -689644800, "id": 306}
+GET	/locations/748/avg?toDate=1256860800&fromDate=1334707200&toAge=62&fromAge=30	200	{"avg": 0.0}
+GET	/users/bad	404
+GET	/users/1591	404
+GET	/visits/38	200	{"mark": 3, "visited_at": 1145945255, "user": 78, "id": 38, "location": 44}
+GET	/visits/3651	200	{"mark": 1, "visited_at": 1160927325, "user": 42, "id": 3651, "location": 115}
+GET	/users/548	200	{"first_name": "\u041e\u043a\u0441\u0430\u043d\u0430", "last_name": "\u041a\u0438\u0441\u0430\u0448\u0435\u043d\u0430\u044f", "gender": "f", "email": "edcefoanetcet@mail.ru", "birth_date": 333936000, "id": 548}
+GET	/users/751	200	{"first_name": "\u0412\u0435\u0440\u0430", "last_name": "\u0414\u0430\u043d\u0430\u0448\u0435\u043d\u0430\u044f", "gender": "f", "email": "tentomra@icloud.com", "birth_date": -653702400, "id": 751}
+GET	/visits/4483	200	{"mark": 2, "visited_at": 1398462381, "user": 100, "id": 4483, "location": 179}
+GET	/users/167	200	{"first_name": "\u041c\u0438\u0440\u043e\u0441\u043b\u0430\u0432", "last_name": "\u0425\u043e\u043f\u044b\u043a\u0430\u0432\u0435\u043d", "gender": "m", "email": "bainneltamkador@mail.ru", "birth_date": -1095033600, "id": 167}
+GET	/locations/582	200	{"distance": 86, "city": "\u041d\u044c\u044e\u043a\u0432\u0430", "country": "\u042f\u043f\u043e\u043d\u0438\u044f", "place": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c", "id": 582}
+GET	/locations/630	200	{"distance": 6, "city": "\u0411\u0430\u0440\u0441\u0440\u0438\u0436", "country": "\u0428\u0432\u0435\u0439\u0446\u0430\u0440\u0438\u044f", "place": "\u0423\u043b\u0438\u0446\u0430", "id": 630}
+GET	/locations/34	200	{"distance": 40, "city": "\u0412\u043e\u043b\u043e\u043e\u0432\u043e", "country": "\u041c\u0430\u043b\u044c\u0442\u0430", "place": "\u0414\u043e\u0440\u043e\u0436\u043a\u0430", "id": 34}
+GET	/locations/292	200	{"distance": 21, "city": "\u0420\u043e\u0441\u0433\u043e\u0440\u043e\u0434", "country": "\u0411\u043e\u043b\u0433\u0430\u0440\u0438\u044f", "place": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d", "id": 292}
+GET	/users/635	200	{"first_name": "\u0418\u043d\u0435\u0441\u0441\u0430", "last_name": "\u0414\u0430\u043d\u0435\u0442\u0430\u0432\u0438\u0447", "gender": "f", "email": "intecyh@mail.ru", "birth_date": -828403200, "id": 635}
+GET	/locations/1258	404
+GET	/visits/4491	200	{"mark": 3, "visited_at": 1355592990, "user": 61, "id": 4491, "location": 335}
+GET	/users/378	200	{"first_name": "\u0412\u0435\u0440\u0430", "last_name": "\u041b\u0435\u0431\u0443\u0448\u0443\u0438\u043d\u0430", "gender": "f", "email": "xocattyhdarbenus@me.com", "birth_date": -1111536000, "id": 378}
+GET	/visits/3438	200	{"mark": 1, "visited_at": 1368393804, "user": 5, "id": 3438, "location": 86}
+GET	/users/969	200	{"first_name": "\u041a\u0441\u0435\u043d\u0438\u044f", "last_name": "\u0414\u0430\u043d\u043b\u0435\u043d\u0441\u044f\u043d", "gender": "f", "email": "holetrirmehduturosfi@inbox.ru", "birth_date": -1199836800, "id": 969}
+GET	/visits/2698	200	{"mark": 1, "visited_at": 1108322385, "user": 312, "id": 2698, "location": 278}
+GET	/users/114/visits	200	{"visits": [{"mark": 1, "visited_at": 964554269, "place": "\u041e\u0444\u0438\u0441"}, {"mark": 1, "visited_at": 980622987, "place": "\u0421\u043a\u043b\u043e\u043d"}, {"mark": 2, "visited_at": 1006560200, "place": "\u041f\u0440\u0443\u0434"}, {"mark": 4, "visited_at": 1084110279, "place": "\u041f\u0430\u0440\u043a"}, {"mark": 3, "visited_at": 1085570670, "place": "\u041f\u0440\u0443\u0434"}, {"mark": 2, "visited_at": 1110742510, "place": "\u0424\u043e\u043d\u0430\u0440\u044c"}, {"mark": 2, "visited_at": 1145168577, "place": "\u0414\u0432\u043e\u0440"}, {"mark": 3, "visited_at": 1145208749, "place": "\u041f\u0435\u0440\u0435\u0443\u043b\u043e\u043a"}, {"mark": 2, "visited_at": 1147380982, "place": "\u0414\u043e\u0440\u043e\u0436\u043a\u0430"}, {"mark": 1, "visited_at": 1148165232, "place": "\u0421\u0435\u0440\u043f\u0430\u043d\u0442\u0438\u043d"}, {"mark": 1, "visited_at": 1154410139, "place": "\u0414\u043e\u0440\u043e\u0436\u043a\u0430"}, {"mark": 2, "visited_at": 1175142420, "place": "\u041c\u043e\u0441\u0442"}, {"mark": 4, "visited_at": 1176138143, "place": "\u0420\u0430\u0442\u0443\u0448\u0430"}, {"mark": 2, "visited_at": 1197262960, "place": "\u041e\u0437\u0435\u0440\u043e"}, {"mark": 3, "visited_at": 1206318715, "place": "\u0421\u0442\u0430\u0442\u0443\u044f"}, {"mark": 1, "visited_at": 1218462617, "place": "\u0423\u043b\u0438\u0446\u0430"}, {"mark": 2, "visited_at": 1227059681, "place": "\u0420\u0435\u0447\u043a\u0430"}, {"mark": 3, "visited_at": 1268208575, "place": "\u0417\u0434\u0430\u043d\u0438\u0435"}, {"mark": 4, "visited_at": 1280664864, "place": "\u0424\u043e\u043d\u0430\u0440\u044c"}, {"mark": 2, "visited_at": 1315250514, "place": "\u041d\u0430\u0431\u0435\u0440\u0435\u0436\u043d\u0430\u044f"}, {"mark": 1, "visited_at": 1316221245, "place": "\u041c\u043e\u0440\u0435"}, {"mark": 4, "visited_at": 1322565513, "place": "\u041e\u0437\u0435\u0440\u043e"}, {"mark": 1, "visited_at": 1367886245, "place": "\u0413\u043e\u0440\u0430"}, {"mark": 2, "visited_at": 1370574424, "place": "\u0414\u0435\u0440\u0435\u0432\u043e"}, {"mark": 4, "visited_at": 1375591335, "place": "\u0413\u043e\u0440\u0430"}, {"mark": 4, "visited_at": 1412348112, "place": "\u0417\u0434\u0430\u043d\u0438\u0435"}]}
+GET	/locations/298	200	{"distance": 26, "city": "\u041b\u0438\u0441\u0441\u0430\u0448\u0442\u0430\u0434\u0442", "country": "\u0424\u0440\u0430\u043d\u0446\u0438\u044f", "place": "\u0414\u043e\u0440\u043e\u0436\u043a\u0430", "id": 298}
+GET	/visits/7819	200	{"mark": 1, "visited_at": 1043371006, "user": 29, "id": 7819, "location": 590}
+GET	/locations/385/avg	200	{"avg": 2.28571}
+GET	/locations/471	200	{"distance": 53, "city": "\u0410\u043c\u0441\u0442\u0435\u0440\u0431\u043e\u043d", "country": "\u041b\u0430\u043e\u0441", "place": "\u0423\u043b\u043e\u0447\u043a\u0430", "id": 471}
+GET	/users/172	200	{"first_name": "\u0418\u043d\u043d\u0430", "last_name": "\u0425\u043e\u043f\u0430\u0442\u043e\u0441\u044f\u043d", "gender": "f", "email": "tonegotos@inbox.ru", "birth_date": 360633600, "id": 172}
+GET	/locations/672	200	{"distance": 48, "city": "\u0412\u0430\u0440\u0434\u043e\u0440\u0444", "country": "\u041d\u043e\u0432\u0430\u044f \u0437\u0435\u043b\u0430\u043d\u0434\u0438\u044f", "place": "\u0424\u043e\u043d\u0430\u0440\u044c", "id": 672}
+GET	/users/433/visits	200	{"visits": [{"mark": 3, "visited_at": 1066256642, "place": "\u0421\u043a\u0430\u043b\u0430"}, {"mark": 1, "visited_at": 1077190404, "place": "\u0414\u0432\u043e\u0440"}, {"mark": 2, "visited_at": 1143495375, "place": "\u0424\u043e\u043d\u0442\u0430\u043d"}, {"mark": 3, "visited_at": 1190735310, "place": "\u041f\u0430\u0440\u043a"}, {"mark": 2, "visited_at": 1196841020, "place": "\u041f\u0430\u0440\u043a"}, {"mark": 3, "visited_at": 1222936811, "place": "\u041f\u043e\u043c\u0435\u0441\u0442\u044c\u0435"}, {"mark": 4, "visited_at": 1255006786, "place": "\u041c\u0430\u0433\u0430\u0437\u0438\u043d"}, {"mark": 4, "visited_at": 1406057323, "place": "\u0421\u043a\u043b\u043e\u043d"}]}
+GET	/locations/644	200	{"distance": 50, "city": "\u0420\u043e\u0441\u0431\u0438\u0440\u0441\u043a", "country": "\u0418\u043d\u0434\u0438\u044f", "place": "\u0413\u0430\u0440\u0430\u0436", "id": 644}
+GET	/locations/242/avg?gender=m	200	{"avg": 2.71429}
+GET	/locations/492	200	{"distance": 10, "city": "\u0412\u0430\u0440\u0434\u0430\u043c", "country": "\u0413\u0440\u0443\u0437\u0438\u044f", "place": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d", "id": 492}
+GET	/users/245	200	{"first_name": "\u042f\u0440\u043e\u0441\u043b\u0430\u0432", "last_name": "\u041b\u0443\u043a\u0435\u0442\u0430\u0441\u044f\u043d", "gender": "m", "email": "ogtuzovrottorowas@rambler.com", "birth_date": -891734400, "id": 245}
+GET	/locations/118	200	{"distance": 58, "city": "\u0417\u0435\u043b\u0435\u043d\u043e\u0433\u0430\u043c\u0430", "country": "\u0415\u0433\u0438\u043f\u0435\u0442", "place": "\u0414\u0435\u0440\u0435\u0432\u043e", "id": 118}
+GET	/locations/103	200	{"distance": 45, "city": "\u0412\u0430\u0440\u0433\u0440\u0430\u0434", "country": "\u0412\u0435\u043d\u0433\u0440\u0438\u044f", "place": "\u0423\u043b\u043e\u0447\u043a\u0430", "id": 103}
+GET	/users/777/visits?toDistance=66	200	{"visits": [{"mark": 4, "visited_at": 1127503646, "place": "\u0413\u0430\u0440\u0430\u0436"}, {"mark": 2, "visited_at": 1150453305, "place": "\u0420\u0443\u0447\u0435\u0439"}, {"mark": 4, "visited_at": 1224845084, "place": "\u0421\u043a\u0430\u043b\u0430"}, {"mark": 4, "visited_at": 1261792097, "place": "\u041c\u0430\u0433\u0430\u0437\u0438\u043d"}, {"mark": 3, "visited_at": 1297249498, "place": "\u041b\u0435\u0441"}]}
+GET	/users/898/visits?toDistance=23&toDate=916358400	200	{"visits": []}
+GET	/locations/214	200	{"distance": 50, "city": "\u041c\u043e\u0441\u043b\u0430\u043c\u0441\u043a", "country": "\u0412\u0435\u043b\u0438\u043a\u043e\u0431\u0440\u0438\u0442\u0430\u043d\u0438\u044f", "place": "\u0423\u043b\u0438\u0446\u0430", "id": 214}
+GET	/visits/6402	200	{"mark": 4, "visited_at": 1272182317, "user": 525, "id": 6402, "location": 278}
+GET	/locations/146/avg?gender=m&fromDate=880675200&fromAge=23	200	{"avg": 2.0}
+GET	/users/533	200	{"first_name": "\u041e\u043a\u0441\u0430\u043d\u0430", "last_name": "\u0414\u0430\u043d\u043b\u0435\u043d\u0447\u0430\u043d", "gender": "f", "email": "deansactilisre@yahoo.com", "birth_date": -333936000, "id": 533}
+GET	/locations/103/avg?fromDate=1313193600&toAge=53	200	{"avg": 0.0}
+GET	/locations/170	200	{"distance": 10, "city": "\u0412\u0430\u0440\u0441\u0442\u0430\u043d", "country": "\u0411\u0435\u043b\u043e\u0440\u0443\u0441\u0441\u0438\u044f", "place": "\u041f\u0430\u0440\u043a", "id": 170}
+GET	/users/bad	404
+GET	/users/1052/visits?toDate=1157673600&country=%D0%9A%D0%B0%D0%BC%D0%B1%D0%BE%D0%B4%D0%B6%D0%B0	200	{"visits": []}
+GET	/users/979/visits?toDistance=15&toDate=1548115200&fromDate=1365811200	200	{"visits": []}
+GET	/users/824	200	{"first_name": "\u041b\u0430\u0440\u0438\u0441\u0430", "last_name": "\u0424\u0430\u0435\u0442\u0430\u043a\u0430\u044f", "gender": "f", "email": "ednesyrdosupe@mail.ru", "birth_date": -412732800, "id": 824}
+GET	/locations/182	200	{"distance": 95, "city": "\u041a\u0440\u0430\u0441\u043d\u043e\u0434\u043e\u0440\u0444", "country": "\u0414\u0430\u043d\u0438\u044f", "place": "\u0423\u043b\u0438\u0446\u0430", "id": 182}
+GET	/users/881/visits?toDate=898128000	200	{"visits": []}
+GET	/users/769/visits?toDate=1475539200&country=%D0%9A%D0%B0%D0%BC%D0%B1%D0%BE%D0%B4%D0%B6%D0%B0	200	{"visits": []}
+GET	/users/241/visits?toDate=810432000	200	{"visits": []}
+GET	/locations/201/avg?toDate=1352764800&fromDate=963878400&fromAge=5	200	{"avg": 2.33333}
+GET	/users/560	200	{"first_name": "\u041e\u043b\u044c\u0433\u0430", "last_name": "\u041b\u0435\u0431\u044b\u043a\u0430\u0441\u044f\u043d", "gender": "f", "email": "ditnerosarecdewiec@yahoo.com", "birth_date": 794361600, "id": 560}
+GET	/locations/430/avg?gender=bdbcccbaaeeeecceaaccbbbbbbeaabcd&fromAge=beebbbaffcadacffcfcebaccccacdabf	400
+GET	/locations/185	200	{"distance": 65, "city": "\u041b\u0435\u0441\u043e\u043e\u0432\u0441\u043a", "country": "\u041a\u0430\u043c\u0431\u043e\u0434\u0436\u0430", "place": "\u041f\u043e\u043c\u0435\u0441\u0442\u044c\u0435", "id": 185}
+GET	/users/bad	404
+GET	/users/bad	404
+GET	/locations/548/avg	200	{"avg": 2.0}
+GET	/users/985	200	{"first_name": "\u0414\u0435\u043d\u0438\u0441", "last_name": "\u041b\u0443\u043a\u044b\u043a\u0430\u043d\u044b\u0439", "gender": "m", "email": "temcoron@gmail.com", "birth_date": -647049600, "id": 985}
+GET	/users/755/visits	200	{"visits": [{"mark": 4, "visited_at": 977062091, "place": "\u0420\u0435\u0447\u043a\u0430"}, {"mark": 2, "visited_at": 1141872850, "place": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d"}]}
+GET	/locations/402	200	{"distance": 70, "city": "\u041b\u0438\u0441\u0441\u0430\u0431\u0438\u0440\u0441\u043a", "country": "\u041a\u0430\u043c\u0431\u043e\u0434\u0436\u0430", "place": "\u0414\u0430\u0447\u0430", "id": 402}
+GET	/users/890	200	{"first_name": "\u0418\u043b\u044c\u044f", "last_name": "\u041f\u0435\u043d\u044b\u043a\u0430\u043b\u0430\u043d", "gender": "m", "email": "anidlejabbelot@me.com", "birth_date": 740966400, "id": 890}
+GET	/visits/16924	404
+GET	/users/887/visits	200	{"visits": [{"mark": 1, "visited_at": 1052454198, "place": "\u041c\u043e\u0441\u0442"}]}
+GET	/users/619	200	{"first_name": "\u0410\u0440\u0442\u0451\u043c", "last_name": "\u0424\u0430\u043b\u0435\u043d\u043b\u0430\u043d", "gender": "m", "email": "tahteuwhetedcir@yandex.ru", "birth_date": -396230400, "id": 619}
+GET	/locations/448	200	{"distance": 66, "city": "\u041c\u0443\u0440\u043e\u0432\u0441\u043a", "country": "\u0422\u0443\u0440\u0446\u0438\u044f", "place": "\u041c\u043e\u0433\u0438\u043b\u0430", "id": 448}
+GET	/users/2/visits?fromDate=934243200	200	{"visits": [{"mark": 2, "visited_at": 973054096, "place": "\u0420\u0435\u0447\u043a\u0430"}, {"mark": 3, "visited_at": 994586379, "place": "\u0423\u043b\u043e\u0447\u043a\u0430"}, {"mark": 4, "visited_at": 1010715489, "place": "\u0424\u043e\u043d\u0442\u0430\u043d"}, {"mark": 1, "visited_at": 1013755330, "place": "\u0421\u0435\u0440\u043f\u0430\u043d\u0442\u0438\u043d"}, {"mark": 2, "visited_at": 1044914184, "place": "\u041c\u043e\u0433\u0438\u043b\u0430"}, {"mark": 4, "visited_at": 1049802653, "place": "\u041d\u0430\u0431\u0435\u0440\u0435\u0436\u043d\u0430\u044f"}, {"mark": 3, "visited_at": 1051202921, "place": "\u0414\u0430\u0447\u0430"}, {"mark": 1, "visited_at": 1066394743, "place": "\u0414\u043e\u043c"}, {"mark": 1, "visited_at": 1076169937, "place": "\u0417\u0430\u043c\u043e\u043a"}, {"mark": 4, "visited_at": 1093208064, "place": "\u0414\u043e\u0440\u043e\u0436\u043a\u0430"}, {"mark": 2, "visited_at": 1096813184, "place": "\u041f\u0440\u0443\u0434"}, {"mark": 3, "visited_at": 1126881395, "place": "\u041c\u043e\u0441\u0442"}, {"mark": 2, "visited_at": 1160843054, "place": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c"}, {"mark": 4, "visited_at": 1177249495, "place": "\u041f\u0440\u0438\u0441\u0442\u0430\u043d\u044c"}, {"mark": 2, "visited_at": 1224644664, "place": "\u041e\u0437\u0435\u0440\u043e"}, {"mark": 1, "visited_at": 1238238720, "place": "\u0423\u0441\u0442\u0443\u043f"}, {"mark": 4, "visited_at": 1239701140, "place": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c"}, {"mark": 4, "visited_at": 1249246233, "place": "\u041c\u0430\u0433\u0430\u0437\u0438\u043d"}, {"mark": 2, "visited_at": 1251209873, "place": "\u041c\u043e\u0433\u0438\u043b\u0430"}, {"mark": 3, "visited_at": 1279016497, "place": "\u0420\u0430\u0442\u0443\u0448\u0430"}, {"mark": 4, "visited_at": 1300885912, "place": "\u0414\u0430\u0447\u0430"}, {"mark": 4, "visited_at": 1332798051, "place": "\u041f\u0440\u0443\u0434"}, {"mark": 2, "visited_at": 1338845840, "place": "\u0417\u0430\u043c\u043e\u043a"}, {"mark": 4, "visited_at": 1339880140, "place": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d"}, {"mark": 2, "visited_at": 1348263316, "place": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d"}, {"mark": 3, "visited_at": 1358032290, "place": "\u0423\u043b\u043e\u0447\u043a\u0430"}, {"mark": 2, "visited_at": 1369589152, "place": "\u0410\u044d\u0440\u043e\u043f\u043e\u0440\u0442"}, {"mark": 2, "visited_at": 1391835253, "place": "\u041f\u0430\u0440\u043a"}, {"mark": 1, "visited_at": 1397566985, "place": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d"}, {"mark": 2, "visited_at": 1397707156, "place": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c"}, {"mark": 3, "visited_at": 1417520398, "place": "\u0417\u0430\u043c\u043e\u043a"}]}
+GET	/visits/9852	200	{"mark": 1, "visited_at": 1081997536, "user": 549, "id": 9852, "location": 776}
+GET	/locations/459	200	{"distance": 73, "city": "\u0411\u0435\u043b\u043e\u043c\u0441\u043a", "country": "\u0424\u0438\u0434\u0436\u0438", "place": "\u0421\u0435\u0440\u043f\u0430\u043d\u0442\u0438\u043d", "id": 459}
+GET	/locations/1094	404
+GET	/locations/451/avg?toDate=1363564800&toAge=55	200	{"avg": 2.66667}
+GET	/locations/188	200	{"distance": 48, "city": "\u041b\u0438\u0441\u0441\u0430\u043e\u0432\u0441\u043a", "country": "\u0424\u0438\u043d\u043b\u044f\u043d\u0434\u0438\u044f", "place": "\u0423\u043b\u043e\u0447\u043a\u0430", "id": 188}
+GET	/locations/193	200	{"distance": 38, "city": "\u041a\u0440\u0430\u0441\u043d\u043e\u043a\u0432\u0430", "country": "\u0415\u0433\u0438\u043f\u0435\u0442", "place": "\u0423\u043b\u0438\u0446\u0430", "id": 193}
+GET	/locations/747	200	{"distance": 67, "city": "\u0412\u043e\u043b\u043e\u043a\u0432\u0430", "country": "\u041d\u0438\u0434\u0435\u0440\u043b\u0430\u043d\u0434\u044b", "place": "\u0420\u0443\u0447\u0435\u0439", "id": 747}
+GET	/visits/567	200	{"mark": 4, "visited_at": 1281498492, "user": 64, "id": 567, "location": 45}
+GET	/users/bad	404
+GET	/users/406	200	{"first_name": "\u0412\u0430\u0434\u0438\u043c", "last_name": "\u041a\u043e\u043b\u0430\u0448\u0435\u043a\u0438\u0439", "gender": "m", "email": "senotsielohystedwir@rambler.com", "birth_date": -562636800, "id": 406}
+GET	/visits/13460	404
+GET	/users/1025/visits?toDate=1177286400	200	{"visits": []}
+GET	/locations/587	200	{"distance": 10, "city": "\u0411\u0435\u043b\u044f\u0440\u0441\u043a", "country": "\u0418\u0442\u0430\u043b\u0438\u044f", "place": "\u0417\u0434\u0430\u043d\u0438\u0435", "id": 587}
+GET	/visits/9818	200	{"mark": 3, "visited_at": 1333811162, "user": 470, "id": 9818, "location": 545}
+GET	/locations/65	200	{"distance": 17, "city": "\u041a\u0440\u043e\u043d\u0431\u0443\u0440\u0433", "country": "\u041c\u0435\u043a\u0441\u0438\u043a\u0430", "place": "\u0413\u043e\u0440\u0430", "id": 65}
+GET	/visits/1910	200	{"mark": 2, "visited_at": 1199216082, "user": 131, "id": 1910, "location": 103}
+GET	/users/828/visits?toDistance=14&toDate=1356393600&country=%D0%9A%D0%BE%D1%81%D1%82%D0%B0-%D0%A0%D0%B8%D0%BA%D0%B0	200	{"visits": []}
+GET	/users/24	200	{"first_name": "\u042f\u043d\u0430", "last_name": "\u0414\u0430\u043d\u043e\u043b\u043e\u043d\u0430\u044f", "gender": "f", "email": "osnuam@rambler.com", "birth_date": 76291200, "id": 24}
+GET	/users/961	200	{"first_name": "\u0410\u043d\u0430\u0442\u043e\u043b\u0438\u0439", "last_name": "\u041b\u0443\u043a\u0430\u0448\u0435\u043b\u0430\u043d", "gender": "m", "email": "dotarysutilsinatso@inbox.ru", "birth_date": 640396800, "id": 961}
+GET	/locations/242/avg?gender=m	200	{"avg": 2.71429}
+GET	/locations/716/avg?gender=m&fromDate=828921600	200	{"avg": 2.5}
+GET	/visits/776	200	{"mark": 2, "visited_at": 1087910750, "user": 70, "id": 776, "location": 51}
+GET	/locations/753	200	{"distance": 32, "city": "\u0412\u043e\u043b\u043e\u0431\u0443\u0440\u0433", "country": "\u0410\u0440\u043c\u0435\u043d\u0438\u044f", "place": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c", "id": 753}
+GET	/users/800/visits?fromDate=947289600	200	{"visits": [{"mark": 3, "visited_at": 1019958878, "place": "\u041c\u043e\u0440\u0435"}, {"mark": 3, "visited_at": 1090965487, "place": "\u0417\u0434\u0430\u043d\u0438\u0435"}]}
+GET	/visits/923	200	{"mark": 2, "visited_at": 1124438887, "user": 23, "id": 923, "location": 66}
+GET	/locations/264	200	{"distance": 83, "city": "\u0417\u0435\u043b\u0435\u043d\u043e\u043e\u043c\u0441\u043a", "country": "\u041c\u0430\u043b\u0430\u0439\u0437\u0438\u044f", "place": "\u041f\u0430\u0440\u043a", "id": 264}
+GET	/users/74/visits?toDistance=49&toDate=962668800&fromDate=1012003200	200	{"visits": []}
+GET	/locations/167	200	{"distance": 45, "city": "\u0410\u043c\u0441\u0442\u0435\u0440\u0448\u0442\u0430\u0434\u0442", "country": "\u0420\u043e\u0441\u0441\u0438\u044f", "place": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c", "id": 167}
+GET	/users/315	200	{"first_name": "\u0410\u0440\u043a\u0430\u0434\u0438\u0439", "last_name": "\u0424\u0435\u0442\u0430\u0448\u0435\u043a\u0438\u0439", "gender": "m", "email": "sanajannavritledalir@icloud.com", "birth_date": 174096000, "id": 315}
+GET	/locations/470	200	{"distance": 75, "city": "\u0420\u043e\u0441\u043b\u0430\u043c\u0441\u043a", "country": "\u0413\u0440\u0435\u0446\u0438\u044f", "place": "\u041f\u043e\u043c\u0435\u0441\u0442\u044c\u0435", "id": 470}
+GET	/users/464	200	{"first_name": "\u041c\u0438\u0440\u043e\u0441\u043b\u0430\u0432", "last_name": "\u0422\u0435\u0440\u0435\u0442\u0430\u0447\u0430\u043d", "gender": "m", "email": "sirrisapinto@rambler.com", "birth_date": 240105600, "id": 464}
+GET	/users/451	200	{"first_name": "\u0412\u043b\u0430\u0434\u0430", "last_name": "\u0424\u0430\u0430\u0448\u0435\u043a\u0430\u044f", "gender": "f", "email": "denestiof@yahoo.com", "birth_date": 685929600, "id": 451}
+GET	/users/252/visits?country=%D0%A4%D0%B8%D0%BD%D0%BB%D1%8F%D0%BD%D0%B4%D0%B8%D1%8F&fromDate=984614400	200	{"visits": []}
+GET	/visits/1012	200	{"mark": 2, "visited_at": 1155343207, "user": 66, "id": 1012, "location": 30}
+GET	/users/896	200	{"first_name": "\u0412\u0438\u043a\u0442\u043e\u0440", "last_name": "\u041b\u0435\u0431\u0435\u0442\u0430\u0442\u0438\u043d", "gender": "m", "email": "sadosyqrohoc@yandex.ru", "birth_date": -865900800, "id": 896}
+GET	/users/88	200	{"first_name": "\u041d\u0438\u043d\u0430", "last_name": "\u0414\u0430\u043d\u044b\u043a\u0430\u0441\u044f\u043d", "gender": "f", "email": "cohbadhev@rambler.com", "birth_date": -469238400, "id": 88}
+GET	/visits/6999	200	{"mark": 2, "visited_at": 1338447757, "user": 450, "id": 6999, "location": 229}
+GET	/users/bad	404
+GET	/users/236/visits?toDistance=41&country=%D0%91%D1%80%D0%B0%D0%B7%D0%B8%D0%BB%D0%B8%D1%8F&fromDate=955670400	200	{"visits": []}
+GET	/locations/169/avg?toDate=1146096000&fromAge=1&gender=m	200	{"avg": 2.5}
+GET	/users/97	200	{"first_name": "\u0413\u0435\u043d\u043d\u0430\u0434\u0438\u0439", "last_name": "\u0421\u0442\u044b\u043a\u0435\u0442\u0430\u0442\u0438\u043d", "gender": "m", "email": "ataxwedatte@list.me", "birth_date": 594086400, "id": 97}
+GET	/users/958	200	{"first_name": "\u0410\u043d\u043d\u0430", "last_name": "\u0424\u0435\u0442\u0430\u0442\u043e\u043a\u0430\u044f", "gender": "f", "email": "taalnestonbipo@yandex.ru", "birth_date": 296697600, "id": 958}
+GET	/locations/1531	404
+GET	/visits/11324	404
+GET	/visits/336	200	{"mark": 4, "visited_at": 1247424772, "user": 34, "id": 336, "location": 95}
+GET	/locations/807/avg?toDate=OTCii71O8sIawQTtUk3qYC382JMb7qPm&gender=beebebdbccbdbdcbdaadddeedeeaedcc	400
+GET	/visits/4694	200	{"mark": 3, "visited_at": 1234902893, "user": 362, "id": 4694, "location": 263}
+GET	/locations/12/avg	200	{"avg": 2.55556}
+GET	/locations/230	200	{"distance": 12, "city": "\u0420\u043e\u0442\u0442\u0435\u0440\u0441\u0438\u043d\u043a\u0438", "country": "\u0412\u044c\u0435\u0442\u043d\u0430\u043c", "place": "\u041c\u043e\u0441\u0442", "id": 230}
+GET	/locations/1662	404
+GET	/users/223	200	{"first_name": "\u0414\u0438\u043d\u0430", "last_name": "\u0424\u0435\u0442\u0430\u0448\u0435\u0432\u0438\u0447", "gender": "f", "email": "ravonretinec@ya.ru", "birth_date": 509673600, "id": 223}
+GET	/users/709	200	{"first_name": "\u041b\u044e\u0431\u043e\u0432\u044c", "last_name": "\u041a\u043b\u0435\u0440\u0430\u0448\u0435\u043b\u043e\u0432\u0430", "gender": "f", "email": "hoitcer@rambler.com", "birth_date": -1154563200, "id": 709}
+GET	/visits/6424	200	{"mark": 2, "visited_at": 952650704, "user": 625, "id": 6424, "location": 241}
+GET	/locations/738	200	{"distance": 69, "city": "\u041c\u0443\u0440\u0431\u043e\u043d", "country": "\u0412\u0435\u043d\u0433\u0440\u0438\u044f", "place": "\u041e\u0444\u0438\u0441", "id": 738}
+GET	/visits/514	200	{"mark": 2, "visited_at": 1264347297, "user": 49, "id": 514, "location": 75}
+GET	/visits/7921	200	{"mark": 4, "visited_at": 1318938960, "user": 763, "id": 7921, "location": 327}
+GET	/locations/1162	404
+GET	/users/610/visits	200	{"visits": [{"mark": 4, "visited_at": 1021701208, "place": "\u0410\u044d\u0440\u043e\u043f\u043e\u0440\u0442"}, {"mark": 3, "visited_at": 1134671434, "place": "\u0414\u043e\u0440\u043e\u0436\u043a\u0430"}, {"mark": 1, "visited_at": 1320367558, "place": "\u0420\u0435\u0447\u043a\u0430"}]}
+GET	/locations/88	200	{"distance": 21, "city": "\u0411\u0435\u043b\u0433\u043e\u0440\u043e\u0434", "country": "\u0411\u043e\u043b\u0433\u0430\u0440\u0438\u044f", "place": "\u041f\u0435\u0440\u0435\u0443\u043b\u043e\u043a", "id": 88}
+GET	/locations/208	200	{"distance": 27, "city": "\u041b\u0435\u0439\u043f\u044f\u0440\u0441\u043a", "country": "\u0420\u0443\u043c\u044b\u043d\u0438\u044f", "place": "\u0417\u0430\u0431\u043e\u0440", "id": 208}
+GET	/locations/219	200	{"distance": 21, "city": "\u041c\u043e\u0441\u044f\u0440\u0441\u043a", "country": "\u0420\u043e\u0441\u0441\u0438\u044f", "place": "\u041b\u0435\u0441", "id": 219}
+GET	/users/bad	404
+GET	/locations/834	200	{"distance": 43, "city": "\u0411\u0430\u0440\u0441\u0433\u0440\u0430\u0434", "country": "\u0418\u043e\u0440\u0434\u0430\u043d\u0438\u044f", "place": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d", "id": 834}
+GET	/users/364	200	{"first_name": "\u0412\u044f\u0447\u0435\u0441\u043b\u0430\u0432", "last_name": "\u041f\u0435\u043d\u0430\u0442\u043e\u0442\u0438\u043d", "gender": "m", "email": "momwonipem@ya.ru", "birth_date": -180662400, "id": 364}
+GET	/users/999	200	{"first_name": "\u0413\u043b\u0435\u0431", "last_name": "\u0424\u0430\u0430\u0442\u043e\u0441\u044f\u043d", "gender": "m", "email": "reittiypkyrara@mail.ru", "birth_date": -1165017600, "id": 999}
+GET	/users/bad	404
+GET	/users/30/visits	200	{"visits": [{"mark": 3, "visited_at": 1020187835, "place": "\u041f\u0430\u0440\u043a"}, {"mark": 1, "visited_at": 1050277156, "place": "\u041f\u0440\u0438\u0441\u0442\u0430\u043d\u044c"}, {"mark": 4, "visited_at": 1067797123, "place": "\u041f\u0440\u0443\u0434"}, {"mark": 2, "visited_at": 1083622686, "place": "\u041f\u0430\u0440\u043a"}, {"mark": 2, "visited_at": 1086320379, "place": "\u0420\u0430\u0442\u0443\u0448\u0430"}, {"mark": 4, "visited_at": 1113994546, "place": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c"}, {"mark": 1, "visited_at": 1128977039, "place": "\u0414\u043e\u0440\u043e\u0436\u043a\u0430"}, {"mark": 2, "visited_at": 1133650749, "place": "\u0424\u043e\u043d\u0430\u0440\u044c"}, {"mark": 3, "visited_at": 1177659566, "place": "\u0414\u0430\u0447\u0430"}, {"mark": 4, "visited_at": 1205848921, "place": "\u0420\u0443\u0447\u0435\u0439"}, {"mark": 3, "visited_at": 1212251169, "place": "\u041f\u0440\u0438\u0441\u0442\u0430\u043d\u044c"}, {"mark": 4, "visited_at": 1217698477, "place": "\u041f\u0430\u0440\u043a"}, {"mark": 1, "visited_at": 1223395668, "place": "\u0423\u0441\u0442\u0443\u043f"}, {"mark": 2, "visited_at": 1243467187, "place": "\u0420\u0430\u0442\u0443\u0448\u0430"}, {"mark": 1, "visited_at": 1245165099, "place": "\u0414\u043e\u043c"}, {"mark": 1, "visited_at": 1262807912, "place": "\u041e\u0437\u0435\u0440\u043e"}, {"mark": 3, "visited_at": 1269821399, "place": "\u041f\u0430\u0440\u043a"}, {"mark": 3, "visited_at": 1315145846, "place": "\u0414\u043e\u043c"}, {"mark": 4, "visited_at": 1327790478, "place": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d"}, {"mark": 2, "visited_at": 1347564236, "place": "\u0421\u0435\u0440\u043f\u0430\u043d\u0442\u0438\u043d"}, {"mark": 3, "visited_at": 1368283475, "place": "\u0421\u0442\u0430\u0442\u0443\u044f"}, {"mark": 3, "visited_at": 1368694385, "place": "\u0414\u0435\u0440\u0435\u0432\u043e"}, {"mark": 4, "visited_at": 1368898064, "place": "\u0414\u0432\u043e\u0440"}, {"mark": 4, "visited_at": 1376830211, "place": "\u041f\u0440\u0443\u0434"}]}
+GET	/locations/121	200	{"distance": 62, "city": "\u041d\u043e\u0432\u043e\u043e\u043c\u0441\u043a", "country": "\u041d\u0438\u0434\u0435\u0440\u043b\u0430\u043d\u0434\u044b", "place": "\u0420\u0430\u0442\u0443\u0448\u0430", "id": 121}
+GET	/users/1061	404
+GET	/locations/786/avg	200	{"avg": 2.0}
+GET	/users/825/visits?toDate=1413849600&country=%D0%9A%D0%B0%D0%BC%D0%B1%D0%BE%D0%B4%D0%B6%D0%B0	200	{"visits": [{"mark": 3, "visited_at": 1086635327, "place": "\u0413\u0430\u0440\u0430\u0436"}]}
+GET	/visits/7000	200	{"mark": 1, "visited_at": 1153965752, "user": 393, "id": 7000, "location": 440}
+GET	/users/1031/visits?toDate=1542672000	200	{"visits": []}
+GET	/users/429	200	{"first_name": "\u041c\u0438\u0440\u043e\u0441\u043b\u0430\u0432", "last_name": "\u0422\u0435\u0440\u043b\u0435\u043d\u0432\u0438\u0447", "gender": "m", "email": "doeledho@icloud.com", "birth_date": -760924800, "id": 429}
+GET	/locations/422/avg?fromDate=962928000&fromAge=20	200	{"avg": 2.33333}
+GET	/users/bad	404
+GET	/users/692	200	{"first_name": "\u041a\u0438\u0440\u0430", "last_name": "\u041f\u0435\u043d\u044b\u043a\u0430\u0432\u0438\u0447", "gender": "f", "email": "etdimehotsontyir@inbox.ru", "birth_date": 820800000, "id": 692}
+GET	/users/145	200	{"first_name": "\u0410\u043b\u0451\u043d\u0430", "last_name": "\u041f\u0435\u043d\u0443\u0448\u0443\u0432\u0438\u0447", "gender": "f", "email": "olensivtepeno@me.com", "birth_date": 853113600, "id": 145}
+GET	/users/390	200	{"first_name": "\u041d\u0438\u043a\u043e\u043b\u0430\u0439", "last_name": "\u0424\u0430\u043b\u0435\u043d\u043d\u044b\u0439", "gender": "m", "email": "ertoreaddifrigewho@mail.ru", "birth_date": -683510400, "id": 390}
+GET	/users/bad	404
+GET	/visits/5265	200	{"mark": 1, "visited_at": 1298272321, "user": 158, "id": 5265, "location": 263}
+GET	/locations/260	200	{"distance": 57, "city": "\u041d\u044c\u044e\u0430\u0442\u0441\u043a", "country": "\u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d", "place": "\u0417\u0430\u043c\u043e\u043a", "id": 260}
+GET	/visits/6942	200	{"mark": 3, "visited_at": 1367415538, "user": 348, "id": 6942, "location": 53}
+GET	/users/bad	404
+GET	/users/800	200	{"first_name": "\u0412\u0438\u0442\u0430\u043b\u0438\u0439", "last_name": "\u041b\u0435\u0431\u044b\u043a\u0430\u043b\u0430\u043d", "gender": "m", "email": "hunisentelitsani@rambler.com", "birth_date": 30412800, "id": 800}
+GET	/visits/9728	200	{"mark": 3, "visited_at": 1316779210, "user": 307, "id": 9728, "location": 41}
+GET	/visits/7063	200	{"mark": 2, "visited_at": 1396687608, "user": 691, "id": 7063, "location": 161}
+GET	/visits/5543	200	{"mark": 2, "visited_at": 1081737576, "user": 418, "id": 5543, "location": 302}
+GET	/users/1047	200	{"first_name": "\u0410\u043b\u0451\u043d\u0430", "last_name": "\u0414\u0430\u043d\u0443\u0448\u0443\u043a\u043e", "gender": "f", "email": "niratonsinohdihednis@yahoo.com", "birth_date": -1037059200, "id": 1047}
+GET	/locations/1034	404
+GET	/visits/3627	200	{"mark": 3, "visited_at": 1068130928, "user": 215, "id": 3627, "location": 103}
+GET	/visits/16491	404
+GET	/users/950	200	{"first_name": "\u0414\u0430\u0440\u0438\u044f", "last_name": "\u041b\u0443\u043a\u044b\u043a\u0430\u0441\u044f\u043d", "gender": "f", "email": "esellintynre@yandex.ru", "birth_date": -529113600, "id": 950}
+GET	/visits/6759	200	{"mark": 2, "visited_at": 1303320745, "user": 368, "id": 6759, "location": 325}
+GET	/users/775	200	{"first_name": "\u0424\u0438\u043b\u0438\u043f\u043f", "last_name": "\u041b\u0435\u0431\u0430\u0448\u0435\u0432\u0435\u043d", "gender": "m", "email": "rifocotamex@rambler.com", "birth_date": 238377600, "id": 775}
+GET	/locations/461	200	{"distance": 61, "city": "\u041a\u0440\u0430\u0441\u043d\u043e\u0431\u043e\u043d", "country": "\u0411\u043e\u043b\u0433\u0430\u0440\u0438\u044f", "place": "\u041c\u043e\u0441\u0442", "id": 461}
+GET	/users/1797	404
+GET	/users/252	200	{"first_name": "\u0414\u0430\u043d\u0438\u0438\u043b", "last_name": "\u041b\u0443\u043a\u044b\u043a\u0430\u043a\u0438\u0439", "gender": "m", "email": "hapoatsacifwonoer@icloud.com", "birth_date": 702000000, "id": 252}
+GET	/visits/2696	200	{"mark": 4, "visited_at": 957139556, "user": 149, "id": 2696, "location": 122}
+GET	/visits/3693	200	{"mark": 3, "visited_at": 1251455840, "user": 113, "id": 3693, "location": 81}
+GET	/locations/798	200	{"distance": 24, "city": "\u0420\u043e\u0442\u0442\u0435\u0440\u0433\u0440\u0430\u0434", "country": "\u0418\u043d\u0434\u043e\u043d\u0435\u0437\u0438\u044f", "place": "\u041c\u0430\u0433\u0430\u0437\u0438\u043d", "id": 798}
+GET	/users/11	200	{"first_name": "\u0410\u0440\u0438\u043d\u0430", "last_name": "\u041f\u0435\u043d\u0430\u0448\u0435\u043b\u043e\u0432\u0430", "gender": "f", "email": "assidappear@icloud.com", "birth_date": 821145600, "id": 11}
+GET	/visits/8487	200	{"mark": 2, "visited_at": 1074586007, "user": 191, "id": 8487, "location": 284}
+GET	/locations/268	200	{"distance": 74, "city": "\u0420\u043e\u0441\u0448\u0442\u0430\u0434\u0442", "country": "\u041c\u0430\u043b\u0430\u0439\u0437\u0438\u044f", "place": "\u041f\u0440\u0438\u0441\u0442\u0430\u043d\u044c", "id": 268}
+GET	/users/188	200	{"first_name": "\u041b\u044e\u0431\u043e\u0432\u044c", "last_name": "\u041a\u0438\u0441\u0430\u0442\u043e\u043d\u0430\u044f", "gender": "f", "email": "lepbosarhy@rambler.com", "birth_date": 708307200, "id": 188}
+GET	/visits/7527	200	{"mark": 2, "visited_at": 1053792001, "user": 828, "id": 7527, "location": 29}
+GET	/users/179	200	{"first_name": "\u0412\u043b\u0430\u0434\u0430", "last_name": "\u0424\u0435\u0442\u0443\u0448\u0443\u043d\u0430\u044f", "gender": "f", "email": "enytfeipusnutel@me.com", "birth_date": 260236800, "id": 179}
+GET	/users/215/visits?fromDate=1504569600	200	{"visits": []}
+GET	/users/301/visits?toDate=1452643200	200	{"visits": [{"mark": 3, "visited_at": 953401839, "place": "\u0424\u043e\u043d\u0442\u0430\u043d"}, {"mark": 4, "visited_at": 1051044299, "place": "\u0420\u0430\u0442\u0443\u0448\u0430"}, {"mark": 1, "visited_at": 1059061249, "place": "\u0414\u0435\u0440\u0435\u0432\u043e"}, {"mark": 4, "visited_at": 1094030913, "place": "\u0417\u0434\u0430\u043d\u0438\u0435"}, {"mark": 1, "visited_at": 1129840865, "place": "\u0413\u0430\u0440\u0430\u0436"}, {"mark": 4, "visited_at": 1143487103, "place": "\u0421\u0435\u0440\u043f\u0430\u043d\u0442\u0438\u043d"}, {"mark": 4, "visited_at": 1255293009, "place": "\u041f\u0440\u0438\u0441\u0442\u0430\u043d\u044c"}, {"mark": 4, "visited_at": 1264355838, "place": "\u0423\u043b\u043e\u0447\u043a\u0430"}, {"mark": 4, "visited_at": 1323793092, "place": "\u041c\u043e\u0440\u0435"}, {"mark": 4, "visited_at": 1348268488, "place": "\u0414\u0435\u0440\u0435\u0432\u043e"}, {"mark": 1, "visited_at": 1366058706, "place": "\u0413\u0430\u0440\u0430\u0436"}, {"mark": 3, "visited_at": 1388044226, "place": "\u0420\u0435\u0447\u043a\u0430"}, {"mark": 1, "visited_at": 1405421922, "place": "\u0421\u0435\u0440\u043f\u0430\u043d\u0442\u0438\u043d"}]}
+GET	/visits/6873	200	{"mark": 3, "visited_at": 1369199658, "user": 180, "id": 6873, "location": 398}
+GET	/visits/2689	200	{"mark": 1, "visited_at": 1393811257, "user": 26, "id": 2689, "location": 94}
+GET	/visits/9192	200	{"mark": 4, "visited_at": 1010546284, "user": 654, "id": 9192, "location": 751}
+GET	/users/332	200	{"first_name": "\u041a\u0438\u0440\u0438\u043b\u043b", "last_name": "\u0421\u0442\u0430\u043c\u0430\u0442\u043e\u0447\u0430\u043d", "gender": "m", "email": "emsadinonnehosede@list.me", "birth_date": 218246400, "id": 332}
+GET	/locations/834	200	{"distance": 43, "city": "\u0411\u0430\u0440\u0441\u0433\u0440\u0430\u0434", "country": "\u0418\u043e\u0440\u0434\u0430\u043d\u0438\u044f", "place": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d", "id": 834}
+GET	/users/944	200	{"first_name": "\u0415\u043b\u0435\u043d\u0430", "last_name": "\u0425\u043e\u043f\u044b\u043a\u0430\u043b\u043e\u0432\u0430", "gender": "f", "email": "hiaftivra@rambler.com", "birth_date": -99100800, "id": 944}
+GET	/users/897	200	{"first_name": "\u0410\u0440\u0442\u0451\u043c", "last_name": "\u041a\u0438\u0441\u0430\u0442\u043e\u0432\u0438\u0447", "gender": "m", "email": "onehheicdis@me.com", "birth_date": 886982400, "id": 897}
+GET	/locations/804	200	{"distance": 94, "city": "\u0412\u0430\u0440\u044f\u0440\u0441\u043a", "country": "\u041f\u0430\u0440\u0430\u0433\u0432\u0430\u0439", "place": "\u0420\u0443\u0447\u0435\u0439", "id": 804}
+GET	/locations/389	200	{"distance": 46, "city": "\u041d\u044c\u044e\u0441\u0442\u0430\u043d", "country": "\u041c\u043e\u043d\u0433\u043e\u043b\u0438\u044f", "place": "\u0410\u044d\u0440\u043e\u043f\u043e\u0440\u0442", "id": 389}
+GET	/users/609	200	{"first_name": "\u041f\u043e\u043b\u0438\u043d\u0430", "last_name": "\u041a\u043e\u043b\u043b\u0435\u043d\u0438\u043d\u0430", "gender": "f", "email": "mehafih@yahoo.com", "birth_date": -418608000, "id": 609}
+GET	/users/403	200	{"first_name": "\u0411\u043e\u0440\u0438\u0441\u043b\u0430\u0432", "last_name": "\u0424\u0430\u0430\u0442\u043e\u043b\u043e", "gender": "m", "email": "ilronolisdeiferen@mail.ru", "birth_date": 190512000, "id": 403}
+GET	/locations/286	200	{"distance": 88, "city": "\u0411\u0435\u043b\u0430\u0442\u0441\u043a", "country": "\u041a\u043e\u0441\u0442\u0430-\u0420\u0438\u043a\u0430", "place": "\u041e\u0444\u0438\u0441", "id": 286}
+GET	/locations/7	200	{"distance": 27, "city": "\u0420\u043e\u0441\u0448\u0442\u0430\u0434\u0442", "country": "\u0411\u0440\u0443\u043d\u0435\u0439", "place": "\u0424\u043e\u043d\u0430\u0440\u044c", "id": 7}
+GET	/users/735	200	{"first_name": "\u042e\u043b\u0438\u044f", "last_name": "\u0424\u0430\u0430\u0448\u0435\u043d\u0430\u044f", "gender": "f", "email": "supedterritalti@inbox.ru", "birth_date": -551491200, "id": 735}
+GET	/visits/6715	200	{"mark": 3, "visited_at": 1401638642, "user": 537, "id": 6715, "location": 74}
+GET	/users/bad	404
+GET	/locations/401	200	{"distance": 48, "city": "\u0410\u043c\u0441\u0442\u0435\u0440\u043b\u0451\u0432", "country": "\u0421\u0435\u0439\u0448\u0435\u043b\u044b", "place": "\u0414\u043e\u043c", "id": 401}
+GET	/users/bad	404
+GET	/visits/8011	200	{"mark": 1, "visited_at": 1351885651, "user": 647, "id": 8011, "location": 124}
+GET	/users/bad	404
+GET	/locations/86/avg?gender=m&fromDate=817689600	200	{"avg": 2.23529}
+GET	/users/84	200	{"first_name": "\u041b\u0438\u0434\u0438\u044f", "last_name": "\u0421\u0442\u044b\u043a\u0435\u0442\u0430\u0432\u0438\u0447", "gender": "f", "email": "tasyottan@icloud.com", "birth_date": 625881600, "id": 84}
+GET	/users/bad	404
+GET	/locations/776	200	{"distance": 78, "city": "\u041c\u0443\u0440\u0448\u0442\u0430\u0434\u0442", "country": "\u0412\u0435\u043d\u0433\u0440\u0438\u044f", "place": "\u0410\u044d\u0440\u043e\u043f\u043e\u0440\u0442", "id": 776}
+GET	/locations/299/avg	200	{"avg": 2.35}
+GET	/users/982/visits?fromDate=825465600	200	{"visits": [{"mark": 2, "visited_at": 1054357199, "place": "\u041c\u043e\u0441\u0442"}, {"mark": 3, "visited_at": 1117505490, "place": "\u041c\u043e\u0441\u0442"}]}
+GET	/locations/86/avg?toDate=1148688000&fromDate=816566400&toAge=35&fromAge=17	200	{"avg": 1.5}
+GET	/users/487/visits?toDate=947203200&fromDate=1440028800	200	{"visits": []}
+GET	/users/bad	404
+GET	/users/969	200	{"first_name": "\u041a\u0441\u0435\u043d\u0438\u044f", "last_name": "\u0414\u0430\u043d\u043b\u0435\u043d\u0441\u044f\u043d", "gender": "f", "email": "holetrirmehduturosfi@inbox.ru", "birth_date": -1199836800, "id": 969}
+GET	/locations/108	200	{"distance": 32, "city": "\u0420\u043e\u0441\u043e\u043c\u0441\u043a", "country": "\u041c\u043e\u043d\u0433\u043e\u043b\u0438\u044f", "place": "\u0421\u043a\u0430\u043b\u0430", "id": 108}
+GET	/users/295/visits?country=%D0%98%D1%81%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F	200	{"visits": []}
+GET	/users/656	200	{"first_name": "\u0414\u0430\u043d\u0438\u0438\u043b", "last_name": "\u041a\u043e\u043b\u0430\u0442\u043e\u043f\u043e\u0432", "gender": "m", "email": "loudrefabarhednon@icloud.com", "birth_date": -741052800, "id": 656}
+GET	/users/739	200	{"first_name": "\u041b\u0430\u0440\u0438\u0441\u0430", "last_name": "\u0414\u0430\u043d\u0443\u0448\u0443\u0441\u044f\u043d", "gender": "f", "email": "orputecoptig@me.com", "birth_date": 845337600, "id": 739}
+GET	/users/429	200	{"first_name": "\u041c\u0438\u0440\u043e\u0441\u043b\u0430\u0432", "last_name": "\u0422\u0435\u0440\u043b\u0435\u043d\u0432\u0438\u0447", "gender": "m", "email": "doeledho@icloud.com", "birth_date": -760924800, "id": 429}
+GET	/locations/733	200	{"distance": 19, "city": "\u0411\u0430\u0440\u0441\u0435\u043b\u043e\u043d\u0430", "country": "\u041d\u0435\u043f\u0430\u043b", "place": "\u0410\u044d\u0440\u043e\u043f\u043e\u0440\u0442", "id": 733}
+GET	/locations/709	200	{"distance": 92, "city": "\u0412\u043e\u043b\u043e\u043e\u043c\u0441\u043a", "country": "\u0428\u0440\u0438-\u041b\u0430\u043d\u043a\u0430", "place": "\u041c\u043e\u0433\u0438\u043b\u0430", "id": 709}
+GET	/users/1303/visits	404
+GET	/locations/474	200	{"distance": 39, "city": "\u041a\u0440\u043e\u043d\u043b\u0430\u043c\u0441\u043a", "country": "\u0412\u044c\u0435\u0442\u043d\u0430\u043c", "place": "\u0413\u0430\u0440\u0430\u0436", "id": 474}
+GET	/locations/35/avg?fromDate=1462665600&toAge=42	200	{"avg": 0.0}
+GET	/users/316/visits?toDistance=1&country=%D0%A1%D0%B5%D0%B9%D1%88%D0%B5%D0%BB%D1%8B	200	{"visits": []}
+GET	/locations/788	200	{"distance": 47, "city": "\u0411\u0430\u0440\u0441\u043b\u0430\u043c\u0441\u043a", "country": "\u0422\u0443\u0440\u0446\u0438\u044f", "place": "\u0417\u0430\u0431\u043e\u0440", "id": 788}
+GET	/locations/191	200	{"distance": 81, "city": "\u0417\u0435\u043b\u0435\u043d\u043e\u043e\u043c\u0441\u043a", "country": "\u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d", "place": "\u041f\u0430\u0440\u043a", "id": 191}
+GET	/visits/2639	200	{"mark": 3, "visited_at": 1068751067, "user": 82, "id": 2639, "location": 218}
+GET	/visits/6701	200	{"mark": 3, "visited_at": 1086715845, "user": 363, "id": 6701, "location": 386}
+GET	/users/bad	404
+GET	/visits/5996	200	{"mark": 4, "visited_at": 1339880140, "user": 2, "id": 5996, "location": 361}
+GET	/visits/4546	200	{"mark": 2, "visited_at": 1185636446, "user": 178, "id": 4546, "location": 40}
+GET	/locations/147	200	{"distance": 69, "city": "\u041b\u0435\u0441\u043e\u043e\u0432\u0441\u043a", "country": "\u041d\u0435\u043f\u0430\u043b", "place": "\u0414\u043e\u0440\u043e\u0436\u043a\u0430", "id": 147}
+GET	/users/bad	404
+GET	/visits/6023	200	{"mark": 3, "visited_at": 1061989018, "user": 552, "id": 6023, "location": 78}
+GET	/locations/783	200	{"distance": 57, "city": "\u041c\u043e\u0441\u0434\u043e\u0440\u0444", "country": "\u0413\u0435\u0440\u043c\u0430\u043d\u0438\u044f", "place": "\u0414\u043e\u043c", "id": 783}
+GET	/users/323/visits	200	{"visits": [{"mark": 1, "visited_at": 1113651286, "place": "\u041e\u0437\u0435\u0440\u043e"}, {"mark": 4, "visited_at": 1134105329, "place": "\u041b\u0435\u0441"}, {"mark": 4, "visited_at": 1171905597, "place": "\u041c\u043e\u0433\u0438\u043b\u0430"}, {"mark": 2, "visited_at": 1333807972, "place": "\u041f\u0440\u0438\u0441\u0442\u0430\u043d\u044c"}, {"mark": 2, "visited_at": 1356455966, "place": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c"}, {"mark": 3, "visited_at": 1371261748, "place": "\u0420\u0435\u0447\u043a\u0430"}, {"mark": 3, "visited_at": 1373468548, "place": "\u0420\u0443\u0447\u0435\u0439"}, {"mark": 2, "visited_at": 1373559324, "place": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c"}, {"mark": 3, "visited_at": 1390554115, "place": "\u0421\u0435\u0440\u043f\u0430\u043d\u0442\u0438\u043d"}]}
+GET	/visits/5524	200	{"mark": 3, "visited_at": 1410926339, "user": 471, "id": 5524, "location": 117}
+GET	/users/1669	404
+GET	/locations/91	200	{"distance": 21, "city": "\u041b\u0435\u0441\u043e\u0441\u0442\u0430\u043d", "country": "\u041a\u043e\u0441\u0442\u0430-\u0420\u0438\u043a\u0430", "place": "\u0414\u043e\u043c", "id": 91}
+GET	/visits/924	200	{"mark": 1, "visited_at": 1186976223, "user": 24, "id": 924, "location": 42}
+GET	/users/804	200	{"first_name": "\u041e\u043b\u044c\u0433\u0430", "last_name": "\u041b\u0443\u043a\u044b\u043a\u0430\u0438\u043d\u0430", "gender": "f", "email": "vasiagdoghi@ya.ru", "birth_date": 6134400, "id": 804}
+GET	/users/668/visits?toDistance=93&fromDate=959299200	200	{"visits": [{"mark": 2, "visited_at": 979359584, "place": "\u041d\u0430\u0431\u0435\u0440\u0435\u0436\u043d\u0430\u044f"}, {"mark": 4, "visited_at": 1014655085, "place": "\u041d\u0430\u0431\u0435\u0440\u0435\u0436\u043d\u0430\u044f"}, {"mark": 2, "visited_at": 1376527929, "place": "\u0417\u0430\u0431\u043e\u0440"}, {"mark": 1, "visited_at": 1408986774, "place": "\u0413\u0430\u0440\u0430\u0436"}]}
+GET	/users/681	200	{"first_name": "\u0423\u043b\u044c\u044f\u043d\u0430", "last_name": "\u041f\u0435\u043d\u0430\u0442\u043e\u0442\u0435\u0432\u0430", "gender": "f", "email": "nitecmoiclot@gmail.com", "birth_date": 10627200, "id": 681}
+GET	/visits/6521	200	{"mark": 2, "visited_at": 1333131552, "user": 249, "id": 6521, "location": 261}
+GET	/visits/2247	200	{"mark": 3, "visited_at": 1181404813, "user": 80, "id": 2247, "location": 100}
+GET	/users/1009	200	{"first_name": "\u0413\u0440\u0438\u0433\u043e\u0440\u0438\u0439", "last_name": "\u0421\u0442\u0430\u043c\u0443\u0448\u0443\u043f\u043e\u0432", "gender": "m", "email": "loeftibere@icloud.com", "birth_date": -452476800, "id": 1009}
+GET	/users/177	200	{"first_name": "\u042f\u043a\u043e\u0432", "last_name": "\u0421\u0442\u0430\u043c\u0435\u0442\u0430\u043b\u043e", "gender": "m", "email": "tankiorwetweni@icloud.com", "birth_date": -335318400, "id": 177}
+GET	/users/682/visits	200	{"visits": [{"mark": 2, "visited_at": 1255315931, "place": "\u0417\u0434\u0430\u043d\u0438\u0435"}, {"mark": 4, "visited_at": 1281022649, "place": "\u0420\u0443\u0447\u0435\u0439"}]}
+GET	/users/313	200	{"first_name": "\u041e\u043a\u0441\u0430\u043d\u0430", "last_name": "\u0414\u0430\u043d\u0443\u0448\u0443\u0447\u0430\u043d", "gender": "f", "email": "decuusno@gmail.com", "birth_date": 444614400, "id": 313}
+GET	/users/31	200	{"first_name": "\u041d\u0430\u0434\u0435\u0436\u0434\u0430", "last_name": "\u041a\u0438\u0441\u044b\u043a\u0430\u0438\u043d\u0430", "gender": "f", "email": "telesderdesasencud@ya.ru", "birth_date": 492393600, "id": 31}
+GET	/users/1125	404
+GET	/locations/438	200	{"distance": 38, "city": "\u041d\u043e\u0432\u043e\u0433\u0440\u0430\u0434", "country": "\u0418\u0441\u043f\u0430\u043d\u0438\u044f", "place": "\u0421\u0442\u0430\u0442\u0443\u044f", "id": 438}
+GET	/users/585	200	{"first_name": "\u0412\u0435\u0440\u0430", "last_name": "\u0414\u0430\u043d\u0435\u0442\u0430\u0432\u0438\u0447", "gender": "f", "email": "tuashehdiogdilevwi@ya.ru", "birth_date": 423964800, "id": 585}
+GET	/locations/60	200	{"distance": 25, "city": "\u0412\u043e\u043b\u043e\u0431\u0438\u0440\u0441\u043a", "country": "\u0424\u0440\u0430\u043d\u0446\u0438\u044f", "place": "\u0420\u0443\u0447\u0435\u0439", "id": 60}
+GET	/users/288/visits	200	{"visits": [{"mark": 4, "visited_at": 997493142, "place": "\u041e\u0437\u0435\u0440\u043e"}, {"mark": 1, "visited_at": 1019976094, "place": "\u041f\u0440\u0438\u0441\u0442\u0430\u043d\u044c"}, {"mark": 4, "visited_at": 1118075345, "place": "\u041c\u043e\u0441\u0442"}, {"mark": 3, "visited_at": 1132585685, "place": "\u041f\u0440\u0438\u0441\u0442\u0430\u043d\u044c"}, {"mark": 2, "visited_at": 1190834279, "place": "\u041c\u043e\u0441\u0442"}, {"mark": 4, "visited_at": 1192418505, "place": "\u0414\u043e\u0440\u043e\u0436\u043a\u0430"}, {"mark": 4, "visited_at": 1192724215, "place": "\u041d\u0430\u0431\u0435\u0440\u0435\u0436\u043d\u0430\u044f"}, {"mark": 2, "visited_at": 1234616374, "place": "\u0420\u0443\u0447\u0435\u0439"}, {"mark": 2, "visited_at": 1235675956, "place": "\u041f\u0440\u0443\u0434"}, {"mark": 1, "visited_at": 1263179800, "place": "\u041c\u043e\u0441\u0442"}, {"mark": 2, "visited_at": 1267580428, "place": "\u0424\u043e\u043d\u0442\u0430\u043d"}, {"mark": 2, "visited_at": 1285935246, "place": "\u041e\u0437\u0435\u0440\u043e"}, {"mark": 4, "visited_at": 1307991200, "place": "\u0410\u044d\u0440\u043e\u043f\u043e\u0440\u0442"}, {"mark": 4, "visited_at": 1329208894, "place": "\u0424\u043e\u043d\u0442\u0430\u043d"}, {"mark": 1, "visited_at": 1348932168, "place": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c"}, {"mark": 1, "visited_at": 1350013648, "place": "\u0424\u043e\u043d\u0430\u0440\u044c"}, {"mark": 4, "visited_at": 1366602189, "place": "\u0423\u043b\u0438\u0446\u0430"}, {"mark": 2, "visited_at": 1372700025, "place": "\u0417\u0430\u0431\u043e\u0440"}]}
+GET	/locations/664	200	{"distance": 84, "city": "\u041b\u0435\u0439\u043f\u0431\u0438\u0440\u0441\u043a", "country": "\u0422\u0430\u0438\u043b\u0430\u043d\u0434", "place": "\u041e\u0444\u0438\u0441", "id": 664}
+GET	/users/18/visits?toDate=1430092800	200	{"visits": [{"mark": 1, "visited_at": 963120595, "place": "\u041f\u0430\u0440\u043a"}, {"mark": 1, "visited_at": 965542919, "place": "\u0421\u0442\u0430\u0442\u0443\u044f"}, {"mark": 3, "visited_at": 971082893, "place": "\u0417\u0430\u0431\u043e\u0440"}, {"mark": 4, "visited_at": 972186620, "place": "\u0424\u043e\u043d\u0442\u0430\u043d"}, {"mark": 1, "visited_at": 982731496, "place": "\u0417\u0434\u0430\u043d\u0438\u0435"}, {"mark": 4, "visited_at": 1023497612, "place": "\u0414\u0430\u0447\u0430"}, {"mark": 1, "visited_at": 1026489770, "place": "\u041c\u043e\u0440\u0435"}, {"mark": 1, "visited_at": 1026887095, "place": "\u0410\u044d\u0440\u043e\u043f\u043e\u0440\u0442"}, {"mark": 2, "visited_at": 1030419195, "place": "\u0413\u043e\u0440\u0430"}, {"mark": 4, "visited_at": 1039146166, "place": "\u0417\u0434\u0430\u043d\u0438\u0435"}, {"mark": 3, "visited_at": 1057859285, "place": "\u041f\u0430\u0440\u043a"}, {"mark": 1, "visited_at": 1068259104, "place": "\u0417\u0430\u043c\u043e\u043a"}, {"mark": 3, "visited_at": 1089941602, "place": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c"}, {"mark": 4, "visited_at": 1096598225, "place": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d"}, {"mark": 3, "visited_at": 1096683102, "place": "\u0423\u0441\u0442\u0443\u043f"}, {"mark": 2, "visited_at": 1113092792, "place": "\u041e\u0437\u0435\u0440\u043e"}, {"mark": 2, "visited_at": 1115599262, "place": "\u041c\u043e\u0441\u0442"}, {"mark": 1, "visited_at": 1121116489, "place": "\u041f\u0440\u0438\u0441\u0442\u0430\u043d\u044c"}, {"mark": 2, "visited_at": 1160242268, "place": "\u041c\u0430\u0433\u0430\u0437\u0438\u043d"}, {"mark": 3, "visited_at": 1197813432, "place": "\u0423\u043b\u0438\u0446\u0430"}, {"mark": 2, "visited_at": 1238848171, "place": "\u041f\u0430\u0440\u043a"}, {"mark": 4, "visited_at": 1245308283, "place": "\u0423\u043b\u043e\u0447\u043a\u0430"}, {"mark": 1, "visited_at": 1269494525, "place": "\u0414\u0430\u0447\u0430"}, {"mark": 3, "visited_at": 1281914255, "place": "\u0414\u0435\u0440\u0435\u0432\u043e"}, {"mark": 2, "visited_at": 1283133281, "place": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d"}, {"mark": 4, "visited_at": 1303051973, "place": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d"}, {"mark": 3, "visited_at": 1305365304, "place": "\u0414\u043e\u043c"}, {"mark": 1, "visited_at": 1318148895, "place": "\u0421\u043a\u043b\u043e\u043d"}, {"mark": 3, "visited_at": 1323225541, "place": "\u041f\u0440\u0438\u0441\u0442\u0430\u043d\u044c"}, {"mark": 3, "visited_at": 1330581933, "place": "\u0414\u0432\u043e\u0440"}, {"mark": 3, "visited_at": 1337506881, "place": "\u0420\u0430\u0442\u0443\u0448\u0430"}, {"mark": 1, "visited_at": 1390174399, "place": "\u0413\u043e\u0440\u0430"}, {"mark": 4, "visited_at": 1414469097, "place": "\u0414\u043e\u0440\u043e\u0436\u043a\u0430"}]}
+GET	/locations/740	200	{"distance": 78, "city": "\u041d\u044c\u044e\u0430\u043d\u0441\u043a", "country": "\u041a\u0438\u0442\u0430\u0439", "place": "\u041c\u043e\u0440\u0435", "id": 740}
+GET	/users/bad	404
+GET	/locations/263/avg?toDate=794188800&fromDate=1029542400&gender=f	200	{"avg": 0.0}
+GET	/visits/10098	200	{"mark": 2, "visited_at": 1111145604, "user": 882, "id": 10098, "location": 388}
+GET	/visits/14950	404
+GET	/visits/6275	200	{"mark": 1, "visited_at": 1164471532, "user": 17, "id": 6275, "location": 302}
+GET	/visits/6565	200	{"mark": 4, "visited_at": 1239080520, "user": 20, "id": 6565, "location": 70}
+GET	/users/222	200	{"first_name": "\u0418\u043d\u043d\u0430", "last_name": "\u0424\u0435\u0442\u043e\u043b\u043e\u0441\u044f\u043d", "gender": "f", "email": "fewochuatincegherun@yandex.ru", "birth_date": 425520000, "id": 222}
+GET	/visits/17806	404
+GET	/locations/390	200	{"distance": 28, "city": "\u0411\u0435\u043b\u043b\u0451\u0432", "country": "\u0412\u0435\u043b\u0438\u043a\u043e\u0431\u0440\u0438\u0442\u0430\u043d\u0438\u044f", "place": "\u0423\u043b\u0438\u0446\u0430", "id": 390}
+GET	/users/bad	404
+GET	/visits/2802	200	{"mark": 2, "visited_at": 1075591234, "user": 36, "id": 2802, "location": 9}
+GET	/locations/197	200	{"distance": 90, "city": "\u0410\u043c\u0441\u0442\u0435\u0440\u0431\u0438\u0440\u0441\u043a", "country": "\u041d\u0438\u0434\u0435\u0440\u043b\u0430\u043d\u0434\u044b", "place": "\u0414\u0430\u0447\u0430", "id": 197}
+GET	/users/751	200	{"first_name": "\u0412\u0435\u0440\u0430", "last_name": "\u0414\u0430\u043d\u0430\u0448\u0435\u043d\u0430\u044f", "gender": "f", "email": "tentomra@icloud.com", "birth_date": -653702400, "id": 751}
+GET	/visits/8070	200	{"mark": 4, "visited_at": 999439454, "user": 749, "id": 8070, "location": 634}
+GET	/locations/279	200	{"distance": 82, "city": "\u041b\u0435\u0439\u043f\u0435\u043b\u043e\u043d\u0430", "country": "\u0418\u043d\u0434\u043e\u043d\u0435\u0437\u0438\u044f", "place": "\u0421\u0442\u0430\u0442\u0443\u044f", "id": 279}
+GET	/users/872	200	{"first_name": "\u0420\u043e\u043c\u0430\u043d", "last_name": "\u041a\u043e\u043b\u044b\u043a\u0430\u0442\u0438\u043d", "gender": "m", "email": "reptoreuhlapmol@inbox.ru", "birth_date": -611971200, "id": 872}
+GET	/visits/9916	200	{"mark": 2, "visited_at": 1314739037, "user": 1047, "id": 9916, "location": 271}
+GET	/locations/501	200	{"distance": 88, "city": "\u0417\u0435\u043b\u0435\u043d\u043e\u043b\u0451\u0432", "country": "\u0428\u0440\u0438-\u041b\u0430\u043d\u043a\u0430", "place": "\u0421\u043a\u0430\u043b\u0430", "id": 501}
+GET	/visits/8432	200	{"mark": 1, "visited_at": 1244660074, "user": 247, "id": 8432, "location": 315}
+GET	/users/bad	404
+GET	/visits/6856	200	{"mark": 3, "visited_at": 990868451, "user": 299, "id": 6856, "location": 108}
+GET	/users/297/visits?toDistance=90	200	{"visits": [{"mark": 4, "visited_at": 986640393, "place": "\u041e\u0437\u0435\u0440\u043e"}, {"mark": 1, "visited_at": 993043951, "place": "\u0417\u0434\u0430\u043d\u0438\u0435"}, {"mark": 2, "visited_at": 1123801872, "place": "\u0421\u043a\u043b\u043e\u043d"}, {"mark": 2, "visited_at": 1223302256, "place": "\u0423\u043b\u0438\u0446\u0430"}, {"mark": 1, "visited_at": 1234203685, "place": "\u041f\u0440\u0443\u0434"}, {"mark": 2, "visited_at": 1336831946, "place": "\u0423\u043b\u043e\u0447\u043a\u0430"}, {"mark": 4, "visited_at": 1344248054, "place": "\u041f\u0440\u0438\u0441\u0442\u0430\u043d\u044c"}, {"mark": 2, "visited_at": 1370779140, "place": "\u0417\u0434\u0430\u043d\u0438\u0435"}, {"mark": 1, "visited_at": 1375122989, "place": "\u0421\u043a\u043b\u043e\u043d"}]}
+GET	/visits/7736	200	{"mark": 3, "visited_at": 1067435166, "user": 368, "id": 7736, "location": 309}
+GET	/users/671	200	{"first_name": "\u041b\u0435\u0440\u0430", "last_name": "\u041f\u0435\u043d\u0430\u0448\u0435\u0442\u0438\u043d\u0430", "gender": "f", "email": "iferetcerte@ya.ru", "birth_date": -365212800, "id": 671}
+GET	/users/470/visits?country=%D0%A1%D0%A8%D0%90	200	{"visits": []}
+GET	/locations/341/avg?toDate=1059350400&fromDate=1415750400&toAge=59	200	{"avg": 0.0}
+GET	/locations/544	200	{"distance": 75, "city": "\u0411\u0430\u0440\u0441\u043b\u0451\u0432", "country": "\u0422\u0443\u0440\u0446\u0438\u044f", "place": "\u041c\u043e\u0433\u0438\u043b\u0430", "id": 544}
+GET	/visits/3472	200	{"mark": 4, "visited_at": 1289640017, "user": 319, "id": 3472, "location": 223}
+GET	/users/53	200	{"first_name": "\u0421\u0438\u0434\u043e\u0440", "last_name": "\u041b\u0443\u043a\u0443\u0448\u0443\u0447\u0430\u043d", "gender": "m", "email": "epibat@list.me", "birth_date": -434246400, "id": 53}
+GET	/users/293/visits?toDistance=3&fromDate=1192406400	200	{"visits": [{"mark": 1, "visited_at": 1305097532, "place": "\u0413\u043e\u0440\u0430"}]}
+GET	/users/346	200	{"first_name": "\u0415\u0433\u043e\u0440", "last_name": "\u041f\u0435\u043d\u043b\u0435\u043d\u0432\u0438\u0447", "gender": "m", "email": "oharitruc@me.com", "birth_date": 163296000, "id": 346}
+GET	/visits/1518	200	{"mark": 4, "visited_at": 1226026548, "user": 14, "id": 1518, "location": 112}
+GET	/locations/561	200	{"distance": 80, "city": "\u041b\u0435\u0439\u043f\u0435\u043b\u043e\u043d\u0430", "country": "\u041b\u0438\u0442\u0432\u0430", "place": "\u0420\u0443\u0447\u0435\u0439", "id": 561}
+GET	/locations/965	404
+GET	/visits/18809	404
+GET	/users/bad	404
+GET	/users/602	200	{"first_name": "\u0414\u0435\u043d\u0438\u0441", "last_name": "\u041f\u0435\u043d\u043e\u043b\u043e\u0432\u0435\u043d", "gender": "m", "email": "balelan@rambler.com", "birth_date": 847065600, "id": 602}
+GET	/locations/382	200	{"distance": 2, "city": "\u0420\u043e\u0442\u0442\u0435\u0440\u0435\u043b\u043e\u043d\u0430", "country": "\u041f\u0430\u043b\u0430\u0443", "place": "\u0421\u0442\u0430\u0442\u0443\u044f", "id": 382}
+GET	/locations/320/avg?gender=f	200	{"avg": 3.0}
+GET	/locations/804	200	{"distance": 94, "city": "\u0412\u0430\u0440\u044f\u0440\u0441\u043a", "country": "\u041f\u0430\u0440\u0430\u0433\u0432\u0430\u0439", "place": "\u0420\u0443\u0447\u0435\u0439", "id": 804}
+GET	/visits/8007	200	{"mark": 3, "visited_at": 1264618457, "user": 196, "id": 8007, "location": 115}
+GET	/visits/4727	200	{"mark": 2, "visited_at": 989322492, "user": 578, "id": 4727, "location": 409}
+GET	/users/bad	404
+GET	/visits/4847	200	{"mark": 1, "visited_at": 1275876053, "user": 578, "id": 4847, "location": 9}
+GET	/users/555	200	{"first_name": "\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0430", "last_name": "\u041a\u043b\u0435\u0440\u043b\u0435\u043d\u0441\u044f\u043d", "gender": "f", "email": "ifecnotelnowcywliol@mail.ru", "birth_date": -588988800, "id": 555}
+GET	/users/bad	404
+GET	/visits/2542	200	{"mark": 4, "visited_at": 1029810869, "user": 60, "id": 2542, "location": 273}
+GET	/users/736	200	{"first_name": "\u0414\u043c\u0438\u0442\u0440\u0438\u0439", "last_name": "\u0424\u0430\u0430\u0448\u0435\u043b\u0430\u043d", "gender": "m", "email": "agetcoetoktiuf@inbox.ru", "birth_date": 221616000, "id": 736}
+GET	/locations/66	200	{"distance": 20, "city": "\u041b\u0438\u0441\u0441\u0430\u0433\u0440\u0430\u0434", "country": "\u0411\u0440\u0430\u0437\u0438\u043b\u0438\u044f", "place": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c", "id": 66}
+GET	/visits/5632	200	{"mark": 4, "visited_at": 984042570, "user": 313, "id": 5632, "location": 65}
+GET	/users/1022	200	{"first_name": "\u041a\u0441\u0435\u043d\u0438\u044f", "last_name": "\u041a\u0438\u0441\u043b\u0435\u043d\u0432\u0438\u0447", "gender": "f", "email": "pimodesulba@icloud.com", "birth_date": -813715200, "id": 1022}
+GET	/visits/10171	200	{"mark": 4, "visited_at": 1377833035, "user": 902, "id": 10171, "location": 504}
+GET	/users/bad	404
+GET	/users/868/visits?toDistance=99&country=%D0%A1%D0%A8%D0%90	200	{"visits": []}
+GET	/users/323/visits?toDistance=aacedcaedefceabdcfdebbdfccccfcbe&toDate=QFaZzsVu56yYYqlQa39sSgf4aq6xGJZK&fromDate=xk8Y1uWLB8Dlcw1Pz8E2a9DT7lbAHgMW	400
+GET	/visits/9316	200	{"mark": 4, "visited_at": 1380469691, "user": 841, "id": 9316, "location": 215}
+GET	/locations/791	200	{"distance": 74, "city": "\u041d\u043e\u0432\u043e\u043b\u0430\u043c\u0441\u043a", "country": "\u0420\u043e\u0441\u0441\u0438\u044f", "place": "\u0420\u0443\u0447\u0435\u0439", "id": 791}
+GET	/visits/5551	200	{"mark": 2, "visited_at": 971429443, "user": 131, "id": 5551, "location": 149}
+GET	/visits/7117	200	{"mark": 2, "visited_at": 982272507, "user": 37, "id": 7117, "location": 116}
+GET	/locations/933	404
+GET	/users/796/visits	200	{"visits": [{"mark": 2, "visited_at": 984167748, "place": "\u041f\u0440\u0443\u0434"}, {"mark": 4, "visited_at": 1196566881, "place": "\u0423\u0441\u0442\u0443\u043f"}]}
+GET	/users/193	200	{"first_name": "\u0418\u0440\u0438\u043d\u0430", "last_name": "\u041a\u043e\u043b\u0430\u0442\u043e\u0442\u0438\u043d\u0430", "gender": "f", "email": "borinticse@ya.ru", "birth_date": -716688000, "id": 193}
+GET	/visits/6416	200	{"mark": 1, "visited_at": 1299991308, "user": 9, "id": 6416, "location": 565}
+GET	/users/1002/visits?toDistance=ccceeeacabfeeacaefeeeaccbedabeed&fromDate=eh4gCUKcELV0IKZiVbuvpMA3wioCMYsu	400
+GET	/locations/378/avg?toDate=1149811200&toAge=31	200	{"avg": 0.0}
+GET	/locations/810	200	{"distance": 19, "city": "\u041d\u043e\u0432\u043e\u043e\u0432\u043e", "country": "\u041c\u0430\u043b\u0430\u0439\u0437\u0438\u044f", "place": "\u0424\u043e\u043d\u0442\u0430\u043d", "id": 810}
+GET	/visits/10124	200	{"mark": 1, "visited_at": 1138094502, "user": 69, "id": 10124, "location": 473}
+GET	/users/683	200	{"first_name": "\u0421\u0432\u0435\u0442\u043b\u0430\u043d\u0430", "last_name": "\u041a\u043e\u043b\u0430\u0442\u043e\u0442\u0435\u0432\u0430", "gender": "f", "email": "essoblerlahhokelinan@rambler.com", "birth_date": 861926400, "id": 683}
+GET	/locations/706	200	{"distance": 91, "city": "\u041b\u0435\u0439\u043f\u044f\u0440\u0441\u043a", "country": "\u0428\u0440\u0438-\u041b\u0430\u043d\u043a\u0430", "place": "\u0417\u0430\u043c\u043e\u043a", "id": 706}
+GET	/locations/127	200	{"distance": 100, "city": "\u0420\u043e\u0442\u0442\u0435\u0440\u0430\u0442\u0441\u043a", "country": "\u0420\u043e\u0441\u0441\u0438\u044f", "place": "\u041c\u043e\u0441\u0442", "id": 127}
+GET	/locations/212	200	{"distance": 94, "city": "\u0411\u0430\u0440\u0441\u0431\u043e\u043d", "country": "\u042f\u043f\u043e\u043d\u0438\u044f", "place": "\u0414\u0430\u0447\u0430", "id": 212}
+GET	/visits/11970	404
+GET	/users/941/visits?toDistance=58&toDate=789696000	200	{"visits": []}
+GET	/users/bad	404
+GET	/locations/241	200	{"distance": 49, "city": "\u0410\u043c\u0441\u0442\u0435\u0440\u0431\u043e\u043d", "country": "\u0424\u0438\u0434\u0436\u0438", "place": "\u0414\u043e\u0440\u043e\u0436\u043a\u0430", "id": 241}
+GET	/locations/366	200	{"distance": 64, "city": "\u0417\u0435\u043b\u0435\u043d\u043e\u0430\u0442\u0441\u043a", "country": "\u0418\u0441\u043b\u0430\u043d\u0434\u0438\u044f", "place": "\u0424\u043e\u043d\u0442\u0430\u043d", "id": 366}
+GET	/visits/8208	200	{"mark": 1, "visited_at": 1134575182, "user": 734, "id": 8208, "location": 5}
+GET	/locations/380	200	{"distance": 91, "city": "\u041d\u043e\u0432\u043e\u0431\u043e\u043d", "country": "\u0415\u0433\u0438\u043f\u0435\u0442", "place": "\u0414\u043e\u043c", "id": 380}
+GET	/locations/173	200	{"distance": 8, "city": "\u041d\u044c\u044e\u0433\u0440\u0430\u0434", "country": "\u0427\u0438\u043b\u0438", "place": "\u041c\u043e\u0440\u0435", "id": 173}
+GET	/locations/624	200	{"distance": 62, "city": "\u0410\u043c\u0441\u0442\u0435\u0440\u0434\u043e\u0440\u0444", "country": "\u041c\u043e\u043d\u0433\u043e\u043b\u0438\u044f", "place": "\u0414\u0430\u0447\u0430", "id": 624}
+GET	/locations/267	200	{"distance": 57, "city": "\u041b\u0435\u0441\u043e\u0438\u043d\u0441\u043a", "country": "\u0415\u0433\u0438\u043f\u0435\u0442", "place": "\u0421\u043a\u043b\u043e\u043d", "id": 267}
+GET	/users/bad	404
+GET	/locations/496	200	{"distance": 92, "city": "\u0410\u043c\u0441\u0442\u0435\u0440\u0431\u0438\u0440\u0441\u043a", "country": "\u0422\u0430\u0438\u043b\u0430\u043d\u0434", "place": "\u0423\u043b\u043e\u0447\u043a\u0430", "id": 496}
+GET	/locations/372	200	{"distance": 29, "city": "\u041d\u043e\u0432\u043e\u043b\u0430\u043c\u0441\u043a", "country": "\u041a\u0430\u043c\u0431\u043e\u0434\u0436\u0430", "place": "\u0420\u0430\u0442\u0443\u0448\u0430", "id": 372}
+GET	/visits/7493	200	{"mark": 1, "visited_at": 996431529, "user": 374, "id": 7493, "location": 217}
+GET	/visits/6677	200	{"mark": 2, "visited_at": 1320371541, "user": 89, "id": 6677, "location": 25}
+GET	/users/609	200	{"first_name": "\u041f\u043e\u043b\u0438\u043d\u0430", "last_name": "\u041a\u043e\u043b\u043b\u0435\u043d\u0438\u043d\u0430", "gender": "f", "email": "mehafih@yahoo.com", "birth_date": -418608000, "id": 609}
+GET	/locations/689	200	{"distance": 81, "city": "\u041d\u043e\u0432\u043e\u044f\u0440\u0441\u043a", "country": "\u041a\u0430\u043c\u0431\u043e\u0434\u0436\u0430", "place": "\u041f\u0440\u0443\u0434", "id": 689}
+GET	/users/292	200	{"first_name": "\u041e\u043b\u0435\u0441\u044f", "last_name": "\u041b\u0443\u043a\u0430\u0442\u043e\u0438\u043d\u0430", "gender": "f", "email": "lihfehywrofda@yandex.ru", "birth_date": 468547200, "id": 292}
+GET	/visits/1833	200	{"mark": 4, "visited_at": 1416572341, "user": 175, "id": 1833, "location": 168}
+GET	/visits/5538	200	{"mark": 2, "visited_at": 1064558405, "user": 561, "id": 5538, "location": 377}
+GET	/users/794/visits?toDate=1381104000	200	{"visits": [{"mark": 1, "visited_at": 988637210, "place": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c"}, {"mark": 4, "visited_at": 1066107663, "place": "\u041c\u043e\u0433\u0438\u043b\u0430"}]}
+GET	/visits/2350	200	{"mark": 2, "visited_at": 1381917664, "user": 173, "id": 2350, "location": 160}
+GET	/locations/824	200	{"distance": 75, "city": "\u041b\u0435\u0441\u043e\u043e\u043c\u0441\u043a", "country": "\u041a\u0430\u043c\u0431\u043e\u0434\u0436\u0430", "place": "\u041c\u0430\u0433\u0430\u0437\u0438\u043d", "id": 824}
+GET	/users/bad	404
+GET	/users/111	200	{"first_name": "\u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0438\u044f", "last_name": "\u0425\u043e\u043f\u0430\u0442\u043e\u043a\u043e", "gender": "f", "email": "netidow@ya.ru", "birth_date": 285033600, "id": 111}
+GET	/users/657	200	{"first_name": "\u0412\u0430\u0441\u0438\u043b\u0438\u0439", "last_name": "\u0421\u0442\u044b\u043a\u0435\u0442\u0430\u0432\u0438\u0447", "gender": "m", "email": "caulhebuhgitcehup@inbox.ru", "birth_date": 29203200, "id": 657}
+GET	/locations/311	200	{"distance": 100, "city": "\u041b\u0435\u0441\u043e\u0440\u0438\u0436", "country": "\u041d\u0435\u043f\u0430\u043b", "place": "\u0417\u0430\u043c\u043e\u043a", "id": 311}
+GET	/locations/333	200	{"distance": 68, "city": "\u0411\u0435\u043b\u0430\u0442\u0441\u043a", "country": "\u0423\u0440\u0443\u0433\u0432\u0430\u0439", "place": "\u0417\u0430\u0431\u043e\u0440", "id": 333}
+GET	/visits/7357	200	{"mark": 3, "visited_at": 992178525, "user": 497, "id": 7357, "location": 187}
+GET	/users/469	200	{"first_name": "\u0410\u043d\u043d\u0430", "last_name": "\u0425\u043e\u043f\u043b\u0435\u043d\u0441\u044f\u043d", "gender": "f", "email": "ewsetagyhes@yahoo.com", "birth_date": 807667200, "id": 469}
+GET	/users/933	200	{"first_name": "\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440", "last_name": "\u0424\u0435\u0442\u0443\u0448\u0443\u043a\u0438\u0439", "gender": "m", "email": "ohteichewal@list.me", "birth_date": 644716800, "id": 933}
+GET	/locations/712	200	{"distance": 33, "city": "\u0412\u043e\u043b\u043e\u043b\u0430\u043c\u0441\u043a", "country": "\u041c\u0430\u043b\u044c\u0442\u0430", "place": "\u0423\u0441\u0442\u0443\u043f", "id": 712}
+GET	/users/135/visits?toDistance=32&toDate=1362182400&fromDate=1245110400	200	{"visits": [{"mark": 3, "visited_at": 1263362696, "place": "\u0421\u043a\u043b\u043e\u043d"}]}
+GET	/users/137	200	{"first_name": "\u041c\u0438\u0440\u043e\u0441\u043b\u0430\u0432", "last_name": "\u041b\u0443\u043a\u043e\u043b\u043e\u0442\u0438\u043d", "gender": "m", "email": "nolfevynboritna@inbox.ru", "birth_date": -625449600, "id": 137}
+GET	/users/903	200	{"first_name": "\u041a\u043e\u043d\u0441\u0442\u0430\u043d\u0442\u0438\u043d", "last_name": "\u0424\u0430\u044b\u043a\u0430\u043f\u043e\u0432", "gender": "m", "email": "hatyrornehtur@list.me", "birth_date": 743385600, "id": 903}
+GET	/users/178/visits?toDate=1549152000	200	{"visits": [{"mark": 3, "visited_at": 967729907, "place": "\u0414\u0432\u043e\u0440"}, {"mark": 4, "visited_at": 976678154, "place": "\u0420\u0430\u0442\u0443\u0448\u0430"}, {"mark": 3, "visited_at": 992915524, "place": "\u0414\u043e\u043c"}, {"mark": 3, "visited_at": 1020601947, "place": "\u0421\u0442\u0430\u0442\u0443\u044f"}, {"mark": 1, "visited_at": 1029442806, "place": "\u0420\u0443\u0447\u0435\u0439"}, {"mark": 3, "visited_at": 1040281122, "place": "\u0417\u0430\u043c\u043e\u043a"}, {"mark": 1, "visited_at": 1047365525, "place": "\u0414\u043e\u043c"}, {"mark": 4, "visited_at": 1136134611, "place": "\u0414\u043e\u0440\u043e\u0436\u043a\u0430"}, {"mark": 2, "visited_at": 1146301370, "place": "\u0414\u043e\u043c"}, {"mark": 1, "visited_at": 1150249033, "place": "\u0414\u043e\u0440\u043e\u0436\u043a\u0430"}, {"mark": 2, "visited_at": 1161795979, "place": "\u0417\u0430\u0431\u043e\u0440"}, {"mark": 1, "visited_at": 1177830436, "place": "\u041f\u0440\u0443\u0434"}, {"mark": 2, "visited_at": 1181286332, "place": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d"}, {"mark": 2, "visited_at": 1185636446, "place": "\u0414\u0430\u0447\u0430"}, {"mark": 4, "visited_at": 1225457724, "place": "\u041f\u0435\u0440\u0435\u0443\u043b\u043e\u043a"}, {"mark": 2, "visited_at": 1232437892, "place": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d"}, {"mark": 1, "visited_at": 1234248450, "place": "\u041d\u0430\u0431\u0435\u0440\u0435\u0436\u043d\u0430\u044f"}, {"mark": 2, "visited_at": 1244817521, "place": "\u0423\u043b\u0438\u0446\u0430"}, {"mark": 1, "visited_at": 1295044229, "place": "\u041f\u0430\u0440\u043a"}, {"mark": 4, "visited_at": 1354101284, "place": "\u0414\u043e\u0440\u043e\u0436\u043a\u0430"}, {"mark": 4, "visited_at": 1370089290, "place": "\u0413\u0430\u0440\u0430\u0436"}, {"mark": 4, "visited_at": 1395870734, "place": "\u041c\u043e\u0433\u0438\u043b\u0430"}, {"mark": 4, "visited_at": 1413500807, "place": "\u041c\u043e\u0440\u0435"}]}
+GET	/users/235/visits	200	{"visits": [{"mark": 2, "visited_at": 968355398, "place": "\u0413\u043e\u0440\u0430"}, {"mark": 3, "visited_at": 975579208, "place": "\u041c\u043e\u0441\u0442"}, {"mark": 4, "visited_at": 976133587, "place": "\u0414\u0432\u043e\u0440"}, {"mark": 2, "visited_at": 977777398, "place": "\u0424\u043e\u043d\u0430\u0440\u044c"}, {"mark": 2, "visited_at": 997038836, "place": "\u0414\u0432\u043e\u0440"}, {"mark": 2, "visited_at": 1052023973, "place": "\u0417\u0434\u0430\u043d\u0438\u0435"}, {"mark": 2, "visited_at": 1072423900, "place": "\u0410\u044d\u0440\u043e\u043f\u043e\u0440\u0442"}, {"mark": 1, "visited_at": 1079055838, "place": "\u0420\u0443\u0447\u0435\u0439"}, {"mark": 4, "visited_at": 1088133031, "place": "\u041c\u043e\u0440\u0435"}, {"mark": 2, "visited_at": 1112407203, "place": "\u0417\u0430\u043c\u043e\u043a"}, {"mark": 4, "visited_at": 1126214719, "place": "\u0417\u0430\u0431\u043e\u0440"}, {"mark": 4, "visited_at": 1154458759, "place": "\u0414\u0435\u0440\u0435\u0432\u043e"}, {"mark": 2, "visited_at": 1252576008, "place": "\u041f\u0430\u0440\u043a"}, {"mark": 4, "visited_at": 1284471501, "place": "\u041c\u0430\u0433\u0430\u0437\u0438\u043d"}, {"mark": 4, "visited_at": 1285078673, "place": "\u041f\u0440\u0443\u0434"}, {"mark": 4, "visited_at": 1317711961, "place": "\u041f\u0435\u0440\u0435\u0443\u043b\u043e\u043a"}, {"mark": 4, "visited_at": 1381882956, "place": "\u041f\u0440\u0438\u0441\u0442\u0430\u043d\u044c"}, {"mark": 4, "visited_at": 1394283566, "place": "\u0420\u0435\u0447\u043a\u0430"}]}
+GET	/locations/725/avg?toDate=945993600&fromDate=1019520000&toAge=38&gender=f	200	{"avg": 0.0}
+GET	/users/1160	404
+GET	/locations/306	200	{"distance": 61, "city": "\u0411\u0435\u043b\u0433\u0440\u0430\u0434", "country": "\u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d", "place": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c", "id": 306}
+GET	/visits/14887	404
+GET	/users/1048	200	{"first_name": "\u041c\u0438\u0445\u0430\u0438\u043b", "last_name": "\u0421\u0442\u044b\u043a\u043e\u043b\u043e\u043f\u043e\u0432", "gender": "m", "email": "rodattorodeakditit@inbox.ru", "birth_date": 180316800, "id": 1048}
+GET	/users/bad	404
+GET	/users/bad	404
+GET	/users/34/visits?country=%D0%9B%D0%B0%D1%82%D0%B2%D0%B8%D1%8F&fromDate=1464998400	200	{"visits": []}
+GET	/visits/10773	404
+GET	/users/bad	404
+GET	/users/573	200	{"first_name": "\u041c\u0438\u043b\u0435\u043d\u0430", "last_name": "\u041b\u0443\u043a\u0430\u0442\u043e\u043a\u0430\u044f", "gender": "f", "email": "rowipdoasigwithiwe@rambler.com", "birth_date": -213926400, "id": 573}
+GET	/users/92/visits?toDistance=42&fromDate=1306800000	200	{"visits": [{"mark": 1, "visited_at": 1342076160, "place": "\u041f\u0435\u0440\u0435\u0443\u043b\u043e\u043a"}, {"mark": 3, "visited_at": 1408960599, "place": "\u0417\u0434\u0430\u043d\u0438\u0435"}]}
+GET	/users/655	200	{"first_name": "\u041f\u043e\u043b\u0438\u043d\u0430", "last_name": "\u041f\u0435\u043d\u0443\u0448\u0443\u0432\u0438\u0447", "gender": "f", "email": "raitulsavibhoceh@gmail.com", "birth_date": -155779200, "id": 655}
+GET	/visits/6625	200	{"mark": 4, "visited_at": 1339868414, "user": 394, "id": 6625, "location": 568}
+GET	/locations/718/avg?gender=m	200	{"avg": 3.0}
+GET	/visits/7752	200	{"mark": 2, "visited_at": 1034569998, "user": 502, "id": 7752, "location": 594}
+GET	/locations/86	200	{"distance": 73, "city": "\u0411\u0430\u0440\u0441\u0441\u0442\u0430\u043d", "country": "\u0418\u0442\u0430\u043b\u0438\u044f", "place": "\u041f\u0440\u0438\u0441\u0442\u0430\u043d\u044c", "id": 86}
+GET	/visits/4972	200	{"mark": 2, "visited_at": 1146300845, "user": 106, "id": 4972, "location": 410}
+GET	/users/674	200	{"first_name": "\u0413\u0440\u0438\u0433\u043e\u0440\u0438\u0439", "last_name": "\u0422\u0435\u0440\u043e\u043b\u043e\u0442\u0438\u043d", "gender": "m", "email": "elweriwlonendol@icloud.com", "birth_date": 639273600, "id": 674}
+GET	/users/147	200	{"first_name": "\u041a\u0430\u0440\u0438\u043d\u0430", "last_name": "\u0425\u043e\u043f\u0443\u0448\u0443\u0447\u0430\u043d", "gender": "f", "email": "dissenentur@mail.ru", "birth_date": -774144000, "id": 147}
+GET	/locations/330/avg?toDate=tyo7ipWwQ3HkSwkYhpx1kDFL9X0XZYV0&fromDate=7jGKsxrLAkmao3c2qNrladtC9BnNpQFD&gender=aadebabebdaeaeadbebdcbeeeacaaddb	400
+GET	/users/605/visits	200	{"visits": [{"mark": 1, "visited_at": 979318374, "place": "\u041c\u0430\u0433\u0430\u0437\u0438\u043d"}, {"mark": 2, "visited_at": 1034926884, "place": "\u041f\u0430\u0440\u043a"}, {"mark": 4, "visited_at": 1191487139, "place": "\u0414\u0435\u0440\u0435\u0432\u043e"}, {"mark": 2, "visited_at": 1213622849, "place": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c"}, {"mark": 2, "visited_at": 1257371621, "place": "\u041c\u043e\u0440\u0435"}, {"mark": 4, "visited_at": 1406712432, "place": "\u0417\u0430\u043c\u043e\u043a"}]}
+GET	/locations/732/avg	200	{"avg": 2.66667}
+GET	/locations/705	200	{"distance": 8, "city": "\u0412\u043e\u043b\u043e\u0434\u0430\u043c", "country": "\u0418\u0441\u043f\u0430\u043d\u0438\u044f", "place": "\u041f\u043e\u043c\u0435\u0441\u0442\u044c\u0435", "id": 705}
+GET	/users/1582	404
+GET	/users/691	200	{"first_name": "\u041c\u0438\u0445\u0430\u0438\u043b", "last_name": "\u0421\u0442\u0430\u043c\u0435\u0442\u0430\u043d\u044b\u0439", "gender": "m", "email": "ersulornobulteh@rambler.com", "birth_date": -672796800, "id": 691}
+GET	/visits/9315	200	{"mark": 2, "visited_at": 1332856500, "user": 862, "id": 9315, "location": 312}
+GET	/users/877/visits?toDate=1407974400&country=%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B1%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F	200	{"visits": [{"mark": 4, "visited_at": 964114655, "place": "\u041f\u0430\u0440\u043a"}]}
+GET	/locations/194	200	{"distance": 59, "city": "\u041b\u0438\u0441\u0441\u0430\u043e\u0432\u0441\u043a", "country": "\u0411\u0435\u043b\u043e\u0440\u0443\u0441\u0441\u0438\u044f", "place": "\u041f\u0435\u0440\u0435\u0443\u043b\u043e\u043a", "id": 194}
+GET	/users/722/visits?toDistance=99&toDate=922320000&fromDate=1485907200	200	{"visits": []}
+GET	/users/bad	404
+GET	/users/bad	404
+GET	/locations/284	200	{"distance": 50, "city": "\u041b\u0435\u0439\u043f\u043b\u0451\u0432", "country": "\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f", "place": "\u041c\u043e\u0433\u0438\u043b\u0430", "id": 284}
+GET	/locations/58	200	{"distance": 38, "city": "\u041b\u0438\u0441\u0441\u0430\u043a\u0432\u0430", "country": "\u0413\u0440\u0443\u0437\u0438\u044f", "place": "\u041e\u0437\u0435\u0440\u043e", "id": 58}
+GET	/locations/795	200	{"distance": 37, "city": "\u041a\u0440\u0430\u0441\u043d\u043e\u0434\u0430\u043c", "country": "\u041d\u0438\u0434\u0435\u0440\u043b\u0430\u043d\u0434\u044b", "place": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d", "id": 795}
+GET	/users/639	200	{"first_name": "\u0418\u0440\u0438\u043d\u0430", "last_name": "\u0421\u0442\u044b\u043a\u043b\u0435\u043d\u043a\u0430\u044f", "gender": "f", "email": "ybwaresuhottom@icloud.com", "birth_date": 661564800, "id": 639}
+GET	/visits/4580	200	{"mark": 4, "visited_at": 1313314415, "user": 309, "id": 4580, "location": 379}
+GET	/users/1391/visits?toDistance=89&fromDate=890956800	404
+GET	/locations/1046	404
+GET	/locations/171/avg	200	{"avg": 2.65217}
+GET	/users/1241/visits?toDistance=86&country=%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F	404
+GET	/locations/235	200	{"distance": 1, "city": "\u0410\u043c\u0441\u0442\u0435\u0440\u0433\u0440\u0430\u0434", "country": "\u0420\u043e\u0441\u0441\u0438\u044f", "place": "\u041c\u043e\u0440\u0435", "id": 235}
+GET	/users/690	200	{"first_name": "\u0413\u0440\u0438\u0433\u043e\u0440\u0438\u0439", "last_name": "\u041a\u043b\u0435\u0440\u0430\u0442\u043e\u043b\u0430\u043d", "gender": "m", "email": "tibignaperoret@ya.ru", "birth_date": -1130112000, "id": 690}
+GET	/locations/1389/avg?gender=f	404
+GET	/visits/9938	200	{"mark": 2, "visited_at": 982385371, "user": 724, "id": 9938, "location": 166}
+GET	/users/bad	404
+GET	/users/156/visits?toDistance=20&toDate=1193875200	200	{"visits": []}
+GET	/visits/5108	200	{"mark": 4, "visited_at": 1062830156, "user": 290, "id": 5108, "location": 319}
+GET	/locations/440	200	{"distance": 44, "city": "\u0420\u043e\u0442\u0442\u0435\u0440\u0434\u0430\u043c", "country": "\u0412\u0435\u043b\u0438\u043a\u043e\u0431\u0440\u0438\u0442\u0430\u043d\u0438\u044f", "place": "\u0417\u0430\u043c\u043e\u043a", "id": 440}
+GET	/locations/801	200	{"distance": 96, "city": "\u0412\u043e\u043b\u043e\u0431\u0443\u0440\u0433", "country": "\u0420\u043e\u0441\u0441\u0438\u044f", "place": "\u041d\u0430\u0431\u0435\u0440\u0435\u0436\u043d\u0430\u044f", "id": 801}
+GET	/locations/554	200	{"distance": 2, "city": "\u0417\u0435\u043b\u0435\u043d\u043e\u0433\u043e\u0440\u043e\u0434", "country": "\u041a\u0430\u043c\u0431\u043e\u0434\u0436\u0430", "place": "\u041f\u0440\u0438\u0441\u0442\u0430\u043d\u044c", "id": 554}
+GET	/locations/402	200	{"distance": 70, "city": "\u041b\u0438\u0441\u0441\u0430\u0431\u0438\u0440\u0441\u043a", "country": "\u041a\u0430\u043c\u0431\u043e\u0434\u0436\u0430", "place": "\u0414\u0430\u0447\u0430", "id": 402}
+GET	/users/56	200	{"first_name": "\u041d\u0430\u0434\u0435\u0436\u0434\u0430", "last_name": "\u0425\u043e\u043f\u043b\u0435\u043d\u0447\u0430\u043d", "gender": "f", "email": "utvusreftifelgernohap@ya.ru", "birth_date": -205027200, "id": 56}
+GET	/users/bad	404
+GET	/locations/226/avg?gender=f&fromAge=15	200	{"avg": 2.33333}
+GET	/visits/10095	200	{"mark": 1, "visited_at": 1415762079, "user": 1015, "id": 10095, "location": 138}
+GET	/locations/652	200	{"distance": 64, "city": "\u041b\u0438\u0441\u0441\u0430\u0433\u0430\u043c\u0430", "country": "\u0413\u0435\u0440\u043c\u0430\u043d\u0438\u044f", "place": "\u0414\u0435\u0440\u0435\u0432\u043e", "id": 652}
+GET	/visits/6925	200	{"mark": 2, "visited_at": 1406816982, "user": 595, "id": 6925, "location": 325}
+GET	/locations/39	200	{"distance": 24, "city": "\u041b\u0438\u0441\u0441\u0430\u043b\u0430\u043c\u0441\u043a", "country": "\u041c\u0430\u0432\u0440\u0438\u043a\u0438\u0439", "place": "\u0417\u0434\u0430\u043d\u0438\u0435", "id": 39}
+GET	/locations/308	200	{"distance": 49, "city": "\u0421\u0430\u043d\u043a\u0442\u0434\u0430\u043c", "country": "\u041b\u0430\u0442\u0432\u0438\u044f", "place": "\u041c\u043e\u0441\u0442", "id": 308}
+GET	/users/364	200	{"first_name": "\u0412\u044f\u0447\u0435\u0441\u043b\u0430\u0432", "last_name": "\u041f\u0435\u043d\u0430\u0442\u043e\u0442\u0438\u043d", "gender": "m", "email": "momwonipem@ya.ru", "birth_date": -180662400, "id": 364}
+GET	/users/36/visits?toDate=804643200&fromDate=1098489600	200	{"visits": []}
+GET	/users/982/visits?toDate=1404691200&fromDate=1570492800&country=%D0%9A%D0%B0%D0%BC%D0%B1%D0%BE%D0%B4%D0%B6%D0%B0	200	{"visits": []}
+GET	/visits/725	200	{"mark": 4, "visited_at": 1289097512, "user": 42, "id": 725, "location": 75}
+GET	/users/93	200	{"first_name": "\u041b\u044e\u0434\u043c\u0438\u043b\u0430", "last_name": "\u041b\u0443\u043a\u043e\u043b\u043e\u043d\u0430\u044f", "gender": "f", "email": "ewitjohusmud@icloud.com", "birth_date": -35769600, "id": 93}
+GET	/locations/794	200	{"distance": 91, "city": "\u041b\u0438\u0441\u0441\u0430\u0431\u0438\u0440\u0441\u043a", "country": "\u0411\u0435\u043b\u043e\u0440\u0443\u0441\u0441\u0438\u044f", "place": "\u0414\u0432\u043e\u0440", "id": 794}
+GET	/visits/18885	404
+GET	/users/148	200	{"first_name": "\u042e\u0440\u0438\u0439", "last_name": "\u041b\u0435\u0431\u0435\u0442\u0430\u043b\u043e", "gender": "m", "email": "miwewadir@icloud.com", "birth_date": -768528000, "id": 148}
+GET	/users/660	200	{"first_name": "\u041a\u0438\u0440\u0430", "last_name": "\u0421\u0442\u0430\u043c\u0430\u0448\u0435\u043b\u043e\u0432\u0430", "gender": "f", "email": "wehtetartesdasacpit@list.me", "birth_date": -632188800, "id": 660}
+GET	/locations/60	200	{"distance": 25, "city": "\u0412\u043e\u043b\u043e\u0431\u0438\u0440\u0441\u043a", "country": "\u0424\u0440\u0430\u043d\u0446\u0438\u044f", "place": "\u0420\u0443\u0447\u0435\u0439", "id": 60}
+GET	/users/1024/visits	200	{"visits": [{"mark": 2, "visited_at": 1290296005, "place": "\u0421\u0442\u0430\u0442\u0443\u044f"}, {"mark": 3, "visited_at": 1299754385, "place": "\u0413\u0430\u0440\u0430\u0436"}, {"mark": 2, "visited_at": 1373582854, "place": "\u041c\u043e\u0441\u0442"}]}
+GET	/users/bad	404
+GET	/visits/9130	200	{"mark": 3, "visited_at": 1256431369, "user": 313, "id": 9130, "location": 734}
+GET	/users/632	200	{"first_name": "\u0413\u043b\u0435\u0431", "last_name": "\u041a\u043e\u043b\u0430\u0442\u043e\u0442\u0438\u043d", "gender": "m", "email": "talgecni@gmail.com", "birth_date": -97804800, "id": 632}
+GET	/visits/4573	200	{"mark": 4, "visited_at": 1360661226, "user": 43, "id": 4573, "location": 46}
+GET	/users/bad	404
+GET	/users/626	200	{"first_name": "\u0415\u043b\u0438\u0437\u0430\u0432\u0435\u0442\u0430", "last_name": "\u0425\u043e\u043f\u043e\u043b\u043e\u043d\u0430\u044f", "gender": "f", "email": "talahopisynnekmecek@gmail.com", "birth_date": -733536000, "id": 626}
+GET	/locations/325	200	{"distance": 26, "city": "\u0420\u043e\u0442\u0442\u0435\u0440\u043b\u0430\u043c\u0441\u043a", "country": "\u041b\u0430\u0442\u0432\u0438\u044f", "place": "\u0421\u0435\u0440\u043f\u0430\u043d\u0442\u0438\u043d", "id": 325}
+GET	/users/75	200	{"first_name": "\u0421\u0438\u0434\u043e\u0440", "last_name": "\u0424\u0430\u0435\u0442\u0430\u0441\u044f\u043d", "gender": "m", "email": "osotodotho@icloud.com", "birth_date": -557798400, "id": 75}
+GET	/locations/352/avg?toDate=952300800	200	{"avg": 0.0}
+GET	/locations/533	200	{"distance": 39, "city": "\u041b\u0438\u0441\u0441\u0430\u0430\u043d\u0441\u043a", "country": "\u0411\u0435\u043b\u043e\u0440\u0443\u0441\u0441\u0438\u044f", "place": "\u0421\u0435\u0440\u043f\u0430\u043d\u0442\u0438\u043d", "id": 533}
+GET	/users/812/visits	200	{"visits": [{"mark": 2, "visited_at": 1355951381, "place": "\u0414\u0432\u043e\u0440"}]}
+GET	/visits/3055	200	{"mark": 4, "visited_at": 957486591, "user": 149, "id": 3055, "location": 137}
+GET	/locations/148	200	{"distance": 75, "city": "\u0411\u0435\u043b\u0441\u0438\u043d\u043a\u0438", "country": "\u0423\u0440\u0443\u0433\u0432\u0430\u0439", "place": "\u0421\u043a\u043b\u043e\u043d", "id": 148}
+GET	/users/614	200	{"first_name": "\u042e\u043b\u0438\u044f", "last_name": "\u0414\u0430\u043d\u0430\u0442\u043e\u043d\u0430\u044f", "gender": "f", "email": "tinotmat@inbox.ru", "birth_date": 299462400, "id": 614}
+GET	/locations/160/avg?fromDate=YhtiLZAZayrnIZ7bW7aeBcYP4PaEL6E3&toAge=ebdcabbdffffdaedfccfacdfcbefcbed	400
+GET	/locations/641/avg?gender=f&fromDate=1026518400	200	{"avg": 1.0}
+GET	/visits/3054	200	{"mark": 3, "visited_at": 1242556211, "user": 253, "id": 3054, "location": 216}
+GET	/locations/75	200	{"distance": 56, "city": "\u041c\u0443\u0440\u0431\u0443\u0440\u0433", "country": "\u042f\u043f\u043e\u043d\u0438\u044f", "place": "\u041f\u0440\u0438\u0441\u0442\u0430\u043d\u044c", "id": 75}
+GET	/visits/12621	404
+GET	/users/bad	404
+GET	/users/606	200	{"first_name": "\u041c\u0438\u0440\u0440\u0430", "last_name": "\u0424\u0435\u0442\u0443\u0448\u0443\u0432\u0438\u0447", "gender": "f", "email": "renalirlayrvodig@mail.ru", "birth_date": 207792000, "id": 606}
+GET	/locations/290/avg?gender=f&fromAge=8	200	{"avg": 2.0}
+GET	/visits/3597	200	{"mark": 1, "visited_at": 1042523782, "user": 263, "id": 3597, "location": 279}
+GET	/visits/9952	200	{"mark": 2, "visited_at": 1409765836, "user": 893, "id": 9952, "location": 196}
+GET	/users/908	200	{"first_name": "\u041d\u0438\u043a\u043e\u043b\u0430\u0439", "last_name": "\u041a\u043b\u0435\u0440\u044b\u043a\u0430\u0447\u0430\u043d", "gender": "m", "email": "geewomowbosutache@list.me", "birth_date": -1099872000, "id": 908}
+GET	/users/310	200	{"first_name": "\u0410\u0440\u043a\u0430\u0434\u0438\u0439", "last_name": "\u041b\u0435\u0431\u043e\u043b\u043e\u043d\u044b\u0439", "gender": "m", "email": "icdetpoehuk@inbox.ru", "birth_date": 373075200, "id": 310}
+GET	/users/460	200	{"first_name": "\u041d\u0438\u043d\u0430", "last_name": "\u041f\u0435\u043d\u0430\u0448\u0435\u0432\u0438\u0447", "gender": "f", "email": "igogcodera@mail.ru", "birth_date": -958435200, "id": 460}
+GET	/users/711	200	{"first_name": "\u0412\u044f\u0447\u0435\u0441\u043b\u0430\u0432", "last_name": "\u041a\u043b\u0435\u0440\u043b\u0435\u043d\u0432\u0438\u0447", "gender": "m", "email": "hohehyspa@icloud.com", "birth_date": -1245024000, "id": 711}
+GET	/users/691/visits?toDistance=4&country=%D0%9D%D0%B5%D0%BF%D0%B0%D0%BB	200	{"visits": []}
+GET	/users/333	200	{"first_name": "\u0413\u0435\u043e\u0440\u0433\u0438\u0439", "last_name": "\u0424\u0430\u0430\u0448\u0435\u043a\u043e", "gender": "m", "email": "novneasgywirtuni@inbox.ru", "birth_date": -842832000, "id": 333}
+GET	/visits/5182	200	{"mark": 3, "visited_at": 1015169706, "user": 318, "id": 5182, "location": 89}
+GET	/users/184	200	{"first_name": "\u0412\u044f\u0447\u0435\u0441\u043b\u0430\u0432", "last_name": "\u041f\u0435\u043d\u043b\u0435\u043d\u0442\u0438\u043d", "gender": "m", "email": "ochondiandihevgo@mail.ru", "birth_date": -558144000, "id": 184}
+GET	/visits/4829	200	{"mark": 2, "visited_at": 1278650650, "user": 427, "id": 4829, "location": 264}
+GET	/users/971/visits	200	{"visits": [{"mark": 3, "visited_at": 1120837313, "place": "\u041c\u043e\u0440\u0435"}]}
+GET	/visits/6762	200	{"mark": 1, "visited_at": 1162844250, "user": 29, "id": 6762, "location": 244}
+GET	/users/859	200	{"first_name": "\u0413\u043b\u0435\u0431", "last_name": "\u041a\u043e\u043b\u044b\u043a\u0430\u0442\u0435\u0432", "gender": "m", "email": "jeehvasiab@icloud.com", "birth_date": 90288000, "id": 859}
+GET	/visits/6355	200	{"mark": 2, "visited_at": 1034954157, "user": 94, "id": 6355, "location": 459}
+GET	/users/334	200	{"first_name": "\u0412\u044f\u0447\u0435\u0441\u043b\u0430\u0432", "last_name": "\u0421\u0442\u044b\u043a\u0430\u0442\u043e\u0442\u0438\u043d", "gender": "m", "email": "otpaprehdinxe@mail.ru", "birth_date": -304387200, "id": 334}
+GET	/users/341	200	{"first_name": "\u0412\u043b\u0430\u0434\u0438\u0441\u043b\u0430\u0432", "last_name": "\u041a\u0438\u0441\u043b\u0435\u043d\u043a\u0438\u0439", "gender": "m", "email": "pamtesamticel@me.com", "birth_date": -233107200, "id": 341}
+GET	/visits/5198	200	{"mark": 2, "visited_at": 1373559324, "user": 323, "id": 5198, "location": 412}
+GET	/visits/8083	200	{"mark": 4, "visited_at": 1399996893, "user": 79, "id": 8083, "location": 615}
+GET	/users/869/visits?toDate=1470787200&fromDate=1487289600	200	{"visits": []}
+GET	/locations/784/avg	200	{"avg": 2.0}
+GET	/visits/4620	200	{"mark": 3, "visited_at": 1288411042, "user": 226, "id": 4620, "location": 195}
+GET	/users/1051/visits	200	{"visits": [{"mark": 3, "visited_at": 1411051991, "place": "\u0414\u0432\u043e\u0440"}]}
+GET	/users/419	200	{"first_name": "\u0410\u043b\u0451\u043d\u0430", "last_name": "\u041b\u0435\u0431\u0443\u0448\u0443\u0442\u0435\u0432\u0430", "gender": "f", "email": "edynnefwywoleribsys@inbox.ru", "birth_date": 528076800, "id": 419}
+GET	/users/539/visits	200	{"visits": [{"mark": 4, "visited_at": 1028609739, "place": "\u0413\u0430\u0440\u0430\u0436"}, {"mark": 3, "visited_at": 1185743795, "place": "\u0423\u0441\u0442\u0443\u043f"}, {"mark": 1, "visited_at": 1281138874, "place": "\u0414\u043e\u0440\u043e\u0436\u043a\u0430"}, {"mark": 4, "visited_at": 1338806467, "place": "\u041f\u0430\u0440\u043a"}]}
+GET	/users/445	200	{"first_name": "\u0421\u0430\u0432\u0432\u0430", "last_name": "\u0421\u0442\u0430\u043c\u0435\u0442\u0430\u043a\u0438\u0439", "gender": "m", "email": "enlanuser@inbox.ru", "birth_date": -743644800, "id": 445}
+GET	/locations/6	200	{"distance": 72, "city": "\u041b\u0435\u0439\u043f\u043e\u043c\u0441\u043a", "country": "\u0421\u0428\u0410", "place": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d", "id": 6}
+GET	/users/261	200	{"first_name": "\u041a\u043e\u043d\u0441\u0442\u0430\u043d\u0442\u0438\u043d", "last_name": "\u041a\u043e\u043b\u0430\u0448\u0435\u043b\u0430\u043d", "gender": "m", "email": "icaswasvucespeibti@ya.ru", "birth_date": 484617600, "id": 261}
+GET	/users/144/visits	200	{"visits": [{"mark": 4, "visited_at": 970736911, "place": "\u0413\u0430\u0440\u0430\u0436"}, {"mark": 3, "visited_at": 1003414288, "place": "\u041f\u0430\u0440\u043a"}, {"mark": 1, "visited_at": 1012278526, "place": "\u041c\u043e\u0440\u0435"}, {"mark": 4, "visited_at": 1066535514, "place": "\u0414\u043e\u043c"}, {"mark": 4, "visited_at": 1100943079, "place": "\u0423\u043b\u0438\u0446\u0430"}, {"mark": 4, "visited_at": 1108702399, "place": "\u041f\u0435\u0440\u0435\u0443\u043b\u043e\u043a"}, {"mark": 4, "visited_at": 1112452949, "place": "\u041f\u0440\u0443\u0434"}, {"mark": 4, "visited_at": 1167473963, "place": "\u0413\u043e\u0440\u0430"}, {"mark": 4, "visited_at": 1193827916, "place": "\u0413\u0430\u0440\u0430\u0436"}, {"mark": 2, "visited_at": 1199297187, "place": "\u0424\u043e\u043d\u0442\u0430\u043d"}, {"mark": 4, "visited_at": 1216466610, "place": "\u041f\u0440\u0438\u0441\u0442\u0430\u043d\u044c"}, {"mark": 2, "visited_at": 1220300569, "place": "\u0421\u043a\u0430\u043b\u0430"}, {"mark": 3, "visited_at": 1220704654, "place": "\u041f\u0430\u0440\u043a"}, {"mark": 2, "visited_at": 1221706719, "place": "\u041e\u0444\u0438\u0441"}, {"mark": 2, "visited_at": 1222392758, "place": "\u0423\u043b\u0438\u0446\u0430"}, {"mark": 1, "visited_at": 1254526845, "place": "\u041c\u043e\u0441\u0442"}, {"mark": 3, "visited_at": 1297421917, "place": "\u0424\u043e\u043d\u0442\u0430\u043d"}, {"mark": 1, "visited_at": 1316113736, "place": "\u0410\u044d\u0440\u043e\u043f\u043e\u0440\u0442"}, {"mark": 2, "visited_at": 1352648512, "place": "\u0414\u0435\u0440\u0435\u0432\u043e"}, {"mark": 2, "visited_at": 1376137332, "place": "\u0414\u0432\u043e\u0440"}, {"mark": 1, "visited_at": 1394261476, "place": "\u0421\u043a\u0430\u043b\u0430"}, {"mark": 4, "visited_at": 1414413360, "place": "\u0421\u043a\u0430\u043b\u0430"}]}
+GET	/users/420	200	{"first_name": "\u0415\u0432\u0433\u0435\u043d\u0438\u044f", "last_name": "\u0422\u0435\u0440\u043e\u043b\u043e\u0438\u043d\u0430", "gender": "f", "email": "ehmidehhimutdesrygrem@yahoo.com", "birth_date": -893894400, "id": 420}
+GET	/locations/1079	404
+GET	/users/36/visits?country=%D0%98%D1%82%D0%B0%D0%BB%D0%B8%D1%8F	200	{"visits": []}
+GET	/users/265	200	{"first_name": "\u0410\u043d\u0436\u0435\u043b\u0438\u043a\u0430", "last_name": "\u041b\u0435\u0431\u043b\u0435\u043d\u043d\u0430\u044f", "gender": "f", "email": "aghyhet@yahoo.com", "birth_date": -723340800, "id": 265}
+GET	/users/390	200	{"first_name": "\u041d\u0438\u043a\u043e\u043b\u0430\u0439", "last_name": "\u0424\u0430\u043b\u0435\u043d\u043d\u044b\u0439", "gender": "m", "email": "ertoreaddifrigewho@mail.ru", "birth_date": -683510400, "id": 390}
+GET	/users/325	200	{"first_name": "\u0421\u0438\u0434\u043e\u0440", "last_name": "\u041a\u043b\u0435\u0440\u043b\u0435\u043d\u043b\u043e", "gender": "m", "email": "owellihda@yandex.ru", "birth_date": 100656000, "id": 325}
+GET	/users/238	200	{"first_name": "\u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432", "last_name": "\u041a\u0438\u0441\u0430\u0448\u0435\u0441\u044f\u043d", "gender": "m", "email": "ahlowodonaadhahse@yandex.ru", "birth_date": 214617600, "id": 238}
+GET	/visits/815	200	{"mark": 4, "visited_at": 1199097602, "user": 82, "id": 815, "location": 47}
+GET	/users/871/visits	200	{"visits": [{"mark": 2, "visited_at": 1039246832, "place": "\u0421\u043a\u0430\u043b\u0430"}, {"mark": 1, "visited_at": 1286528346, "place": "\u0421\u043a\u0430\u043b\u0430"}, {"mark": 4, "visited_at": 1357937540, "place": "\u0410\u044d\u0440\u043e\u043f\u043e\u0440\u0442"}]}
+GET	/users/388	200	{"first_name": "\u0415\u0432\u0433\u0435\u043d\u0438\u0439", "last_name": "\u041a\u0438\u0441\u043b\u0435\u043d\u0442\u0438\u043d", "gender": "m", "email": "dirdoxaf@list.me", "birth_date": -47520000, "id": 388}
+GET	/visits/1009	200	{"mark": 2, "visited_at": 1110131561, "user": 55, "id": 1009, "location": 3}
+GET	/users/508	200	{"first_name": "\u0414\u0430\u0440\u0438\u043d\u0430", "last_name": "\u041a\u043e\u043b\u0443\u0448\u0443\u0442\u0435\u0432\u0430", "gender": "f", "email": "fosenlehahocsutterdet@list.me", "birth_date": 720489600, "id": 508}
+GET	/visits/3406	200	{"mark": 2, "visited_at": 1069791300, "user": 184, "id": 3406, "location": 13}
+GET	/visits/4361	200	{"mark": 3, "visited_at": 1348455833, "user": 167, "id": 4361, "location": 84}
+GET	/users/689	200	{"first_name": "\u041b\u044e\u0434\u043c\u0438\u043b\u0430", "last_name": "\u041a\u043b\u0435\u0440\u0443\u0448\u0443\u043b\u043e\u0432\u0430", "gender": "f", "email": "letsenbahaartaetus@ya.ru", "birth_date": -857347200, "id": 689}
+GET	/visits/4695	200	{"mark": 3, "visited_at": 1250779289, "user": 160, "id": 4695, "location": 264}
+GET	/locations/443	200	{"distance": 23, "city": "\u041b\u0438\u0441\u0441\u0430\u043b\u0430\u043c\u0441\u043a", "country": "\u0418\u0437\u0440\u0430\u0438\u043b\u044c", "place": "\u0414\u0435\u0440\u0435\u0432\u043e", "id": 443}
+GET	/locations/353	200	{"distance": 55, "city": "\u041b\u0435\u0439\u043f\u0430\u043d\u0441\u043a", "country": "\u041f\u0430\u0440\u0430\u0433\u0432\u0430\u0439", "place": "\u0423\u043b\u043e\u0447\u043a\u0430", "id": 353}
+GET	/visits/2554	200	{"mark": 1, "visited_at": 1045272389, "user": 348, "id": 2554, "location": 195}
+GET	/users/44	200	{"first_name": "\u0410\u0440\u0442\u0451\u043c", "last_name": "\u0422\u0435\u0440\u0430\u0448\u0435\u043b\u0430\u043d", "gender": "m", "email": "hidlesaxeopgus@list.me", "birth_date": 741225600, "id": 44}
+GET	/users/bad	404
+GET	/locations/684	200	{"distance": 69, "city": "\u041d\u044c\u044e\u0440\u0438\u0436", "country": "\u0410\u0432\u0441\u0442\u0440\u0430\u043b\u0438\u044f", "place": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c", "id": 684}
+GET	/locations/66	200	{"distance": 20, "city": "\u041b\u0438\u0441\u0441\u0430\u0433\u0440\u0430\u0434", "country": "\u0411\u0440\u0430\u0437\u0438\u043b\u0438\u044f", "place": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c", "id": 66}
+GET	/locations/6	200	{"distance": 72, "city": "\u041b\u0435\u0439\u043f\u043e\u043c\u0441\u043a", "country": "\u0421\u0428\u0410", "place": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d", "id": 6}
+GET	/locations/466/avg?gender=f&toAge=46	200	{"avg": 1.0}
+GET	/visits/9414	200	{"mark": 4, "visited_at": 1299820041, "user": 222, "id": 9414, "location": 119}
+GET	/users/909/visits	200	{"visits": [{"mark": 4, "visited_at": 1017837217, "place": "\u041c\u043e\u0441\u0442"}, {"mark": 4, "visited_at": 1061169757, "place": "\u0421\u0442\u0430\u0442\u0443\u044f"}, {"mark": 4, "visited_at": 1118654678, "place": "\u0423\u0441\u0442\u0443\u043f"}, {"mark": 4, "visited_at": 1184312967, "place": "\u041c\u043e\u0433\u0438\u043b\u0430"}, {"mark": 4, "visited_at": 1360193716, "place": "\u041c\u043e\u0433\u0438\u043b\u0430"}, {"mark": 3, "visited_at": 1413878541, "place": "\u0414\u043e\u0440\u043e\u0436\u043a\u0430"}]}
+GET	/locations/1142	404
+GET	/locations/190/avg	200	{"avg": 2.625}
+GET	/visits/3293	200	{"mark": 2, "visited_at": 1260414567, "user": 89, "id": 3293, "location": 239}
+GET	/locations/291/avg?fromAge=2	200	{"avg": 2.18182}
+GET	/users/925/visits?toDistance=69&fromDate=1317859200	200	{"visits": []}
+GET	/visits/6496	200	{"mark": 3, "visited_at": 1350838335, "user": 181, "id": 6496, "location": 533}
+GET	/visits/1037	200	{"mark": 3, "visited_at": 1226188718, "user": 28, "id": 1037, "location": 22}
+GET	/users/979	200	{"first_name": "\u0418\u043d\u043d\u0430", "last_name": "\u0421\u0442\u044b\u043a\u0443\u0448\u0443\u043a\u043e", "gender": "f", "email": "minnomassobow@me.com", "birth_date": -401241600, "id": 979}
+GET	/users/728	200	{"first_name": "\u041c\u0430\u043a\u0430\u0440", "last_name": "\u041f\u0435\u043d\u0430\u0448\u0435\u043b\u043e", "gender": "m", "email": "tastapevnenninolorno@inbox.ru", "birth_date": -273024000, "id": 728}
+GET	/locations/63	200	{"distance": 69, "city": "\u041d\u043e\u0432\u043e\u0440\u0438\u0436", "country": "\u041b\u0438\u0442\u0432\u0430", "place": "\u0414\u043e\u0440\u043e\u0436\u043a\u0430", "id": 63}
+GET	/locations/601	200	{"distance": 87, "city": "\u0412\u043e\u043b\u043e\u043a\u0432\u0430", "country": "\u0418\u043d\u0434\u0438\u044f", "place": "\u0421\u043a\u043b\u043e\u043d", "id": 601}
+GET	/users/551/visits?toDistance=32&country=%D0%9A%D0%B0%D0%BD%D0%B0%D0%B4%D0%B0	200	{"visits": []}
+GET	/visits/6335	200	{"mark": 4, "visited_at": 1409523923, "user": 121, "id": 6335, "location": 261}
+GET	/users/729	200	{"first_name": "\u041e\u043b\u0435\u0441\u044f", "last_name": "\u041b\u0435\u0431\u043e\u043b\u043e\u043d\u0430\u044f", "gender": "f", "email": "heloerhit@rambler.com", "birth_date": -701913600, "id": 729}
+GET	/users/786	200	{"first_name": "\u041a\u0441\u0435\u043d\u0438\u044f", "last_name": "\u0422\u0435\u0440\u043e\u043b\u043e\u0441\u044f\u043d", "gender": "f", "email": "tooqteytsater@mail.ru", "birth_date": -1187136000, "id": 786}
+GET	/locations/23	200	{"distance": 91, "city": "\u0420\u043e\u0442\u0442\u0435\u0440\u044f\u0440\u0441\u043a", "country": "\u0423\u043a\u0440\u0430\u0438\u043d\u0430", "place": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d", "id": 23}
+GET	/users/210	200	{"first_name": "\u0418\u043b\u044c\u044f", "last_name": "\u041f\u0435\u043d\u043e\u043b\u043e\u0432\u0438\u0447", "gender": "m", "email": "icogtehohifdifa@me.com", "birth_date": 319334400, "id": 210}
+GET	/locations/36/avg?fromDate=1472342400	200	{"avg": 0.0}
+GET	/users/bad	404
+GET	/users/335	200	{"first_name": "\u041e\u043b\u0435\u0441\u044f", "last_name": "\u0421\u0442\u0430\u043c\u044b\u043a\u0430\u043b\u043e\u0432\u0430", "gender": "f", "email": "nalire@yahoo.com", "birth_date": -33523200, "id": 335}
+GET	/visits/5957	200	{"mark": 4, "visited_at": 997369812, "user": 111, "id": 5957, "location": 171}
+GET	/users/286	200	{"first_name": "\u0421\u0442\u0435\u043f\u0430\u043d", "last_name": "\u0421\u0442\u044b\u043a\u0430\u0448\u0435\u0432\u0438\u0447", "gender": "m", "email": "ulirmorsutacal@mail.ru", "birth_date": 868492800, "id": 286}
+GET	/users/822/visits?toDate=1563667200&country=%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%B8%D1%8F	200	{"visits": []}
+GET	/visits/2360	200	{"mark": 1, "visited_at": 1188717182, "user": 194, "id": 2360, "location": 40}
+GET	/visits/2513	200	{"mark": 2, "visited_at": 1012399514, "user": 213, "id": 2513, "location": 133}
+GET	/users/242/visits	200	{"visits": [{"mark": 2, "visited_at": 949995390, "place": "\u0423\u043b\u043e\u0447\u043a\u0430"}, {"mark": 4, "visited_at": 971545464, "place": "\u0414\u0432\u043e\u0440"}, {"mark": 2, "visited_at": 1044970024, "place": "\u041c\u043e\u0440\u0435"}, {"mark": 2, "visited_at": 1061562262, "place": "\u0417\u0430\u043c\u043e\u043a"}, {"mark": 1, "visited_at": 1084458927, "place": "\u0414\u0432\u043e\u0440"}, {"mark": 2, "visited_at": 1088665382, "place": "\u0421\u043a\u043b\u043e\u043d"}, {"mark": 4, "visited_at": 1127943025, "place": "\u041e\u0437\u0435\u0440\u043e"}, {"mark": 4, "visited_at": 1195731267, "place": "\u041e\u0437\u0435\u0440\u043e"}]}
+GET	/locations/52	200	{"distance": 29, "city": "\u0410\u043c\u0441\u0442\u0435\u0440\u0448\u0442\u0430\u0434\u0442", "country": "\u0413\u0440\u0435\u0446\u0438\u044f", "place": "\u0421\u043a\u043b\u043e\u043d", "id": 52}
+GET	/locations/751	200	{"distance": 33, "city": "\u0411\u0435\u043b\u043a\u0432\u0430", "country": "\u0411\u0440\u0430\u0437\u0438\u043b\u0438\u044f", "place": "\u0417\u0434\u0430\u043d\u0438\u0435", "id": 751}
+GET	/locations/7	200	{"distance": 27, "city": "\u0420\u043e\u0441\u0448\u0442\u0430\u0434\u0442", "country": "\u0411\u0440\u0443\u043d\u0435\u0439", "place": "\u0424\u043e\u043d\u0430\u0440\u044c", "id": 7}
+GET	/users/845	200	{"first_name": "\u0412\u043b\u0430\u0434\u0438\u0441\u043b\u0430\u0432", "last_name": "\u041a\u043e\u043b\u0443\u0448\u0443\u043b\u0430\u043d", "gender": "m", "email": "lonogoohcihacet@ya.ru", "birth_date": -272937600, "id": 845}
+GET	/locations/704/avg?fromDate=1377561600&toAge=63	200	{"avg": 2.0}
+GET	/users/bad	404
+GET	/users/27	200	{"first_name": "\u041e\u043a\u0441\u0430\u043d\u0430", "last_name": "\u0414\u0430\u043d\u043b\u0435\u043d\u043d\u0430\u044f", "gender": "f", "email": "seritihhu@list.me", "birth_date": -925948800, "id": 27}
+GET	/users/393	200	{"first_name": "\u0412\u0430\u0441\u0438\u043b\u0438\u0441\u0430", "last_name": "\u041b\u0435\u0431\u043e\u043b\u043e\u043a\u0430\u044f", "gender": "f", "email": "tidatwagli@yahoo.com", "birth_date": -738028800, "id": 393}
+GET	/visits/7078	200	{"mark": 1, "visited_at": 1254531935, "user": 149, "id": 7078, "location": 6}
+GET	/users/210	200	{"first_name": "\u0418\u043b\u044c\u044f", "last_name": "\u041f\u0435\u043d\u043e\u043b\u043e\u0432\u0438\u0447", "gender": "m", "email": "icogtehohifdifa@me.com", "birth_date": 319334400, "id": 210}
+GET	/locations/207/avg?toDate=1161302400&fromDate=1517875200&gender=m	200	{"avg": 0.0}
+GET	/users/bad	404
+GET	/users/454/visits	200	{"visits": [{"mark": 1, "visited_at": 950011005, "place": "\u041f\u0440\u0443\u0434"}, {"mark": 3, "visited_at": 952029672, "place": "\u041c\u043e\u0441\u0442"}, {"mark": 1, "visited_at": 959692796, "place": "\u0421\u0442\u0430\u0442\u0443\u044f"}, {"mark": 3, "visited_at": 1046250819, "place": "\u041f\u0430\u0440\u043a"}, {"mark": 1, "visited_at": 1066533332, "place": "\u0417\u0434\u0430\u043d\u0438\u0435"}, {"mark": 2, "visited_at": 1162432994, "place": "\u0423\u043b\u0438\u0446\u0430"}, {"mark": 2, "visited_at": 1182217030, "place": "\u0424\u043e\u043d\u0442\u0430\u043d"}, {"mark": 3, "visited_at": 1258736796, "place": "\u0413\u0430\u0440\u0430\u0436"}, {"mark": 1, "visited_at": 1298113439, "place": "\u0414\u0432\u043e\u0440"}, {"mark": 4, "visited_at": 1343269678, "place": "\u0421\u043a\u0430\u043b\u0430"}, {"mark": 4, "visited_at": 1376120683, "place": "\u0420\u0435\u0447\u043a\u0430"}, {"mark": 3, "visited_at": 1401045356, "place": "\u041f\u0440\u0443\u0434"}, {"mark": 2, "visited_at": 1416511421, "place": "\u0421\u043a\u043b\u043e\u043d"}, {"mark": 2, "visited_at": 1419472110, "place": "\u0421\u043a\u0430\u043b\u0430"}, {"mark": 4, "visited_at": 1419718989, "place": "\u0423\u043b\u043e\u0447\u043a\u0430"}]}
+GET	/visits/6078	200	{"mark": 1, "visited_at": 991898821, "user": 414, "id": 6078, "location": 68}
+GET	/visits/14911	404
+GET	/users/684	200	{"first_name": "\u041c\u0430\u0440\u0433\u0430\u0440\u0438\u0442\u0430", "last_name": "\u0414\u0430\u043d\u0430\u0442\u043e\u0432\u0438\u0447", "gender": "f", "email": "hordasfohahdelo@mail.ru", "birth_date": -552960000, "id": 684}
+GET	/visits/3070	200	{"mark": 4, "visited_at": 1395945214, "user": 156, "id": 3070, "location": 59}
+GET	/locations/122	200	{"distance": 21, "city": "\u041a\u0440\u043e\u043d\u0431\u0438\u0440\u0441\u043a", "country": "\u041f\u0430\u0440\u0430\u0433\u0432\u0430\u0439", "place": "\u0414\u0430\u0447\u0430", "id": 122}
+GET	/users/582	200	{"first_name": "\u041c\u0430\u0440\u0438\u043d\u0430", "last_name": "\u041f\u0435\u043d\u0430\u0442\u043e\u043b\u043e\u0432\u0430", "gender": "f", "email": "vansocosbeob@yandex.ru", "birth_date": -333763200, "id": 582}
+GET	/visits/3992	200	{"mark": 2, "visited_at": 1061880587, "user": 62, "id": 3992, "location": 270}
+GET	/visits/7984	200	{"mark": 4, "visited_at": 1122600808, "user": 79, "id": 7984, "location": 492}
+GET	/locations/660	200	{"distance": 66, "city": "\u041c\u043e\u0441\u0441\u0442\u0430\u043d", "country": "\u041c\u0435\u043a\u0441\u0438\u043a\u0430", "place": "\u0421\u043a\u043b\u043e\u043d", "id": 660}
+GET	/users/143	200	{"first_name": "\u042e\u043b\u0438\u044f", "last_name": "\u0425\u043e\u043f\u043e\u043b\u043e\u043a\u043e", "gender": "f", "email": "iraggealhetfe@icloud.com", "birth_date": -513734400, "id": 143}
+GET	/users/520	200	{"first_name": "\u041d\u0430\u0434\u0435\u0436\u0434\u0430", "last_name": "\u041a\u0438\u0441\u043b\u0435\u043d\u0432\u0438\u0447", "gender": "f", "email": "egdogetmehfarbedwuir@rambler.com", "birth_date": -713664000, "id": 520}
+GET	/locations/192	200	{"distance": 95, "city": "\u0420\u043e\u0442\u0442\u0435\u0440\u0438\u043d\u0441\u043a", "country": "\u041f\u0430\u0440\u0430\u0433\u0432\u0430\u0439", "place": "\u0424\u043e\u043d\u0442\u0430\u043d", "id": 192}
+GET	/users/349	200	{"first_name": "\u041a\u0438\u0440\u0430", "last_name": "\u041b\u0443\u043a\u043e\u043b\u043e\u0432\u0438\u0447", "gender": "f", "email": "toenosrepti@rambler.com", "birth_date": -163728000, "id": 349}
+GET	/visits/2292	200	{"mark": 2, "visited_at": 1087517386, "user": 67, "id": 2292, "location": 154}
+GET	/locations/749	200	{"distance": 57, "city": "\u041b\u0435\u0441\u043e\u0435\u043b\u043e\u043d\u0430", "country": "\u0411\u043e\u043b\u0433\u0430\u0440\u0438\u044f", "place": "\u0414\u043e\u0440\u043e\u0436\u043a\u0430", "id": 749}
+GET	/users/26	200	{"first_name": "\u041e\u043b\u0435\u0441\u044f", "last_name": "\u0422\u0435\u0440\u0430\u0442\u043e\u043a\u043e", "gender": "f", "email": "etrocewtenroiwcah@inbox.ru", "birth_date": -923702400, "id": 26}
+GET	/visits/4430	200	{"mark": 3, "visited_at": 1302457750, "user": 79, "id": 4430, "location": 280}
+GET	/locations/432/avg?gender=f&fromDate=907200000	200	{"avg": 3.0}
+GET	/users/500	200	{"first_name": "\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440", "last_name": "\u0421\u0442\u0430\u043c\u043b\u0435\u043d\u0447\u0430\u043d", "gender": "m", "email": "tearfennene@rambler.com", "birth_date": -127008000, "id": 500}
+GET	/users/826	200	{"first_name": "\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440", "last_name": "\u0424\u0430\u0430\u0448\u0435\u043b\u0430\u043d", "gender": "m", "email": "duaslalypdeenaloc@list.me", "birth_date": -886809600, "id": 826}
+GET	/visits/8618	200	{"mark": 4, "visited_at": 1370579631, "user": 145, "id": 8618, "location": 155}
+GET	/visits/7682	200	{"mark": 1, "visited_at": 1354115017, "user": 149, "id": 7682, "location": 101}
+GET	/visits/6796	200	{"mark": 2, "visited_at": 1263718580, "user": 580, "id": 6796, "location": 465}
+GET	/locations/602	200	{"distance": 19, "city": "\u041d\u044c\u044e\u0441\u0438\u043d\u043a\u0438", "country": "\u0423\u0440\u0443\u0433\u0432\u0430\u0439", "place": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c", "id": 602}
+GET	/locations/272/avg?toDate=887500800&fromDate=1333670400&gender=f	200	{"avg": 0.0}
+GET	/visits/7752	200	{"mark": 2, "visited_at": 1034569998, "user": 502, "id": 7752, "location": 594}
+GET	/users/936	200	{"first_name": "\u0410\u0440\u0442\u0451\u043c", "last_name": "\u0414\u0430\u043d\u0430\u0448\u0435\u043f\u043e\u0432", "gender": "m", "email": "nasoedha@me.com", "birth_date": -921801600, "id": 936}
+GET	/locations/775/avg?toAge=57&fromAge=27	200	{"avg": 3.0}
+GET	/users/231/visits?toDate=1011657600&fromDate=1123372800	200	{"visits": []}
+GET	/visits/8764	200	{"mark": 2, "visited_at": 1018532718, "user": 12, "id": 8764, "location": 126}
+GET	/users/768/visits?country=%D0%9C%D0%B0%D0%BB%D0%B0%D0%B9%D0%B7%D0%B8%D1%8F	200	{"visits": []}
+GET	/visits/6313	200	{"mark": 1, "visited_at": 949163789, "user": 494, "id": 6313, "location": 15}
+GET	/users/947	200	{"first_name": "\u041d\u0438\u043a\u0438\u0442\u0430", "last_name": "\u041a\u043b\u0435\u0440\u044b\u043a\u0430\u0432\u0438\u0447", "gender": "m", "email": "etorhinsaes@yahoo.com", "birth_date": 723859200, "id": 947}
+GET	/locations/599	200	{"distance": 48, "city": "\u041a\u0440\u043e\u043d\u043e\u043c\u0441\u043a", "country": "\u0424\u0440\u0430\u043d\u0446\u0438\u044f", "place": "\u041f\u0430\u0440\u043a", "id": 599}
+GET	/locations/567	200	{"distance": 33, "city": "\u041a\u0440\u043e\u043d\u044f\u0440\u0441\u043a", "country": "\u0410\u0432\u0441\u0442\u0440\u0430\u043b\u0438\u044f", "place": "\u0414\u0430\u0447\u0430", "id": 567}
+GET	/locations/172	200	{"distance": 82, "city": "\u0420\u043e\u0441\u043e\u0432\u0441\u043a", "country": "\u041f\u0430\u0440\u0430\u0433\u0432\u0430\u0439", "place": "\u0421\u043a\u0430\u043b\u0430", "id": 172}
+GET	/visits/1644	200	{"mark": 3, "visited_at": 987569746, "user": 91, "id": 1644, "location": 128}
+GET	/users/bad	404
+GET	/visits/16794	404
+GET	/users/556/visits?toDate=1138060800	200	{"visits": [{"mark": 3, "visited_at": 974243576, "place": "\u041e\u0444\u0438\u0441"}, {"mark": 2, "visited_at": 1012144484, "place": "\u041d\u0430\u0431\u0435\u0440\u0435\u0436\u043d\u0430\u044f"}, {"mark": 4, "visited_at": 1046743511, "place": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d"}, {"mark": 4, "visited_at": 1071309878, "place": "\u041f\u0440\u0443\u0434"}, {"mark": 2, "visited_at": 1090126417, "place": "\u0414\u0435\u0440\u0435\u0432\u043e"}, {"mark": 2, "visited_at": 1111419582, "place": "\u041c\u043e\u0441\u0442"}]}
+GET	/locations/254	200	{"distance": 66, "city": "\u0411\u0430\u0440\u0441\u043e\u0432\u0441\u043a", "country": "\u0412\u0435\u043d\u0433\u0440\u0438\u044f", "place": "\u0423\u043b\u043e\u0447\u043a\u0430", "id": 254}
+GET	/locations/764	200	{"distance": 97, "city": "\u041c\u0443\u0440\u043a\u0432\u0430", "country": "\u041c\u043e\u043d\u0433\u043e\u043b\u0438\u044f", "place": "\u0414\u043e\u0440\u043e\u0436\u043a\u0430", "id": 764}
+GET	/users/bad	404
+GET	/users/207/visits?toDate=839376000&fromDate=1517616000	200	{"visits": []}
+GET	/locations/490	200	{"distance": 97, "city": "\u0412\u043e\u043b\u043e\u0434\u0430\u043c", "country": "\u0420\u0443\u043c\u044b\u043d\u0438\u044f", "place": "\u041e\u0444\u0438\u0441", "id": 490}
+GET	/locations/652	200	{"distance": 64, "city": "\u041b\u0438\u0441\u0441\u0430\u0433\u0430\u043c\u0430", "country": "\u0413\u0435\u0440\u043c\u0430\u043d\u0438\u044f", "place": "\u0414\u0435\u0440\u0435\u0432\u043e", "id": 652}
+GET	/users/467	200	{"first_name": "\u0418\u0432\u0430\u043d", "last_name": "\u0422\u0435\u0440\u044b\u043a\u0430\u0432\u0438\u0447", "gender": "m", "email": "codanseuhneredig@rambler.com", "birth_date": -320198400, "id": 467}
+GET	/users/bad	404
+GET	/users/534	200	{"first_name": "\u041c\u0438\u043b\u0435\u043d\u0430", "last_name": "\u041a\u043e\u043b\u0435\u0442\u0430\u043b\u043e\u0432\u0430", "gender": "f", "email": "vennugewaret@icloud.com", "birth_date": 297907200, "id": 534}
+GET	/locations/620	200	{"distance": 49, "city": "\u0411\u0430\u0440\u0441\u044f\u0440\u0441\u043a", "country": "\u0428\u0432\u0435\u0446\u0438\u044f", "place": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c", "id": 620}
+GET	/visits/16474	404
+GET	/visits/4420	200	{"mark": 3, "visited_at": 1068241369, "user": 228, "id": 4420, "location": 325}
+GET	/visits/6353	200	{"mark": 4, "visited_at": 1014820394, "user": 587, "id": 6353, "location": 380}
+GET	/locations/685	200	{"distance": 76, "city": "\u0417\u0435\u043b\u0435\u043d\u043e\u043b\u0430\u043c\u0441\u043a", "country": "\u0415\u0433\u0438\u043f\u0435\u0442", "place": "\u0423\u043b\u0438\u0446\u0430", "id": 685}
+GET	/users/844	200	{"first_name": "\u041c\u0438\u043b\u0435\u043d\u0430", "last_name": "\u041b\u0435\u0431\u0430\u0442\u043e\u043a\u043e", "gender": "f", "email": "hevardop@ya.ru", "birth_date": 900460800, "id": 844}
+GET	/visits/5046	200	{"mark": 2, "visited_at": 1330817638, "user": 213, "id": 5046, "location": 292}
+GET	/users/507	200	{"first_name": "\u042e\u043b\u0438\u044f", "last_name": "\u041a\u043b\u0435\u0440\u044b\u043a\u0430\u043d\u0430\u044f", "gender": "f", "email": "sillaloc@me.com", "birth_date": 273110400, "id": 507}
+GET	/users/76/visits?country=%D0%9B%D0%B8%D1%82%D0%B2%D0%B0&fromDate=793238400	200	{"visits": [{"mark": 1, "visited_at": 1168363234, "place": "\u0414\u043e\u0440\u043e\u0436\u043a\u0430"}]}
+GET	/locations/404	200	{"distance": 75, "city": "\u041a\u0440\u043e\u043d\u0440\u0438\u0436", "country": "\u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d", "place": "\u0421\u043a\u043b\u043e\u043d", "id": 404}
+GET	/locations/754	200	{"distance": 94, "city": "\u0412\u0430\u0440\u0433\u0430\u043c\u0430", "country": "\u0410\u0440\u0433\u0435\u043d\u0442\u0438\u043d\u0430", "place": "\u041c\u043e\u0441\u0442", "id": 754}
+GET	/users/bad	404
+GET	/visits/7738	200	{"mark": 3, "visited_at": 1134671434, "user": 610, "id": 7738, "location": 147}
+GET	/locations/445/avg?fromDate=1036972800&toAge=55	200	{"avg": 2.66667}
+GET	/locations/498	200	{"distance": 30, "city": "\u041a\u0440\u043e\u043d\u0440\u0438\u0436", "country": "\u0418\u043d\u0434\u0438\u044f", "place": "\u0414\u043e\u043c", "id": 498}
+GET	/visits/9475	200	{"mark": 4, "visited_at": 1127503646, "user": 777, "id": 9475, "location": 50}
+GET	/visits/3784	200	{"mark": 1, "visited_at": 1128218776, "user": 232, "id": 3784, "location": 116}
+GET	/users/bad	404
+GET	/users/591/visits?toDate=1188604800&fromDate=955324800	200	{"visits": [{"mark": 4, "visited_at": 1055816789, "place": "\u0417\u0430\u043c\u043e\u043a"}, {"mark": 2, "visited_at": 1121498579, "place": "\u0421\u0435\u0440\u043f\u0430\u043d\u0442\u0438\u043d"}]}
+GET	/users/bad	404
+GET	/locations/794	200	{"distance": 91, "city": "\u041b\u0438\u0441\u0441\u0430\u0431\u0438\u0440\u0441\u043a", "country": "\u0411\u0435\u043b\u043e\u0440\u0443\u0441\u0441\u0438\u044f", "place": "\u0414\u0432\u043e\u0440", "id": 794}
+GET	/visits/4307	200	{"mark": 3, "visited_at": 1124795425, "user": 459, "id": 4307, "location": 211}
+GET	/users/694	200	{"first_name": "\u042f\u043d\u0430", "last_name": "\u0414\u0430\u043d\u043e\u043b\u043e\u0447\u0430\u043d", "gender": "f", "email": "ewywne@ya.ru", "birth_date": -320889600, "id": 694}
+GET	/locations/387	200	{"distance": 51, "city": "\u0412\u043e\u043b\u043e\u0438\u043d\u0441\u043a", "country": "\u0424\u0438\u0434\u0436\u0438", "place": "\u041f\u0440\u0443\u0434", "id": 387}
+GET	/locations/9/avg?toDate=1046908800&toAge=43	200	{"avg": 2.0}
+GET	/visits/4660	200	{"mark": 4, "visited_at": 1054282745, "user": 67, "id": 4660, "location": 167}
+GET	/users/690/visits?country=%D0%94%D0%B0%D0%BD%D0%B8%D1%8F&fromDate=1564704000	200	{"visits": []}
+GET	/locations/836/avg?gender=f&fromDate=1085702400	200	{"avg": 0.0}
+GET	/visits/7877	200	{"mark": 2, "visited_at": 1282669866, "user": 269, "id": 7877, "location": 190}
+GET	/users/bad	404
+GET	/locations/178	200	{"distance": 58, "city": "\u0412\u0430\u0440\u043e\u0432\u0441\u043a", "country": "\u041a\u043e\u0441\u0442\u0430-\u0420\u0438\u043a\u0430", "place": "\u0414\u043e\u0440\u043e\u0436\u043a\u0430", "id": 178}
+GET	/locations/370	200	{"distance": 51, "city": "\u0411\u0435\u043b\u0430\u0442\u0441\u043a", "country": "\u0411\u043e\u043b\u0433\u0430\u0440\u0438\u044f", "place": "\u0414\u0435\u0440\u0435\u0432\u043e", "id": 370}
+GET	/locations/624	200	{"distance": 62, "city": "\u0410\u043c\u0441\u0442\u0435\u0440\u0434\u043e\u0440\u0444", "country": "\u041c\u043e\u043d\u0433\u043e\u043b\u0438\u044f", "place": "\u0414\u0430\u0447\u0430", "id": 624}
+GET	/users/652	200	{"first_name": "\u042e\u0440\u0438\u0439", "last_name": "\u0422\u0435\u0440\u044b\u043a\u0430\u0432\u0438\u0447", "gender": "m", "email": "decnasenlusanrin@gmail.com", "birth_date": -372902400, "id": 652}
+GET	/visits/2323	200	{"mark": 1, "visited_at": 1085524655, "user": 29, "id": 2323, "location": 77}
+GET	/locations/322	200	{"distance": 2, "city": "\u041b\u0438\u0441\u0441\u0430\u0431\u043e\u043d", "country": "\u0418\u0441\u043b\u0430\u043d\u0434\u0438\u044f", "place": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c", "id": 322}
+GET	/visits/4374	200	{"mark": 3, "visited_at": 1416570665, "user": 311, "id": 4374, "location": 191}
+GET	/locations/373	200	{"distance": 56, "city": "\u041d\u043e\u0432\u043e\u0441\u0438\u043d\u043a\u0438", "country": "\u041c\u0430\u043b\u0430\u0439\u0437\u0438\u044f", "place": "\u0423\u043b\u043e\u0447\u043a\u0430", "id": 373}
+GET	/locations/652	200	{"distance": 64, "city": "\u041b\u0438\u0441\u0441\u0430\u0433\u0430\u043c\u0430", "country": "\u0413\u0435\u0440\u043c\u0430\u043d\u0438\u044f", "place": "\u0414\u0435\u0440\u0435\u0432\u043e", "id": 652}
+GET	/locations/272	200	{"distance": 76, "city": "\u0417\u0435\u043b\u0435\u043d\u043e\u043e\u0432\u043e", "country": "\u0424\u0438\u043d\u043b\u044f\u043d\u0434\u0438\u044f", "place": "\u041f\u0430\u0440\u043a", "id": 272}
+GET	/visits/6136	200	{"mark": 3, "visited_at": 1183910994, "user": 42, "id": 6136, "location": 562}
+GET	/users/371/visits	200	{"visits": [{"mark": 4, "visited_at": 972870588, "place": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c"}, {"mark": 1, "visited_at": 1113814783, "place": "\u0424\u043e\u043d\u0442\u0430\u043d"}, {"mark": 2, "visited_at": 1162171761, "place": "\u0421\u0442\u0430\u0442\u0443\u044f"}, {"mark": 3, "visited_at": 1228856218, "place": "\u041c\u043e\u0441\u0442"}, {"mark": 3, "visited_at": 1238503695, "place": "\u041e\u0444\u0438\u0441"}, {"mark": 4, "visited_at": 1276481643, "place": "\u0414\u043e\u0440\u043e\u0436\u043a\u0430"}, {"mark": 2, "visited_at": 1306787457, "place": "\u0421\u0442\u0430\u0442\u0443\u044f"}, {"mark": 3, "visited_at": 1370511827, "place": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d"}, {"mark": 3, "visited_at": 1411084210, "place": "\u0424\u043e\u043d\u0430\u0440\u044c"}]}
+GET	/visits/3629	200	{"mark": 3, "visited_at": 1104391429, "user": 126, "id": 3629, "location": 322}
+GET	/visits/1593	200	{"mark": 2, "visited_at": 958348528, "user": 131, "id": 1593, "location": 79}
+GET	/users/710	200	{"first_name": "\u042f\u043a\u043e\u0432", "last_name": "\u0422\u0435\u0440\u043b\u0435\u043d\u043a\u043e", "gender": "m", "email": "aglonhi@icloud.com", "birth_date": -125884800, "id": 710}
+GET	/locations/115	200	{"distance": 54, "city": "\u041a\u0440\u0430\u0441\u043d\u043e\u0440\u0438\u0436", "country": "\u041c\u0430\u043b\u0430\u0439\u0437\u0438\u044f", "place": "\u041b\u0435\u0441", "id": 115}
+GET	/locations/654/avg	200	{"avg": 3.33333}
+GET	/locations/599	200	{"distance": 48, "city": "\u041a\u0440\u043e\u043d\u043e\u043c\u0441\u043a", "country": "\u0424\u0440\u0430\u043d\u0446\u0438\u044f", "place": "\u041f\u0430\u0440\u043a", "id": 599}
+GET	/locations/112/avg?toAge=56	200	{"avg": 2.23077}
+GET	/users/678/visits?toDate=1416700800&fromDate=1379721600	200	{"visits": []}
+GET	/locations/720	200	{"distance": 92, "city": "\u0420\u043e\u0441\u043a\u0432\u0430", "country": "\u041a\u043e\u0441\u0442\u0430-\u0420\u0438\u043a\u0430", "place": "\u0423\u0441\u0442\u0443\u043f", "id": 720}
+GET	/users/bad	404
+GET	/locations/782	200	{"distance": 9, "city": "\u041d\u043e\u0432\u043e\u0441\u0438\u043d\u043a\u0438", "country": "\u041d\u043e\u0432\u0430\u044f \u0437\u0435\u043b\u0430\u043d\u0434\u0438\u044f", "place": "\u041c\u043e\u0440\u0435", "id": 782}
+GET	/users/293	200	{"first_name": "\u041c\u0438\u0440\u043e\u0441\u043b\u0430\u0432", "last_name": "\u041a\u0438\u0441\u043e\u043b\u043e\u0432\u0438\u0447", "gender": "m", "email": "pybarnoseateh@rambler.com", "birth_date": 422323200, "id": 293}
+GET	/visits/3229	200	{"mark": 2, "visited_at": 1188734087, "user": 123, "id": 3229, "location": 272}
+GET	/visits/4368	200	{"mark": 4, "visited_at": 1293214264, "user": 357, "id": 4368, "location": 167}
+GET	/visits/7777	200	{"mark": 2, "visited_at": 1375130606, "user": 17, "id": 7777, "location": 319}
+GET	/users/1051/visits?toDistance=71&toDate=1091232000&fromDate=885945600	200	{"visits": []}
+GET	/locations/590	200	{"distance": 75, "city": "\u0411\u0435\u043b\u0441\u0438\u043d\u043a\u0438", "country": "\u0410\u0440\u043c\u0435\u043d\u0438\u044f", "place": "\u0423\u0441\u0442\u0443\u043f", "id": 590}
+GET	/users/211/visits	200	{"visits": [{"mark": 2, "visited_at": 964676782, "place": "\u0421\u0442\u0430\u0442\u0443\u044f"}, {"mark": 1, "visited_at": 990018161, "place": "\u041c\u043e\u0440\u0435"}, {"mark": 2, "visited_at": 1026702791, "place": "\u041d\u0430\u0431\u0435\u0440\u0435\u0436\u043d\u0430\u044f"}, {"mark": 4, "visited_at": 1034014959, "place": "\u0417\u0434\u0430\u043d\u0438\u0435"}, {"mark": 1, "visited_at": 1046211470, "place": "\u0417\u0430\u0431\u043e\u0440"}, {"mark": 4, "visited_at": 1060259701, "place": "\u0410\u044d\u0440\u043e\u043f\u043e\u0440\u0442"}, {"mark": 3, "visited_at": 1124660998, "place": "\u041f\u0435\u0440\u0435\u0443\u043b\u043e\u043a"}, {"mark": 1, "visited_at": 1127805086, "place": "\u0421\u043a\u0430\u043b\u0430"}, {"mark": 4, "visited_at": 1160179411, "place": "\u0414\u0430\u0447\u0430"}, {"mark": 4, "visited_at": 1292808223, "place": "\u0420\u0443\u0447\u0435\u0439"}, {"mark": 1, "visited_at": 1375942425, "place": "\u0421\u0442\u0430\u0442\u0443\u044f"}, {"mark": 1, "visited_at": 1395452538, "place": "\u041e\u0444\u0438\u0441"}, {"mark": 2, "visited_at": 1412287761, "place": "\u0423\u043b\u043e\u0447\u043a\u0430"}]}
+GET	/users/229	200	{"first_name": "\u0421\u0442\u0435\u043f\u0430\u043d", "last_name": "\u041a\u043e\u043b\u0430\u0442\u043e\u0442\u0435\u0432", "gender": "m", "email": "nadyicduogtogvano@list.me", "birth_date": 870393600, "id": 229}
+GET	/users/664	200	{"first_name": "\u041a\u0430\u0440\u0438\u043d\u0430", "last_name": "\u0425\u043e\u043f\u0435\u0442\u0430\u0441\u044f\u043d", "gender": "f", "email": "hedotorvarel@rambler.com", "birth_date": 110678400, "id": 664}
+GET	/users/bad	404
+GET	/users/160	200	{"first_name": "\u0413\u0440\u0438\u0433\u043e\u0440\u0438\u0439", "last_name": "\u0421\u0442\u0430\u043c\u0435\u0442\u0430\u0442\u0438\u043d", "gender": "m", "email": "arciivhorisytun@list.me", "birth_date": -813628800, "id": 160}
+GET	/visits/12563	404
+GET	/users/811	200	{"first_name": "\u0415\u043b\u0435\u043d\u0430", "last_name": "\u041f\u0435\u043d\u043b\u0435\u043d\u0447\u0430\u043d", "gender": "f", "email": "ebattudehiw@me.com", "birth_date": -86745600, "id": 811}
+GET	/users/bad	404
+GET	/users/17	200	{"first_name": "\u0423\u043b\u044c\u044f\u043d\u0430", "last_name": "\u041a\u043e\u043b\u0430\u0448\u0435\u043b\u043e\u0432\u0430", "gender": "f", "email": "nanlyadatetkani@mail.ru", "birth_date": -988156800, "id": 17}
+GET	/locations/663	200	{"distance": 14, "city": "\u041a\u0440\u0430\u0441\u043d\u043e\u0448\u0442\u0430\u0434\u0442", "country": "\u0413\u0440\u0435\u0446\u0438\u044f", "place": "\u041d\u0430\u0431\u0435\u0440\u0435\u0436\u043d\u0430\u044f", "id": 663}
+GET	/users/1026/visits	200	{"visits": []}
+GET	/users/296/visits?toDate=1513900800&country=%D0%9C%D0%BE%D0%BD%D0%B3%D0%BE%D0%BB%D0%B8%D1%8F	200	{"visits": []}
+GET	/locations/384	200	{"distance": 61, "city": "\u041c\u0443\u0440\u0431\u0438\u0440\u0441\u043a", "country": "\u0424\u0438\u043d\u043b\u044f\u043d\u0434\u0438\u044f", "place": "\u041c\u043e\u0441\u0442", "id": 384}
+GET	/locations/435/avg?gender=m&fromAge=7	200	{"avg": 3.0}
+GET	/users/590	200	{"first_name": "\u041a\u0441\u0435\u043d\u0438\u044f", "last_name": "\u041b\u0435\u0431\u0443\u0448\u0443\u0447\u0430\u043d", "gender": "f", "email": "escarsiry@icloud.com", "birth_date": -701222400, "id": 590}
+GET	/users/973	200	{"first_name": "\u041e\u043b\u0435\u0433", "last_name": "\u041b\u0443\u043a\u0430\u0448\u0435\u0442\u0435\u0432", "gender": "m", "email": "wonintirutlor@mail.ru", "birth_date": -476064000, "id": 973}
+GET	/users/751	200	{"first_name": "\u0412\u0435\u0440\u0430", "last_name": "\u0414\u0430\u043d\u0430\u0448\u0435\u043d\u0430\u044f", "gender": "f", "email": "tentomra@icloud.com", "birth_date": -653702400, "id": 751}
+GET	/users/408	200	{"first_name": "\u041e\u043b\u0435\u0433", "last_name": "\u0414\u0430\u043d\u0443\u0448\u0443\u0442\u0438\u043d", "gender": "m", "email": "ihtumoterelsoswahte@gmail.com", "birth_date": -924825600, "id": 408}
+GET	/locations/459	200	{"distance": 73, "city": "\u0411\u0435\u043b\u043e\u043c\u0441\u043a", "country": "\u0424\u0438\u0434\u0436\u0438", "place": "\u0421\u0435\u0440\u043f\u0430\u043d\u0442\u0438\u043d", "id": 459}
+GET	/users/39	200	{"first_name": "\u0422\u0430\u0442\u044c\u044f\u043d\u0430", "last_name": "\u041a\u043e\u043b\u043b\u0435\u043d\u0442\u0438\u043d\u0430", "gender": "f", "email": "iwutmonvincaedoh@mail.ru", "birth_date": 77932800, "id": 39}
+GET	/locations/410	200	{"distance": 84, "city": "\u041d\u043e\u0432\u043e\u0434\u043e\u0440\u0444", "country": "\u0414\u0430\u043d\u0438\u044f", "place": "\u0424\u043e\u043d\u0442\u0430\u043d", "id": 410}
+GET	/locations/408	200	{"distance": 83, "city": "\u0420\u043e\u0441\u0441\u0438\u043d\u043a\u0438", "country": "\u0411\u0440\u0443\u043d\u0435\u0439", "place": "\u0421\u043a\u043b\u043e\u043d", "id": 408}
+GET	/users/973/visits?country=%D0%A7%D0%B8%D0%BB%D0%B8	200	{"visits": []}
+GET	/users/55/visits?toDistance=74&country=%D0%98%D0%BD%D0%B4%D0%B8%D1%8F&fromDate=1538697600	200	{"visits": []}
+GET	/locations/528	200	{"distance": 18, "city": "\u041b\u0435\u0441\u043e\u0441\u0438\u043d\u043a\u0438", "country": "\u0420\u0443\u043c\u044b\u043d\u0438\u044f", "place": "\u0423\u043b\u043e\u0447\u043a\u0430", "id": 528}
+GET	/users/156	200	{"first_name": "\u0410\u043d\u0436\u0435\u043b\u0438\u043a\u0430", "last_name": "\u041a\u043e\u043b\u0443\u0448\u0443\u043b\u043e\u0432\u0430", "gender": "f", "email": "todenevec@ya.ru", "birth_date": -108691200, "id": 156}
+GET	/users/181	200	{"first_name": "\u0414\u0435\u043d\u0438\u0441", "last_name": "\u0422\u0435\u0440\u043b\u0435\u043d\u0432\u0435\u043d", "gender": "m", "email": "otyctottahkirfehpege@mail.ru", "birth_date": -1164585600, "id": 181}
+GET	/visits/9833	200	{"mark": 3, "visited_at": 1185380241, "user": 11, "id": 9833, "location": 126}
+GET	/locations/703	200	{"distance": 52, "city": "\u0411\u0435\u043b\u0438\u043d\u0441\u043a", "country": "\u041b\u0430\u043e\u0441", "place": "\u041f\u0435\u0440\u0435\u0443\u043b\u043e\u043a", "id": 703}
+GET	/locations/699/avg?gender=f&fromAge=21	200	{"avg": 2.33333}
+GET	/users/45/visits?toDistance=22&toDate=1242000000	200	{"visits": [{"mark": 3, "visited_at": 1000993104, "place": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c"}, {"mark": 4, "visited_at": 1004868143, "place": "\u041f\u0440\u0438\u0441\u0442\u0430\u043d\u044c"}, {"mark": 3, "visited_at": 1090127942, "place": "\u0420\u0443\u0447\u0435\u0439"}]}
+GET	/users/4	200	{"first_name": "\u041d\u0435\u043b\u043b\u0438", "last_name": "\u041b\u0443\u043a\u0443\u0448\u0443\u0442\u0435\u0432\u0430", "gender": "f", "email": "titofleomeltegednat@list.me", "birth_date": 413683200, "id": 4}
+GET	/users/692	200	{"first_name": "\u041a\u0438\u0440\u0430", "last_name": "\u041f\u0435\u043d\u044b\u043a\u0430\u0432\u0438\u0447", "gender": "f", "email": "etdimehotsontyir@inbox.ru", "birth_date": 820800000, "id": 692}
+GET	/visits/5359	200	{"mark": 2, "visited_at": 998642632, "user": 558, "id": 5359, "location": 347}
+GET	/visits/2088	200	{"mark": 2, "visited_at": 1211550209, "user": 41, "id": 2088, "location": 88}
+GET	/locations/653	200	{"distance": 50, "city": "\u0420\u043e\u0442\u0442\u0435\u0440\u0434\u043e\u0440\u0444", "country": "\u041c\u0430\u0432\u0440\u0438\u043a\u0438\u0439", "place": "\u041e\u0444\u0438\u0441", "id": 653}
+GET	/users/1024	200	{"first_name": "\u0415\u043b\u0438\u0437\u0430\u0432\u0435\u0442\u0430", "last_name": "\u0425\u043e\u043f\u0430\u0442\u043e\u0447\u0430\u043d", "gender": "f", "email": "lyrenewhenne@inbox.ru", "birth_date": 551750400, "id": 1024}
+GET	/locations/837	200	{"distance": 29, "city": "\u041a\u0440\u0430\u0441\u043d\u043e\u0430\u043d\u0441\u043a", "country": "\u0418\u0441\u043b\u0430\u043d\u0434\u0438\u044f", "place": "\u0421\u043a\u0430\u043b\u0430", "id": 837}
+GET	/users/336	200	{"first_name": "\u041f\u0451\u0442\u0440", "last_name": "\u041b\u0435\u0431\u0443\u0448\u0443\u0447\u0430\u043d", "gender": "m", "email": "egtirew@list.me", "birth_date": 580867200, "id": 336}
+GET	/visits/1628	200	{"mark": 2, "visited_at": 1093336188, "user": 154, "id": 1628, "location": 156}
+GET	/users/870/visits	200	{"visits": [{"mark": 4, "visited_at": 1037561036, "place": "\u0417\u0430\u043c\u043e\u043a"}, {"mark": 4, "visited_at": 1222696349, "place": "\u041b\u0435\u0441"}, {"mark": 4, "visited_at": 1366348042, "place": "\u041f\u0440\u0438\u0441\u0442\u0430\u043d\u044c"}]}
+GET	/users/744/visits	200	{"visits": [{"mark": 1, "visited_at": 1045939284, "place": "\u0414\u0435\u0440\u0435\u0432\u043e"}, {"mark": 3, "visited_at": 1251471874, "place": "\u0423\u043b\u0438\u0446\u0430"}]}
+GET	/users/989	200	{"first_name": "\u0410\u043d\u0442\u043e\u043d", "last_name": "\u0421\u0442\u044b\u043a\u0430\u0448\u0435\u043b\u0430\u043d", "gender": "m", "email": "wufnaasnew@list.me", "birth_date": -630288000, "id": 989}
+GET	/visits/8360	200	{"mark": 3, "visited_at": 1159770629, "user": 206, "id": 8360, "location": 68}
+GET	/locations/559	200	{"distance": 7, "city": "\u0420\u043e\u0441\u043b\u0430\u043c\u0441\u043a", "country": "\u0428\u0432\u0435\u0439\u0446\u0430\u0440\u0438\u044f", "place": "\u0421\u0435\u0440\u043f\u0430\u043d\u0442\u0438\u043d", "id": 559}
+GET	/users/435	200	{"first_name": "\u0411\u043e\u0440\u0438\u0441\u043b\u0430\u0432", "last_name": "\u041a\u043b\u0435\u0440\u0430\u0448\u0435\u0432\u0435\u043d", "gender": "m", "email": "retaeltesbifhori@icloud.com", "birth_date": 8640000, "id": 435}
+GET	/users/540/visits?toDistance=40&fromDate=852249600	200	{"visits": [{"mark": 2, "visited_at": 1032053446, "place": "\u0424\u043e\u043d\u0430\u0440\u044c"}]}
+GET	/users/950/visits?toDistance=6&country=%D0%9B%D0%B8%D1%82%D0%B2%D0%B0	200	{"visits": []}
+GET	/locations/30	200	{"distance": 84, "city": "\u0420\u043e\u0441\u0435\u043b\u043e\u043d\u0430", "country": "\u042f\u043f\u043e\u043d\u0438\u044f", "place": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c", "id": 30}
+GET	/visits/8345	200	{"mark": 4, "visited_at": 1237374581, "user": 75, "id": 8345, "location": 211}
+GET	/locations/559	200	{"distance": 7, "city": "\u0420\u043e\u0441\u043b\u0430\u043c\u0441\u043a", "country": "\u0428\u0432\u0435\u0439\u0446\u0430\u0440\u0438\u044f", "place": "\u0421\u0435\u0440\u043f\u0430\u043d\u0442\u0438\u043d", "id": 559}
+GET	/users/995	200	{"first_name": "\u0422\u0430\u0442\u044c\u044f\u043d\u0430", "last_name": "\u0421\u0442\u0430\u043c\u0435\u0442\u0430\u0442\u0438\u043d\u0430", "gender": "f", "email": "ceduastodepnen@yahoo.com", "birth_date": 183859200, "id": 995}
+GET	/users/1036/visits?country=%D0%9F%D0%B0%D0%BB%D0%B0%D1%83&fromDate=1099958400	200	{"visits": []}
+GET	/users/1121	404
+GET	/locations/165/avg?fromAge=2	200	{"avg": 2.56}
+GET	/locations/785	200	{"distance": 53, "city": "\u041a\u0440\u043e\u043d\u0434\u043e\u0440\u0444", "country": "\u0418\u043d\u0434\u043e\u043d\u0435\u0437\u0438\u044f", "place": "\u0423\u0441\u0442\u0443\u043f", "id": 785}
+GET	/locations/724	200	{"distance": 18, "city": "\u041b\u0435\u0441\u043e\u0433\u0430\u043c\u0430", "country": "\u041c\u0430\u043b\u0430\u0439\u0437\u0438\u044f", "place": "\u041c\u043e\u0441\u0442", "id": 724}
+GET	/users/731/visits?country=%D0%A7%D0%B8%D0%BB%D0%B8&fromDate=1221609600	200	{"visits": []}
+GET	/users/510	200	{"first_name": "\u041e\u043a\u0441\u0430\u043d\u0430", "last_name": "\u041a\u043b\u0435\u0440\u0435\u0442\u0430\u043a\u0430\u044f", "gender": "f", "email": "xufipanfan@ya.ru", "birth_date": -1216166400, "id": 510}
+GET	/users/bad	404
+GET	/visits/10284	200	{"mark": 1, "visited_at": 1275177015, "user": 100, "id": 10284, "location": 363}
+GET	/users/1207	404
+GET	/users/983	200	{"first_name": "\u041c\u0438\u043b\u0435\u043d\u0430", "last_name": "\u041f\u0435\u043d\u0430\u0448\u0435\u043d\u0430\u044f", "gender": "f", "email": "hohried@mail.ru", "birth_date": 196905600, "id": 983}
+GET	/users/29	200	{"first_name": "\u0418\u043d\u043d\u0430", "last_name": "\u0414\u0430\u043d\u0430\u0442\u043e\u043b\u043e\u0432\u0430", "gender": "f", "email": "apfawberesqel@yahoo.com", "birth_date": -93744000, "id": 29}
+GET	/locations/1264/avg?gender=f	404
+GET	/users/672/visits?country=%D0%9C%D0%B0%D0%B2%D1%80%D0%B8%D0%BA%D0%B8%D0%B9	200	{"visits": []}
+GET	/locations/86	200	{"distance": 73, "city": "\u0411\u0430\u0440\u0441\u0441\u0442\u0430\u043d", "country": "\u0418\u0442\u0430\u043b\u0438\u044f", "place": "\u041f\u0440\u0438\u0441\u0442\u0430\u043d\u044c", "id": 86}
+GET	/visits/4897	200	{"mark": 4, "visited_at": 957581938, "user": 547, "id": 4897, "location": 243}
+GET	/locations/810	200	{"distance": 19, "city": "\u041d\u043e\u0432\u043e\u043e\u0432\u043e", "country": "\u041c\u0430\u043b\u0430\u0439\u0437\u0438\u044f", "place": "\u0424\u043e\u043d\u0442\u0430\u043d", "id": 810}
+GET	/users/964	200	{"first_name": "\u0412\u044f\u0447\u0435\u0441\u043b\u0430\u0432", "last_name": "\u0421\u0442\u0430\u043c\u0430\u0448\u0435\u043b\u043e", "gender": "m", "email": "laosirwo@ya.ru", "birth_date": 12441600, "id": 964}
+GET	/users/bad	404
+GET	/users/bad	404
+GET	/users/68	200	{"first_name": "\u042e\u0440\u0438\u0439", "last_name": "\u0425\u043e\u043f\u0443\u0448\u0443\u043b\u043e", "gender": "m", "email": "doatradoholodvid@inbox.ru", "birth_date": -1259798400, "id": 68}
+GET	/users/534/visits?fromDate=1319587200	200	{"visits": []}
+GET	/users/242/visits?toDistance=31&country=%D0%A4%D0%B8%D0%B4%D0%B6%D0%B8	200	{"visits": []}
+GET	/users/724/visits?toDate=Ro1oNrhEFERQqfVcFP1OX6HIy5ZYxhKC&fromDate=wtwVA0QlaaGxSybAui3sixYHXPqGQroL	400
+GET	/locations/234	200	{"distance": 41, "city": "\u0420\u043e\u0441\u0438\u043d\u0441\u043a", "country": "\u041f\u0430\u0440\u0430\u0433\u0432\u0430\u0439", "place": "\u0413\u0430\u0440\u0430\u0436", "id": 234}
+GET	/locations/815/avg?fromDate=1172880000	200	{"avg": 4.0}
+GET	/users/372	200	{"first_name": "\u041a\u0438\u0440\u0438\u043b\u043b", "last_name": "\u041f\u0435\u043d\u043b\u0435\u043d\u0432\u0438\u0447", "gender": "m", "email": "isharar@icloud.com", "birth_date": -645321600, "id": 372}
+GET	/visits/750	200	{"mark": 4, "visited_at": 1318384903, "user": 59, "id": 750, "location": 22}
+GET	/locations/203	200	{"distance": 98, "city": "\u0420\u043e\u0441\u0431\u0443\u0440\u0433", "country": "\u0410\u0440\u0433\u0435\u043d\u0442\u0438\u043d\u0430", "place": "\u0414\u0435\u0440\u0435\u0432\u043e", "id": 203}
+GET	/locations/550/avg?gender=m&toAge=40&fromAge=29	200	{"avg": 0.0}
+GET	/users/399	200	{"first_name": "\u0414\u0438\u043d\u0430", "last_name": "\u0414\u0430\u043d\u044b\u043a\u0430\u0441\u044f\u043d", "gender": "f", "email": "mettotut@ya.ru", "birth_date": -27734400, "id": 399}
+GET	/users/61/visits?country=%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%B0	200	{"visits": []}
+GET	/users/894/visits?toDistance=99	200	{"visits": [{"mark": 1, "visited_at": 989966829, "place": "\u0414\u0432\u043e\u0440"}, {"mark": 2, "visited_at": 1135994834, "place": "\u0420\u0443\u0447\u0435\u0439"}]}
+GET	/locations/797	200	{"distance": 54, "city": "\u041b\u0438\u0441\u0441\u0430\u0433\u043e\u0440\u043e\u0434", "country": "\u0424\u0440\u0430\u043d\u0446\u0438\u044f", "place": "\u0414\u0430\u0447\u0430", "id": 797}
+GET	/users/856/visits?toDate=1291161600&fromDate=1553558400	200	{"visits": []}
+GET	/users/14	200	{"first_name": "\u0412\u0430\u0434\u0438\u043c", "last_name": "\u041a\u043b\u0435\u0440\u0430\u0448\u0435\u0442\u0438\u043d", "gender": "m", "email": "ecdonihehne@yahoo.com", "birth_date": -1185840000, "id": 14}
+GET	/users/388	200	{"first_name": "\u0415\u0432\u0433\u0435\u043d\u0438\u0439", "last_name": "\u041a\u0438\u0441\u043b\u0435\u043d\u0442\u0438\u043d", "gender": "m", "email": "dirdoxaf@list.me", "birth_date": -47520000, "id": 388}
+GET	/locations/680/avg?toDate=821923200&fromDate=957398400&toAge=70&fromAge=15	200	{"avg": 0.0}
+GET	/locations/448/avg?toDate=1016409600&fromDate=1491609600&gender=f	200	{"avg": 0.0}
+GET	/users/434	200	{"first_name": "\u0412\u044f\u0447\u0435\u0441\u043b\u0430\u0432", "last_name": "\u041a\u043e\u043b\u0435\u0442\u0430\u043f\u043e\u0432", "gender": "m", "email": "surlehfeonal@ya.ru", "birth_date": -1034553600, "id": 434}
+GET	/users/762	200	{"first_name": "\u0411\u043e\u0440\u0438\u0441\u043b\u0430\u0432", "last_name": "\u041a\u043e\u043b\u043e\u043b\u043e\u0442\u0435\u0432", "gender": "m", "email": "rechuitsehnispadomre@mail.ru", "birth_date": -89683200, "id": 762}
+GET	/users/880/visits?toDate=1515888000&fromDate=1035849600	200	{"visits": []}
+GET	/users/1016/visits?toDistance=39&fromDate=1537574400	200	{"visits": []}
+GET	/locations/772	200	{"distance": 30, "city": "\u041d\u043e\u0432\u043e\u0430\u043d\u0441\u043a", "country": "\u0411\u0435\u043b\u043e\u0440\u0443\u0441\u0441\u0438\u044f", "place": "\u041c\u043e\u0441\u0442", "id": 772}
+GET	/users/738/visits?toDate=1251504000	200	{"visits": []}
+GET	/users/314/visits?toDistance=85	200	{"visits": [{"mark": 1, "visited_at": 952472397, "place": "\u0423\u043b\u043e\u0447\u043a\u0430"}, {"mark": 2, "visited_at": 958827640, "place": "\u0413\u043e\u0440\u0430"}, {"mark": 3, "visited_at": 1000107235, "place": "\u041c\u0430\u0433\u0430\u0437\u0438\u043d"}, {"mark": 1, "visited_at": 1002124728, "place": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d"}, {"mark": 3, "visited_at": 1002410978, "place": "\u0414\u0432\u043e\u0440"}, {"mark": 1, "visited_at": 1026586005, "place": "\u041c\u043e\u0440\u0435"}, {"mark": 4, "visited_at": 1039442688, "place": "\u0417\u0430\u0431\u043e\u0440"}, {"mark": 3, "visited_at": 1043759879, "place": "\u041c\u043e\u0440\u0435"}, {"mark": 1, "visited_at": 1079555364, "place": "\u0421\u0442\u0430\u0442\u0443\u044f"}, {"mark": 1, "visited_at": 1140183076, "place": "\u041c\u043e\u0441\u0442"}, {"mark": 2, "visited_at": 1191097958, "place": "\u0414\u043e\u043c"}, {"mark": 1, "visited_at": 1198493784, "place": "\u0420\u0443\u0447\u0435\u0439"}, {"mark": 2, "visited_at": 1213067163, "place": "\u0414\u043e\u0440\u043e\u0436\u043a\u0430"}, {"mark": 2, "visited_at": 1259022530, "place": "\u0424\u043e\u043d\u0442\u0430\u043d"}, {"mark": 2, "visited_at": 1265351416, "place": "\u041c\u043e\u0441\u0442"}, {"mark": 4, "visited_at": 1348686722, "place": "\u0424\u043e\u043d\u0430\u0440\u044c"}, {"mark": 1, "visited_at": 1377159877, "place": "\u041f\u0440\u0438\u0441\u0442\u0430\u043d\u044c"}]}
+GET	/locations/1511	404
+GET	/users/284/visits?toDistance=51&toDate=1150156800&fromDate=813542400	200	{"visits": [{"mark": 1, "visited_at": 957008483, "place": "\u0424\u043e\u043d\u0442\u0430\u043d"}, {"mark": 1, "visited_at": 1007836635, "place": "\u0414\u043e\u0440\u043e\u0436\u043a\u0430"}, {"mark": 2, "visited_at": 1136039976, "place": "\u041c\u0430\u0433\u0430\u0437\u0438\u043d"}]}
+GET	/users/1281/visits?toDistance=28&toDate=1273536000&country=%D0%9C%D0%B0%D0%BB%D0%B0%D0%B9%D0%B7%D0%B8%D1%8F	404
+GET	/users/720/visits?toDistance=28	200	{"visits": []}
+GET	/locations/342	200	{"distance": 18, "city": "\u0417\u0435\u043b\u0435\u043d\u043e\u0433\u0440\u0430\u0434", "country": "\u0423\u043a\u0440\u0430\u0438\u043d\u0430", "place": "\u0414\u0432\u043e\u0440", "id": 342}
+GET	/users/bad	404
+GET	/users/283	200	{"first_name": "\u041a\u0441\u0435\u043d\u0438\u044f", "last_name": "\u041a\u043e\u043b\u0443\u0448\u0443\u0442\u0435\u0432\u0430", "gender": "f", "email": "donebyfty@rambler.com", "birth_date": -1084492800, "id": 283}
+GET	/users/707/visits?toDistance=62&toDate=962150400&fromDate=1372636800	200	{"visits": []}
+GET	/users/bad	404
+GET	/locations/662/avg?toDate=1137628800&fromAge=6&gender=f	200	{"avg": 0.0}
+GET	/users/203	200	{"first_name": "\u041c\u0430\u0440\u0438\u044f", "last_name": "\u041f\u0435\u043d\u043b\u0435\u043d\u0442\u0435\u0432\u0430", "gender": "f", "email": "hekesso@yahoo.com", "birth_date": -170812800, "id": 203}
+GET	/locations/311/avg?gender=f&toAge=47&fromAge=30	200	{"avg": 0.0}
+GET	/users/bad	404
+GET	/users/51/visits?toDate=1233878400&country=%D0%95%D0%B3%D0%B8%D0%BF%D0%B5%D1%82	200	{"visits": [{"mark": 1, "visited_at": 1044154380, "place": "\u0423\u043b\u0438\u0446\u0430"}]}
+GET	/users/bad	404
+GET	/locations/769	200	{"distance": 18, "city": "\u0411\u0430\u0440\u0441\u0434\u043e\u0440\u0444", "country": "\u041c\u0430\u043b\u0430\u0439\u0437\u0438\u044f", "place": "\u0420\u0443\u0447\u0435\u0439", "id": 769}
+GET	/visits/131	200	{"mark": 3, "visited_at": 1337092272, "user": 50, "id": 131, "location": 66}
+GET	/users/bad	404
+GET	/users/bad	404
+GET	/locations/1364	404
+GET	/users/149	200	{"first_name": "\u0418\u043d\u0435\u0441\u0441\u0430", "last_name": "\u0424\u0435\u0442\u043e\u043b\u043e\u0432\u0438\u0447", "gender": "f", "email": "radarolla@icloud.com", "birth_date": 249868800, "id": 149}
+GET	/users/313	200	{"first_name": "\u041e\u043a\u0441\u0430\u043d\u0430", "last_name": "\u0414\u0430\u043d\u0443\u0448\u0443\u0447\u0430\u043d", "gender": "f", "email": "decuusno@gmail.com", "birth_date": 444614400, "id": 313}
+GET	/users/777/visits?country=%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F	200	{"visits": []}
+GET	/visits/2577	200	{"mark": 3, "visited_at": 1146372352, "user": 332, "id": 2577, "location": 20}
+GET	/users/332/visits	200	{"visits": [{"mark": 2, "visited_at": 994211827, "place": "\u0413\u0430\u0440\u0430\u0436"}, {"mark": 3, "visited_at": 1136756700, "place": "\u041c\u043e\u0440\u0435"}, {"mark": 3, "visited_at": 1146372352, "place": "\u0420\u0430\u0442\u0443\u0448\u0430"}, {"mark": 1, "visited_at": 1264225969, "place": "\u0420\u0435\u0447\u043a\u0430"}, {"mark": 1, "visited_at": 1331662645, "place": "\u0423\u043b\u0438\u0446\u0430"}, {"mark": 4, "visited_at": 1339571639, "place": "\u0421\u043a\u0430\u043b\u0430"}]}
+GET	/visits/1257	200	{"mark": 4, "visited_at": 1244090027, "user": 236, "id": 1257, "location": 161}
+GET	/users/bad	404
+GET	/users/1524/visits?toDistance=93	404
+GET	/locations/1343/avg	404
+GET	/visits/8517	200	{"mark": 2, "visited_at": 1032436304, "user": 457, "id": 8517, "location": 345}
+GET	/users/858/visits?fromDate=1478563200	200	{"visits": []}
+GET	/users/923	200	{"first_name": "\u041f\u0430\u0432\u0435\u043b", "last_name": "\u041a\u0438\u0441\u0430\u0442\u043e\u043d\u044b\u0439", "gender": "m", "email": "dyutbolbide@ya.ru", "birth_date": 581731200, "id": 923}
+GET	/users/552	200	{"first_name": "\u0410\u0440\u043a\u0430\u0434\u0438\u0439", "last_name": "\u0421\u0442\u044b\u043a\u0430\u0448\u0435\u043b\u0430\u043d", "gender": "m", "email": "asulmohecemorra@me.com", "birth_date": 502675200, "id": 552}
+GET	/locations/403/avg	200	{"avg": 2.11111}
+GET	/users/bad	404
+GET	/users/521	200	{"first_name": "\u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0438\u044f", "last_name": "\u0421\u0442\u0430\u043c\u043e\u043b\u043e\u0432\u0438\u0447", "gender": "f", "email": "esotemhoebnomot@inbox.ru", "birth_date": 742003200, "id": 521}
+GET	/locations/115/avg	200	{"avg": 2.36}
+GET	/locations/795	200	{"distance": 37, "city": "\u041a\u0440\u0430\u0441\u043d\u043e\u0434\u0430\u043c", "country": "\u041d\u0438\u0434\u0435\u0440\u043b\u0430\u043d\u0434\u044b", "place": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d", "id": 795}
+GET	/locations/749/avg?gender=m&fromAge=18	200	{"avg": 2.33333}
+GET	/visits/7890	200	{"mark": 1, "visited_at": 1201297067, "user": 134, "id": 7890, "location": 51}
+GET	/locations/557/avg?toDate=1030233600	200	{"avg": 2.0}
+GET	/users/69/visits?toDistance=72&country=%D0%9B%D0%B8%D1%82%D0%B2%D0%B0	200	{"visits": []}
+GET	/visits/2348	200	{"mark": 4, "visited_at": 1410749062, "user": 188, "id": 2348, "location": 159}
+GET	/users/313/visits?toDate=1290643200	200	{"visits": [{"mark": 3, "visited_at": 953889328, "place": "\u0421\u0442\u0430\u0442\u0443\u044f"}, {"mark": 2, "visited_at": 954122592, "place": "\u0414\u043e\u0440\u043e\u0436\u043a\u0430"}, {"mark": 4, "visited_at": 984042570, "place": "\u0413\u043e\u0440\u0430"}, {"mark": 2, "visited_at": 1004928301, "place": "\u041c\u043e\u0441\u0442"}, {"mark": 3, "visited_at": 1041492742, "place": "\u0413\u043e\u0440\u0430"}, {"mark": 1, "visited_at": 1044117922, "place": "\u041f\u0430\u0440\u043a"}, {"mark": 1, "visited_at": 1087578203, "place": "\u0424\u043e\u043d\u0430\u0440\u044c"}, {"mark": 3, "visited_at": 1091944854, "place": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d"}, {"mark": 2, "visited_at": 1121183409, "place": "\u041b\u0435\u0441"}, {"mark": 3, "visited_at": 1121871300, "place": "\u041f\u0435\u0440\u0435\u0443\u043b\u043e\u043a"}, {"mark": 2, "visited_at": 1145837655, "place": "\u041e\u0437\u0435\u0440\u043e"}, {"mark": 4, "visited_at": 1217673892, "place": "\u041c\u0430\u0433\u0430\u0437\u0438\u043d"}, {"mark": 3, "visited_at": 1256431369, "place": "\u041c\u043e\u0433\u0438\u043b\u0430"}]}
+GET	/locations/701	200	{"distance": 92, "city": "\u0411\u0435\u043b\u043b\u0430\u043c\u0441\u043a", "country": "\u0418\u0442\u0430\u043b\u0438\u044f", "place": "\u0414\u0432\u043e\u0440", "id": 701}
+GET	/users/634	200	{"first_name": "\u0418\u0440\u0438\u043d\u0430", "last_name": "\u0422\u0435\u0440\u0443\u0448\u0443\u0438\u043d\u0430", "gender": "f", "email": "mogrolheirsisicojtet@me.com", "birth_date": -1108166400, "id": 634}
+GET	/locations/515	200	{"distance": 76, "city": "\u041a\u0440\u043e\u043d\u0433\u0430\u043c\u0430", "country": "\u041d\u043e\u0432\u0430\u044f \u0437\u0435\u043b\u0430\u043d\u0434\u0438\u044f", "place": "\u0417\u0430\u0431\u043e\u0440", "id": 515}
+GET	/visits/9949	200	{"mark": 4, "visited_at": 1039146166, "user": 18, "id": 9949, "location": 76}
+GET	/visits/6018	200	{"mark": 3, "visited_at": 1360975429, "user": 552, "id": 6018, "location": 456}
+GET	/locations/491	200	{"distance": 18, "city": "\u041c\u043e\u0441\u044f\u0440\u0441\u043a", "country": "\u0422\u0430\u0438\u043b\u0430\u043d\u0434", "place": "\u0414\u0432\u043e\u0440", "id": 491}
+GET	/users/120	200	{"first_name": "\u0412\u0438\u043a\u0442\u043e\u0440", "last_name": "\u041a\u043b\u0435\u0440\u043e\u043b\u043e\u043b\u043e", "gender": "m", "email": "mymatit@list.me", "birth_date": -760060800, "id": 120}
+GET	/locations/199	200	{"distance": 18, "city": "\u0412\u0430\u0440\u0441\u0438\u043d\u043a\u0438", "country": "\u041b\u0430\u043e\u0441", "place": "\u0424\u043e\u043d\u0430\u0440\u044c", "id": 199}
+GET	/users/bad	404
+GET	/locations/579	200	{"distance": 95, "city": "\u041b\u0438\u0441\u0441\u0430\u0440\u0438\u0436", "country": "\u0423\u043a\u0440\u0430\u0438\u043d\u0430", "place": "\u041c\u0430\u0433\u0430\u0437\u0438\u043d", "id": 579}
+GET	/users/235	200	{"first_name": "\u041d\u0438\u043a\u043e\u043b\u0430\u0439", "last_name": "\u0421\u0442\u0430\u043c\u0435\u0442\u0430\u043f\u043e\u0432", "gender": "m", "email": "seresmemattotad@ya.ru", "birth_date": 620006400, "id": 235}
+GET	/users/655	200	{"first_name": "\u041f\u043e\u043b\u0438\u043d\u0430", "last_name": "\u041f\u0435\u043d\u0443\u0448\u0443\u0432\u0438\u0447", "gender": "f", "email": "raitulsavibhoceh@gmail.com", "birth_date": -155779200, "id": 655}
+GET	/locations/775	200	{"distance": 82, "city": "\u0410\u043c\u0441\u0442\u0435\u0440\u044f\u0440\u0441\u043a", "country": "\u0418\u0442\u0430\u043b\u0438\u044f", "place": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d", "id": 775}
+GET	/locations/629/avg	200	{"avg": 2.66667}
+GET	/locations/462	200	{"distance": 50, "city": "\u041c\u043e\u0441\u0430\u043d\u0441\u043a", "country": "\u041c\u0435\u043a\u0441\u0438\u043a\u0430", "place": "\u041c\u043e\u0441\u0442", "id": 462}
+GET	/users/636	200	{"first_name": "\u0413\u0435\u043d\u043d\u0430\u0434\u0438\u0439", "last_name": "\u0425\u043e\u043f\u043b\u0435\u043d\u0442\u0435\u0432", "gender": "m", "email": "aphealiqluner@yahoo.com", "birth_date": 742780800, "id": 636}
+GET	/users/20	200	{"first_name": "\u0414\u0430\u043c\u0438\u0440", "last_name": "\u041a\u043e\u043b\u0435\u0442\u0430\u043f\u043e\u0432", "gender": "m", "email": "neitsiseg@ya.ru", "birth_date": -1055548800, "id": 20}
+GET	/users/bad	404
+GET	/locations/740	200	{"distance": 78, "city": "\u041d\u044c\u044e\u0430\u043d\u0441\u043a", "country": "\u041a\u0438\u0442\u0430\u0439", "place": "\u041c\u043e\u0440\u0435", "id": 740}
+GET	/visits/7207	200	{"mark": 3, "visited_at": 971690023, "user": 653, "id": 7207, "location": 479}
+GET	/users/bad	404
+GET	/locations/503	200	{"distance": 6, "city": "\u041d\u043e\u0432\u043e\u0431\u0438\u0440\u0441\u043a", "country": "\u041a\u0430\u043d\u0430\u0434\u0430", "place": "\u041f\u043e\u043c\u0435\u0441\u0442\u044c\u0435", "id": 503}
+GET	/locations/364/avg?toDate=847152000&fromDate=907459200	200	{"avg": 0.0}
+GET	/users/72	200	{"first_name": "\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440", "last_name": "\u041a\u0438\u0441\u0435\u0442\u0430\u043b\u0430\u043d", "gender": "m", "email": "ursevtew@gmail.com", "birth_date": 436320000, "id": 72}
+GET	/locations/51	200	{"distance": 8, "city": "\u041d\u043e\u0432\u043e\u0433\u0440\u0430\u0434", "country": "\u0423\u043a\u0440\u0430\u0438\u043d\u0430", "place": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c", "id": 51}
+GET	/visits/20833	404
+GET	/users/bad	404
+GET	/locations/90/avg	200	{"avg": 2.54054}
+GET	/users/52/visits?toDate=1111968000&fromDate=1092873600	200	{"visits": []}
+GET	/locations/301	200	{"distance": 44, "city": "\u041a\u0440\u0430\u0441\u043d\u043e\u043b\u0430\u043c\u0441\u043a", "country": "\u0420\u043e\u0441\u0441\u0438\u044f", "place": "\u0414\u0430\u0447\u0430", "id": 301}
+GET	/users/334	200	{"first_name": "\u0412\u044f\u0447\u0435\u0441\u043b\u0430\u0432", "last_name": "\u0421\u0442\u044b\u043a\u0430\u0442\u043e\u0442\u0438\u043d", "gender": "m", "email": "otpaprehdinxe@mail.ru", "birth_date": -304387200, "id": 334}
+GET	/visits/139	200	{"mark": 2, "visited_at": 1352486530, "user": 44, "id": 139, "location": 98}
+GET	/locations/502/avg	200	{"avg": 3.25}
+GET	/users/213/visits?toDate=1374451200&fromDate=1472256000	200	{"visits": []}
+GET	/locations/367	200	{"distance": 9, "city": "\u0410\u043c\u0441\u0442\u0435\u0440\u0433\u0430\u043c\u0430", "country": "\u0411\u0440\u0430\u0437\u0438\u043b\u0438\u044f", "place": "\u0417\u0430\u0431\u043e\u0440", "id": 367}
+GET	/users/829/visits	200	{"visits": [{"mark": 2, "visited_at": 954724965, "place": "\u041f\u0440\u0443\u0434"}, {"mark": 4, "visited_at": 1140592410, "place": "\u0414\u043e\u043c"}, {"mark": 2, "visited_at": 1178295120, "place": "\u0413\u0430\u0440\u0430\u0436"}, {"mark": 2, "visited_at": 1328140533, "place": "\u0417\u0430\u0431\u043e\u0440"}]}
+GET	/locations/294	200	{"distance": 45, "city": "\u0417\u0435\u043b\u0435\u043d\u043e\u043a\u0432\u0430", "country": "\u041d\u043e\u0432\u0430\u044f \u0437\u0435\u043b\u0430\u043d\u0434\u0438\u044f", "place": "\u041f\u0440\u0443\u0434", "id": 294}
+GET	/visits/6784	200	{"mark": 1, "visited_at": 1158798777, "user": 123, "id": 6784, "location": 143}
+GET	/locations/194/avg?fromAge=aeeedacaedabaaafeceecefcfccdadee	400
+GET	/locations/132/avg	200	{"avg": 2.66667}
+GET	/visits/4564	200	{"mark": 4, "visited_at": 1281801659, "user": 12, "id": 4564, "location": 117}
+GET	/users/719/visits?toDate=1050624000	200	{"visits": []}
+GET	/visits/1807	200	{"mark": 4, "visited_at": 970410971, "user": 201, "id": 1807, "location": 56}
+GET	/users/266	200	{"first_name": "\u0410\u043d\u0436\u0435\u043b\u0438\u043a\u0430", "last_name": "\u041b\u0443\u043a\u0435\u0442\u0430\u0447\u0430\u043d", "gender": "f", "email": "isromceredsonlota@me.com", "birth_date": 85881600, "id": 266}
+GET	/users/349	200	{"first_name": "\u041a\u0438\u0440\u0430", "last_name": "\u041b\u0443\u043a\u043e\u043b\u043e\u0432\u0438\u0447", "gender": "f", "email": "toenosrepti@rambler.com", "birth_date": -163728000, "id": 349}
+GET	/locations/165	200	{"distance": 58, "city": "\u0420\u043e\u0442\u0442\u0435\u0440\u0434\u0430\u043c", "country": "\u0428\u0432\u0435\u0446\u0438\u044f", "place": "\u041c\u043e\u0441\u0442", "id": 165}
+GET	/locations/610	200	{"distance": 5, "city": "\u041b\u0438\u0441\u0441\u0430\u0430\u0442\u0441\u043a", "country": "\u041d\u0435\u043f\u0430\u043b", "place": "\u0417\u0430\u0431\u043e\u0440", "id": 610}
+GET	/locations/705/avg?toDate=0fReWsIiXyo6rweZoUhqGqcNSQ7knEGL&toAge=ffdffffabeebeecbfdbfaacdbdffbeca&gender=beaabbadecebaddeeccddbdbacdacdba	400
+GET	/users/138/visits?toDistance=83&toDate=1139097600&fromDate=793497600	200	{"visits": [{"mark": 1, "visited_at": 982580397, "place": "\u0417\u0430\u043c\u043e\u043a"}, {"mark": 1, "visited_at": 997263925, "place": "\u0420\u0430\u0442\u0443\u0448\u0430"}, {"mark": 1, "visited_at": 1021667395, "place": "\u0417\u0430\u0431\u043e\u0440"}, {"mark": 1, "visited_at": 1036213109, "place": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d"}, {"mark": 3, "visited_at": 1102476567, "place": "\u041b\u0435\u0441"}, {"mark": 3, "visited_at": 1109948592, "place": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c"}]}
+GET	/users/1137	404
+GET	/visits/6244	200	{"mark": 3, "visited_at": 1128232955, "user": 463, "id": 6244, "location": 173}
+GET	/users/bad	404
+GET	/users/1043	200	{"first_name": "\u0421\u0438\u0434\u043e\u0440", "last_name": "\u0424\u0435\u0442\u0443\u0448\u0443\u043a\u043e", "gender": "m", "email": "reogipedhow@inbox.ru", "birth_date": -78364800, "id": 1043}
+GET	/users/913/visits?toDate=1248048000&fromDate=1087171200	200	{"visits": []}
+GET	/locations/302	200	{"distance": 53, "city": "\u0411\u0430\u0440\u0441\u0434\u0430\u043c", "country": "\u0428\u0432\u0435\u0446\u0438\u044f", "place": "\u041b\u0435\u0441", "id": 302}
+GET	/locations/308	200	{"distance": 49, "city": "\u0421\u0430\u043d\u043a\u0442\u0434\u0430\u043c", "country": "\u041b\u0430\u0442\u0432\u0438\u044f", "place": "\u041c\u043e\u0441\u0442", "id": 308}
+GET	/locations/531	200	{"distance": 90, "city": "\u041a\u0440\u0430\u0441\u043d\u043e\u0430\u043d\u0441\u043a", "country": "\u0418\u0437\u0440\u0430\u0438\u043b\u044c", "place": "\u0413\u0430\u0440\u0430\u0436", "id": 531}
+GET	/locations/2	200	{"distance": 7, "city": "\u0412\u0430\u0440\u043e\u043c\u0441\u043a", "country": "\u041b\u0438\u0442\u0432\u0430", "place": "\u041c\u043e\u0440\u0435", "id": 2}
+GET	/locations/225	200	{"distance": 59, "city": "\u0417\u0435\u043b\u0435\u043d\u043e\u0435\u043b\u043e\u043d\u0430", "country": "\u041a\u0430\u043d\u0430\u0434\u0430", "place": "\u0414\u0432\u043e\u0440", "id": 225}
+GET	/visits/3811	200	{"mark": 1, "visited_at": 1003391885, "user": 282, "id": 3811, "location": 358}
+GET	/locations/836	200	{"distance": 54, "city": "\u0412\u0430\u0440\u0430\u043d\u0441\u043a", "country": "\u041a\u0438\u0442\u0430\u0439", "place": "\u0423\u043b\u0438\u0446\u0430", "id": 836}
+GET	/users/314	200	{"first_name": "\u0412\u0438\u0442\u0430\u043b\u0438\u0439", "last_name": "\u041a\u043b\u0435\u0440\u044b\u043a\u0430\u043b\u0430\u043d", "gender": "m", "email": "istendet@me.com", "birth_date": -621129600, "id": 314}
+GET	/visits/4331	200	{"mark": 2, "visited_at": 1175922312, "user": 187, "id": 4331, "location": 114}
+GET	/locations/141/avg?gender=m&fromDate=859939200&toAge=40&fromAge=8	200	{"avg": 3.2}
+GET	/locations/595	200	{"distance": 12, "city": "\u041b\u0438\u0441\u0441\u0430\u0433\u043e\u0440\u043e\u0434", "country": "\u0413\u0440\u0435\u0446\u0438\u044f", "place": "\u041f\u0435\u0440\u0435\u0443\u043b\u043e\u043a", "id": 595}
+GET	/users/1219	404
+GET	/locations/591	200	{"distance": 34, "city": "\u041b\u0438\u0441\u0441\u0430\u0440\u0438\u0436", "country": "\u041f\u0430\u043a\u0438\u0441\u0442\u0430\u043d", "place": "\u041b\u0435\u0441", "id": 591}
+GET	/users/102	200	{"first_name": "\u0414\u0438\u043d\u0430", "last_name": "\u0424\u0435\u0442\u043b\u0435\u043d\u0442\u0435\u0432\u0430", "gender": "f", "email": "anelfomot@yandex.ru", "birth_date": -430617600, "id": 102}
+GET	/locations/663/avg?toDate=1516924800&toAge=44	200	{"avg": 1.5}
+GET	/locations/152	200	{"distance": 58, "city": "\u041d\u044c\u044e\u0431\u0443\u0440\u0433", "country": "\u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d", "place": "\u0420\u0435\u0447\u043a\u0430", "id": 152}
+GET	/users/459	200	{"first_name": "\u041d\u0438\u043d\u0430", "last_name": "\u041a\u0438\u0441\u0435\u0442\u0430\u043b\u043e\u0432\u0430", "gender": "f", "email": "tomoomohecne@ya.ru", "birth_date": 63936000, "id": 459}
+GET	/visits/6961	200	{"mark": 2, "visited_at": 1015064399, "user": 247, "id": 6961, "location": 79}
+GET	/locations/401/avg	200	{"avg": 2.45455}
+GET	/users/bad	404
+GET	/locations/720	200	{"distance": 92, "city": "\u0420\u043e\u0441\u043a\u0432\u0430", "country": "\u041a\u043e\u0441\u0442\u0430-\u0420\u0438\u043a\u0430", "place": "\u0423\u0441\u0442\u0443\u043f", "id": 720}
+GET	/visits/10082	200	{"mark": 2, "visited_at": 1124995588, "user": 822, "id": 10082, "location": 216}
+GET	/users/687	200	{"first_name": "\u041e\u043a\u0441\u0430\u043d\u0430", "last_name": "\u041b\u0435\u0431\u0443\u0448\u0443\u0447\u0430\u043d", "gender": "f", "email": "lifruwilryh@yandex.ru", "birth_date": 401155200, "id": 687}
+GET	/locations/503/avg	200	{"avg": 2.875}
+GET	/visits/8882	200	{"mark": 4, "visited_at": 1418381056, "user": 759, "id": 8882, "location": 686}
+GET	/locations/114/avg	200	{"avg": 2.21053}
+GET	/users/394/visits?toDistance=33&toDate=1550966400	200	{"visits": [{"mark": 1, "visited_at": 1000611973, "place": "\u041f\u0430\u0440\u043a"}, {"mark": 1, "visited_at": 1053145546, "place": "\u041f\u0435\u0440\u0435\u0443\u043b\u043e\u043a"}, {"mark": 4, "visited_at": 1127214093, "place": "\u041c\u043e\u0440\u0435"}, {"mark": 2, "visited_at": 1282665696, "place": "\u041d\u0430\u0431\u0435\u0440\u0435\u0436\u043d\u0430\u044f"}, {"mark": 1, "visited_at": 1386023686, "place": "\u041f\u043e\u043c\u0435\u0441\u0442\u044c\u0435"}]}
+GET	/locations/836	200	{"distance": 54, "city": "\u0412\u0430\u0440\u0430\u043d\u0441\u043a", "country": "\u041a\u0438\u0442\u0430\u0439", "place": "\u0423\u043b\u0438\u0446\u0430", "id": 836}
+GET	/users/539/visits?country=%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F+%D0%B7%D0%B5%D0%BB%D0%B0%D0%BD%D0%B4%D0%B8%D1%8F	200	{"visits": []}
+GET	/users/629	200	{"first_name": "\u0411\u043e\u0440\u0438\u0441", "last_name": "\u0421\u0442\u044b\u043a\u0430\u0448\u0435\u0447\u0430\u043d", "gender": "m", "email": "uttihoophiispoer@inbox.ru", "birth_date": 373766400, "id": 629}
+GET	/visits/7317	200	{"mark": 4, "visited_at": 1260228492, "user": 815, "id": 7317, "location": 552}
+GET	/visits/5535	200	{"mark": 1, "visited_at": 1378919812, "user": 571, "id": 5535, "location": 59}
+GET	/visits/4256	200	{"mark": 3, "visited_at": 1407864805, "user": 231, "id": 4256, "location": 229}
+GET	/locations/133	200	{"distance": 61, "city": "\u0420\u043e\u0442\u0442\u0435\u0440\u0431\u043e\u043d", "country": "\u0418\u043e\u0440\u0434\u0430\u043d\u0438\u044f", "place": "\u041c\u043e\u0433\u0438\u043b\u0430", "id": 133}
+GET	/locations/550/avg?gender=m&fromAge=7	200	{"avg": 1.66667}
+GET	/users/248/visits?toDate=ugdoW6rIS5yTLXQfZQUGgZdeW8H9dlsK	400
+GET	/users/bad	404
+GET	/visits/4195	200	{"mark": 2, "visited_at": 1152789660, "user": 404, "id": 4195, "location": 54}
+GET	/users/555	200	{"first_name": "\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0430", "last_name": "\u041a\u043b\u0435\u0440\u043b\u0435\u043d\u0441\u044f\u043d", "gender": "f", "email": "ifecnotelnowcywliol@mail.ru", "birth_date": -588988800, "id": 555}
+GET	/users/519	200	{"first_name": "\u0421\u0432\u0435\u0442\u043b\u0430\u043d\u0430", "last_name": "\u041b\u0435\u0431\u043e\u043b\u043e\u043a\u0430\u044f", "gender": "f", "email": "hihvecamwamioh@me.com", "birth_date": 596160000, "id": 519}
+GET	/users/797/visits	200	{"visits": [{"mark": 2, "visited_at": 958311130, "place": "\u041f\u0430\u0440\u043a"}, {"mark": 4, "visited_at": 1038149667, "place": "\u0414\u043e\u043c"}, {"mark": 2, "visited_at": 1274866271, "place": "\u041f\u0430\u0440\u043a"}, {"mark": 2, "visited_at": 1291781531, "place": "\u041f\u0440\u0438\u0441\u0442\u0430\u043d\u044c"}, {"mark": 4, "visited_at": 1336761687, "place": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d"}]}
+GET	/users/744	200	{"first_name": "\u0415\u043b\u0435\u043d\u0430", "last_name": "\u041b\u0435\u0431\u043e\u043b\u043e\u0441\u044f\u043d", "gender": "f", "email": "wosatto@list.me", "birth_date": 219024000, "id": 744}
+GET	/visits/317	200	{"mark": 1, "visited_at": 1361955126, "user": 123, "id": 317, "location": 90}
+GET	/locations/345/avg?toDate=1247702400&gender=f	200	{"avg": 3.0}
+GET	/visits/9052	200	{"mark": 4, "visited_at": 1140566314, "user": 874, "id": 9052, "location": 443}
+GET	/users/499/visits?country=%D0%A8%D1%80%D0%B8-%D0%9B%D0%B0%D0%BD%D0%BA%D0%B0&fromDate=1358812800	200	{"visits": []}
+GET	/locations/50	200	{"distance": 65, "city": "\u041b\u0438\u0441\u0441\u0430\u0448\u0442\u0430\u0434\u0442", "country": "\u0413\u0440\u0435\u0446\u0438\u044f", "place": "\u0413\u0430\u0440\u0430\u0436", "id": 50}
+GET	/locations/452/avg?toAge=46&fromAge=27	200	{"avg": 2.0}
+GET	/users/993	200	{"first_name": "\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440", "last_name": "\u041a\u043b\u0435\u0440\u0435\u0442\u0430\u0432\u0435\u043d", "gender": "m", "email": "tegsidcikatadnedof@mail.ru", "birth_date": -564019200, "id": 993}
+GET	/users/bad	404
+GET	/locations/813	200	{"distance": 20, "city": "\u0412\u0430\u0440\u044f\u0440\u0441\u043a", "country": "\u041c\u043e\u043d\u0433\u043e\u043b\u0438\u044f", "place": "\u0420\u0430\u0442\u0443\u0448\u0430", "id": 813}
+GET	/users/1877/visits?toDate=807840000	404
+GET	/users/681/visits?country=%D0%9B%D0%B0%D0%BE%D1%81	200	{"visits": []}
+GET	/users/108/visits	200	{"visits": [{"mark": 4, "visited_at": 954974674, "place": "\u0421\u0435\u0440\u043f\u0430\u043d\u0442\u0438\u043d"}, {"mark": 1, "visited_at": 997528207, "place": "\u041f\u043e\u043c\u0435\u0441\u0442\u044c\u0435"}, {"mark": 3, "visited_at": 1016840714, "place": "\u0421\u0442\u0430\u0442\u0443\u044f"}, {"mark": 1, "visited_at": 1017187040, "place": "\u0420\u0435\u0447\u043a\u0430"}, {"mark": 3, "visited_at": 1050484800, "place": "\u0417\u0430\u043c\u043e\u043a"}, {"mark": 3, "visited_at": 1051236487, "place": "\u0420\u0430\u0442\u0443\u0448\u0430"}, {"mark": 2, "visited_at": 1059323371, "place": "\u0420\u0430\u0442\u0443\u0448\u0430"}, {"mark": 3, "visited_at": 1072517102, "place": "\u0414\u043e\u043c"}, {"mark": 3, "visited_at": 1073745021, "place": "\u041f\u0440\u0443\u0434"}, {"mark": 1, "visited_at": 1076974694, "place": "\u0417\u0434\u0430\u043d\u0438\u0435"}, {"mark": 1, "visited_at": 1081536769, "place": "\u0417\u0430\u0431\u043e\u0440"}, {"mark": 4, "visited_at": 1116317024, "place": "\u0420\u0430\u0442\u0443\u0448\u0430"}, {"mark": 1, "visited_at": 1128582969, "place": "\u0417\u0434\u0430\u043d\u0438\u0435"}, {"mark": 2, "visited_at": 1158668974, "place": "\u0420\u0430\u0442\u0443\u0448\u0430"}, {"mark": 4, "visited_at": 1173387166, "place": "\u041c\u043e\u0441\u0442"}, {"mark": 3, "visited_at": 1186550572, "place": "\u0413\u0430\u0440\u0430\u0436"}, {"mark": 2, "visited_at": 1189108706, "place": "\u041c\u0430\u0433\u0430\u0437\u0438\u043d"}, {"mark": 4, "visited_at": 1216232714, "place": "\u0421\u043a\u043b\u043e\u043d"}, {"mark": 4, "visited_at": 1240379520, "place": "\u0414\u0435\u0440\u0435\u0432\u043e"}, {"mark": 4, "visited_at": 1250087537, "place": "\u0420\u0443\u0447\u0435\u0439"}, {"mark": 3, "visited_at": 1265073220, "place": "\u0420\u0430\u0442\u0443\u0448\u0430"}, {"mark": 1, "visited_at": 1298732494, "place": "\u041e\u0437\u0435\u0440\u043e"}, {"mark": 2, "visited_at": 1300003815, "place": "\u0413\u043e\u0440\u0430"}, {"mark": 3, "visited_at": 1304235557, "place": "\u041f\u0430\u0440\u043a"}, {"mark": 3, "visited_at": 1311562983, "place": "\u041f\u0440\u0438\u0441\u0442\u0430\u043d\u044c"}, {"mark": 2, "visited_at": 1312755951, "place": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d"}, {"mark": 1, "visited_at": 1349906987, "place": "\u0423\u043b\u0438\u0446\u0430"}, {"mark": 3, "visited_at": 1363900518, "place": "\u0423\u043b\u043e\u0447\u043a\u0430"}, {"mark": 2, "visited_at": 1394775761, "place": "\u0414\u0432\u043e\u0440"}, {"mark": 4, "visited_at": 1402755727, "place": "\u0413\u0430\u0440\u0430\u0436"}, {"mark": 2, "visited_at": 1411313190, "place": "\u0417\u0434\u0430\u043d\u0438\u0435"}]}
+GET	/locations/141/avg	200	{"avg": 2.95}
+GET	/locations/744	200	{"distance": 1, "city": "\u0410\u043c\u0441\u0442\u0435\u0440\u043e\u0432\u043e", "country": "\u0410\u0440\u0433\u0435\u043d\u0442\u0438\u043d\u0430", "place": "\u0413\u043e\u0440\u0430", "id": 744}
+GET	/users/bad	404
+GET	/visits/8114	200	{"mark": 1, "visited_at": 1319327588, "user": 99, "id": 8114, "location": 78}
+GET	/visits/7678	200	{"mark": 3, "visited_at": 1359735394, "user": 82, "id": 7678, "location": 680}
+GET	/locations/245	200	{"distance": 67, "city": "\u0420\u043e\u0442\u0442\u0435\u0440\u0434\u0430\u043c", "country": "\u0421\u0435\u0439\u0448\u0435\u043b\u044b", "place": "\u0413\u043e\u0440\u0430", "id": 245}
+GET	/users/702	200	{"first_name": "\u0418\u043d\u043d\u0430", "last_name": "\u041f\u0435\u043d\u043e\u043b\u043e\u043a\u043e", "gender": "f", "email": "rilhitsaepalonigot@me.com", "birth_date": 423964800, "id": 702}
+GET	/users/866	200	{"first_name": "\u041a\u0441\u0435\u043d\u0438\u044f", "last_name": "\u0425\u043e\u043f\u043e\u043b\u043e\u0442\u0438\u043d\u0430", "gender": "f", "email": "oshicorsatrumofabyd@yahoo.com", "birth_date": -1223942400, "id": 866}
+GET	/users/944/visits?country=%D0%A1%D0%A8%D0%90	200	{"visits": []}
+GET	/users/967	200	{"first_name": "\u0410\u0440\u0442\u0451\u043c", "last_name": "\u041a\u043b\u0435\u0440\u043e\u043b\u043e\u043a\u043e", "gender": "m", "email": "waepsa@list.me", "birth_date": -472089600, "id": 967}
+GET	/users/861	200	{"first_name": "\u0420\u043e\u043c\u0430\u043d", "last_name": "\u0424\u0430\u043b\u0435\u043d\u043d\u044b\u0439", "gender": "m", "email": "itdeefpondowro@rambler.com", "birth_date": -84326400, "id": 861}
+GET	/visits/7726	200	{"mark": 2, "visited_at": 1379587365, "user": 443, "id": 7726, "location": 445}
+GET	/users/bad	404
+GET	/locations/180	200	{"distance": 19, "city": "\u041c\u0443\u0440\u0448\u0442\u0430\u0434\u0442", "country": "\u0424\u0438\u043d\u043b\u044f\u043d\u0434\u0438\u044f", "place": "\u0421\u0435\u0440\u043f\u0430\u043d\u0442\u0438\u043d", "id": 180}
+GET	/visits/650	200	{"mark": 2, "visited_at": 1388760213, "user": 63, "id": 650, "location": 31}
+GET	/users/865	200	{"first_name": "\u0421\u043e\u0444\u044c\u044f", "last_name": "\u041a\u0438\u0441\u0435\u0442\u0430\u0442\u0438\u043d\u0430", "gender": "f", "email": "fasrutentor@gmail.com", "birth_date": 343785600, "id": 865}
+GET	/locations/633	200	{"distance": 74, "city": "\u041c\u0443\u0440\u043e\u0432\u043e", "country": "\u0418\u043d\u0434\u043e\u043d\u0435\u0437\u0438\u044f", "place": "\u0413\u043e\u0440\u0430", "id": 633}
+GET	/visits/10295	200	{"mark": 2, "visited_at": 1174812680, "user": 430, "id": 10295, "location": 736}
+GET	/visits/2893	200	{"mark": 3, "visited_at": 1122199329, "user": 96, "id": 2893, "location": 113}
+GET	/locations/497	200	{"distance": 50, "city": "\u041b\u0438\u0441\u0441\u0430\u043e\u0432\u0441\u043a", "country": "\u041a\u0438\u0442\u0430\u0439", "place": "\u0424\u043e\u043d\u0442\u0430\u043d", "id": 497}
+GET	/users/bad	404
+GET	/users/925	200	{"first_name": "\u041d\u0435\u043b\u043b\u0438", "last_name": "\u0414\u0430\u043d\u0443\u0448\u0443\u043b\u043e\u0432\u0430", "gender": "f", "email": "tatohronynonhelar@me.com", "birth_date": -628128000, "id": 925}
+GET	/visits/3825	200	{"mark": 1, "visited_at": 992613867, "user": 374, "id": 3825, "location": 187}
+GET	/users/252	200	{"first_name": "\u0414\u0430\u043d\u0438\u0438\u043b", "last_name": "\u041b\u0443\u043a\u044b\u043a\u0430\u043a\u0438\u0439", "gender": "m", "email": "hapoatsacifwonoer@icloud.com", "birth_date": 702000000, "id": 252}
+GET	/locations/478/avg?toDate=885168000&fromAge=27	200	{"avg": 0.0}
+GET	/visits/4743	200	{"mark": 3, "visited_at": 1107535647, "user": 381, "id": 4743, "location": 61}
+GET	/users/208/visits?fromDate=1075852800	200	{"visits": [{"mark": 1, "visited_at": 1078550703, "place": "\u0417\u0430\u0431\u043e\u0440"}, {"mark": 2, "visited_at": 1169691024, "place": "\u0414\u0435\u0440\u0435\u0432\u043e"}, {"mark": 4, "visited_at": 1186328955, "place": "\u041f\u0440\u0443\u0434"}, {"mark": 2, "visited_at": 1199721741, "place": "\u0414\u0432\u043e\u0440"}, {"mark": 3, "visited_at": 1208556141, "place": "\u0424\u043e\u043d\u0430\u0440\u044c"}, {"mark": 3, "visited_at": 1284005834, "place": "\u0417\u0434\u0430\u043d\u0438\u0435"}, {"mark": 1, "visited_at": 1312693938, "place": "\u0413\u0430\u0440\u0430\u0436"}, {"mark": 3, "visited_at": 1329024193, "place": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c"}, {"mark": 4, "visited_at": 1376714498, "place": "\u0410\u044d\u0440\u043e\u043f\u043e\u0440\u0442"}, {"mark": 2, "visited_at": 1378661244, "place": "\u0413\u0430\u0440\u0430\u0436"}, {"mark": 2, "visited_at": 1394495249, "place": "\u041f\u0435\u0440\u0435\u0443\u043b\u043e\u043a"}, {"mark": 3, "visited_at": 1408853810, "place": "\u0423\u043b\u043e\u0447\u043a\u0430"}]}
+GET	/visits/3978	200	{"mark": 3, "visited_at": 1314485458, "user": 204, "id": 3978, "location": 129}
+GET	/users/bad	404
+GET	/locations/693	200	{"distance": 27, "city": "\u041b\u0438\u0441\u0441\u0430\u043b\u0430\u043c\u0441\u043a", "country": "\u041a\u0430\u043c\u0431\u043e\u0434\u0436\u0430", "place": "\u0413\u0430\u0440\u0430\u0436", "id": 693}
+GET	/visits/7872	200	{"mark": 4, "visited_at": 1066977857, "user": 374, "id": 7872, "location": 354}
+GET	/users/990	200	{"first_name": "\u0412\u0435\u0440\u0430", "last_name": "\u041a\u0438\u0441\u0435\u0442\u0430\u043b\u043e\u0432\u0430", "gender": "f", "email": "benoitlunuroblasri@gmail.com", "birth_date": -1205971200, "id": 990}
+GET	/visits/9647	200	{"mark": 4, "visited_at": 1083808630, "user": 39, "id": 9647, "location": 251}
+GET	/users/476	200	{"first_name": "\u0412\u0430\u0441\u0438\u043b\u0438\u0441\u0430", "last_name": "\u041a\u043b\u0435\u0440\u0443\u0448\u0443\u0442\u0435\u0432\u0430", "gender": "f", "email": "dehresgiid@mail.ru", "birth_date": -682387200, "id": 476}
+GET	/users/268	200	{"first_name": "\u0420\u043e\u043c\u0430\u043d", "last_name": "\u0421\u0442\u044b\u043a\u043b\u0435\u043d\u0442\u0438\u043d", "gender": "m", "email": "siwotfodsisdat@yahoo.com", "birth_date": 95040000, "id": 268}
+GET	/visits/2605	200	{"mark": 4, "visited_at": 1233783688, "user": 84, "id": 2605, "location": 7}
+GET	/locations/501	200	{"distance": 88, "city": "\u0417\u0435\u043b\u0435\u043d\u043e\u043b\u0451\u0432", "country": "\u0428\u0440\u0438-\u041b\u0430\u043d\u043a\u0430", "place": "\u0421\u043a\u0430\u043b\u0430", "id": 501}
+GET	/locations/320	200	{"distance": 37, "city": "\u041a\u0440\u043e\u043d\u0435\u043b\u043e\u043d\u0430", "country": "\u041d\u043e\u0432\u0430\u044f \u0437\u0435\u043b\u0430\u043d\u0434\u0438\u044f", "place": "\u041c\u043e\u0441\u0442", "id": 320}
+GET	/users/735	200	{"first_name": "\u042e\u043b\u0438\u044f", "last_name": "\u0424\u0430\u0430\u0448\u0435\u043d\u0430\u044f", "gender": "f", "email": "supedterritalti@inbox.ru", "birth_date": -551491200, "id": 735}
+GET	/visits/10672	404
+GET	/users/550	200	{"first_name": "\u0417\u043b\u0430\u0442\u0430", "last_name": "\u0421\u0442\u0430\u043c\u044b\u043a\u0430\u0447\u0430\u043d", "gender": "f", "email": "webelhefedardolalda@yahoo.com", "birth_date": 219369600, "id": 550}
+GET	/users/bad	404
+GET	/users/44/visits?toDistance=82&country=%D0%92%D0%B5%D0%BD%D0%B5%D1%81%D1%83%D1%8D%D0%BB%D0%BB%D0%B0	200	{"visits": [{"mark": 1, "visited_at": 1328451594, "place": "\u0424\u043e\u043d\u0430\u0440\u044c"}]}
+GET	/visits/9920	200	{"mark": 1, "visited_at": 1184140672, "user": 999, "id": 9920, "location": 252}
+GET	/visits/2546	200	{"mark": 3, "visited_at": 1093841647, "user": 185, "id": 2546, "location": 178}
+GET	/users/256	200	{"first_name": "\u041a\u0438\u0440\u0438\u043b\u043b", "last_name": "\u041a\u043b\u0435\u0440\u043e\u043b\u043e\u043f\u043e\u0432", "gender": "m", "email": "otuheraltosit@gmail.com", "birth_date": 773884800, "id": 256}
+GET	/users/bad	404
+GET	/locations/593	200	{"distance": 63, "city": "\u041b\u0435\u0439\u043f\u0441\u0438\u043d\u043a\u0438", "country": "\u0412\u044c\u0435\u0442\u043d\u0430\u043c", "place": "\u0420\u0435\u0447\u043a\u0430", "id": 593}
+GET	/users/421/visits?toDate=877564800&fromDate=897868800&country=%D0%A4%D0%B8%D0%B4%D0%B6%D0%B8	200	{"visits": []}
+GET	/users/822	200	{"first_name": "\u0410\u0440\u0442\u0443\u0440", "last_name": "\u0422\u0435\u0440\u043e\u043b\u043e\u043b\u043e", "gender": "m", "email": "sunasweltahsa@list.me", "birth_date": -1042761600, "id": 822}
+GET	/users/917	200	{"first_name": "\u0410\u043b\u043b\u0430", "last_name": "\u041b\u0435\u0431\u0443\u0448\u0443\u043a\u0430\u044f", "gender": "f", "email": "nesonerterinseguv@rambler.com", "birth_date": 53481600, "id": 917}
+GET	/locations/689/avg?toDate=1071014400&fromDate=914630400&fromAge=2	200	{"avg": 3.5}
+GET	/users/231/visits	200	{"visits": [{"mark": 2, "visited_at": 950589300, "place": "\u041f\u0440\u0438\u0441\u0442\u0430\u043d\u044c"}, {"mark": 1, "visited_at": 972934932, "place": "\u0420\u0430\u0442\u0443\u0448\u0430"}, {"mark": 1, "visited_at": 1012515457, "place": "\u0414\u043e\u0440\u043e\u0436\u043a\u0430"}, {"mark": 2, "visited_at": 1059033311, "place": "\u041f\u0430\u0440\u043a"}, {"mark": 1, "visited_at": 1126962136, "place": "\u0420\u0435\u0447\u043a\u0430"}, {"mark": 3, "visited_at": 1146253890, "place": "\u041b\u0435\u0441"}, {"mark": 3, "visited_at": 1193585454, "place": "\u0414\u0430\u0447\u0430"}, {"mark": 2, "visited_at": 1211949648, "place": "\u0414\u0432\u043e\u0440"}, {"mark": 1, "visited_at": 1216773555, "place": "\u041f\u0430\u0440\u043a"}, {"mark": 2, "visited_at": 1302846596, "place": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d"}, {"mark": 4, "visited_at": 1320792676, "place": "\u0420\u0430\u0442\u0443\u0448\u0430"}, {"mark": 2, "visited_at": 1327472405, "place": "\u0420\u0430\u0442\u0443\u0448\u0430"}, {"mark": 1, "visited_at": 1355265330, "place": "\u0423\u043b\u0438\u0446\u0430"}, {"mark": 1, "visited_at": 1357403035, "place": "\u0420\u0430\u0442\u0443\u0448\u0430"}, {"mark": 3, "visited_at": 1407864805, "place": "\u0421\u043a\u0430\u043b\u0430"}]}
+GET	/locations/789	200	{"distance": 74, "city": "\u041b\u0435\u0439\u043f\u0448\u0442\u0430\u0434\u0442", "country": "\u041c\u0430\u043b\u0430\u0439\u0437\u0438\u044f", "place": "\u0417\u0430\u0431\u043e\u0440", "id": 789}
+GET	/users/1007/visits?toDistance=10&country=%D0%98%D0%BD%D0%B4%D0%B8%D1%8F&fromDate=1325721600	200	{"visits": []}
+GET	/users/886/visits?toDate=858470400&country=%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F	200	{"visits": []}
+GET	/users/89	200	{"first_name": "\u0421\u0435\u0440\u0433\u0435\u0439", "last_name": "\u041a\u043e\u043b\u0430\u0442\u043e\u0447\u0430\u043d", "gender": "m", "email": "tehrufiasle@yandex.ru", "birth_date": 788313600, "id": 89}
+GET	/users/bad	404
+GET	/locations/194/avg?toDate=1064448000	200	{"avg": 2.71429}
+GET	/visits/1172	200	{"mark": 3, "visited_at": 1329459450, "user": 22, "id": 1172, "location": 76}
+GET	/users/844	200	{"first_name": "\u041c\u0438\u043b\u0435\u043d\u0430", "last_name": "\u041b\u0435\u0431\u0430\u0442\u043e\u043a\u043e", "gender": "f", "email": "hevardop@ya.ru", "birth_date": 900460800, "id": 844}
+GET	/locations/623	200	{"distance": 100, "city": "\u0417\u0435\u043b\u0435\u043d\u043e\u043a\u0432\u0430", "country": "\u041a\u043e\u0441\u0442\u0430-\u0420\u0438\u043a\u0430", "place": "\u041f\u0440\u0438\u0441\u0442\u0430\u043d\u044c", "id": 623}
+GET	/locations/829	200	{"distance": 60, "city": "\u041d\u043e\u0432\u043e\u0438\u043d\u0441\u043a", "country": "\u0412\u0435\u043b\u0438\u043a\u043e\u0431\u0440\u0438\u0442\u0430\u043d\u0438\u044f", "place": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d", "id": 829}
+GET	/users/758	200	{"first_name": "\u0415\u0433\u043e\u0440", "last_name": "\u0424\u0435\u0442\u0435\u0442\u0430\u043b\u043e", "gender": "m", "email": "ishywwannaporwitnex@mail.ru", "birth_date": -1155427200, "id": 758}
+GET	/users/416/visits?toDate=1543968000	200	{"visits": [{"mark": 4, "visited_at": 1049415818, "place": "\u0420\u0435\u0447\u043a\u0430"}, {"mark": 4, "visited_at": 1050117522, "place": "\u0410\u044d\u0440\u043e\u043f\u043e\u0440\u0442"}, {"mark": 3, "visited_at": 1108445184, "place": "\u0421\u043a\u043b\u043e\u043d"}, {"mark": 1, "visited_at": 1131257850, "place": "\u0420\u0430\u0442\u0443\u0448\u0430"}, {"mark": 4, "visited_at": 1230467699, "place": "\u0410\u044d\u0440\u043e\u043f\u043e\u0440\u0442"}, {"mark": 4, "visited_at": 1253528348, "place": "\u041b\u0435\u0441"}, {"mark": 4, "visited_at": 1263516623, "place": "\u0424\u043e\u043d\u0442\u0430\u043d"}, {"mark": 4, "visited_at": 1268341609, "place": "\u0420\u0430\u0442\u0443\u0448\u0430"}]}
+GET	/visits/5575	200	{"mark": 3, "visited_at": 1045540361, "user": 515, "id": 5575, "location": 328}
+GET	/visits/5222	200	{"mark": 2, "visited_at": 1240691085, "user": 126, "id": 5222, "location": 334}
+GET	/locations/663	200	{"distance": 14, "city": "\u041a\u0440\u0430\u0441\u043d\u043e\u0448\u0442\u0430\u0434\u0442", "country": "\u0413\u0440\u0435\u0446\u0438\u044f", "place": "\u041d\u0430\u0431\u0435\u0440\u0435\u0436\u043d\u0430\u044f", "id": 663}
+GET	/locations/466	200	{"distance": 74, "city": "\u0412\u0430\u0440\u0431\u043e\u043d", "country": "\u041c\u0430\u0432\u0440\u0438\u043a\u0438\u0439", "place": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c", "id": 466}
+GET	/locations/322/avg?toDate=1266451200&fromDate=1344124800	200	{"avg": 0.0}
+GET	/users/56/visits	200	{"visits": [{"mark": 3, "visited_at": 967813290, "place": "\u0420\u0430\u0442\u0443\u0448\u0430"}, {"mark": 1, "visited_at": 975486803, "place": "\u041f\u0440\u0438\u0441\u0442\u0430\u043d\u044c"}, {"mark": 4, "visited_at": 988658589, "place": "\u0417\u0434\u0430\u043d\u0438\u0435"}, {"mark": 1, "visited_at": 1004435138, "place": "\u041e\u0444\u0438\u0441"}, {"mark": 4, "visited_at": 1009340121, "place": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c"}, {"mark": 1, "visited_at": 1038519146, "place": "\u041f\u0435\u0440\u0435\u0443\u043b\u043e\u043a"}, {"mark": 4, "visited_at": 1050729924, "place": "\u041d\u0430\u0431\u0435\u0440\u0435\u0436\u043d\u0430\u044f"}, {"mark": 3, "visited_at": 1051680660, "place": "\u0414\u043e\u0440\u043e\u0436\u043a\u0430"}, {"mark": 3, "visited_at": 1089186303, "place": "\u0414\u043e\u043c"}, {"mark": 1, "visited_at": 1103650532, "place": "\u0420\u0443\u0447\u0435\u0439"}, {"mark": 4, "visited_at": 1145486940, "place": "\u041e\u0437\u0435\u0440\u043e"}, {"mark": 3, "visited_at": 1155900599, "place": "\u041c\u0430\u0433\u0430\u0437\u0438\u043d"}, {"mark": 2, "visited_at": 1194952978, "place": "\u0417\u0434\u0430\u043d\u0438\u0435"}, {"mark": 3, "visited_at": 1195264805, "place": "\u041f\u0430\u0440\u043a"}, {"mark": 3, "visited_at": 1207074199, "place": "\u041f\u0440\u0443\u0434"}, {"mark": 3, "visited_at": 1214400137, "place": "\u041e\u0437\u0435\u0440\u043e"}, {"mark": 2, "visited_at": 1219790453, "place": "\u0421\u0442\u0430\u0442\u0443\u044f"}, {"mark": 2, "visited_at": 1226331026, "place": "\u041f\u0435\u0440\u0435\u0443\u043b\u043e\u043a"}, {"mark": 2, "visited_at": 1255297955, "place": "\u0414\u0435\u0440\u0435\u0432\u043e"}, {"mark": 4, "visited_at": 1262633388, "place": "\u0423\u043b\u043e\u0447\u043a\u0430"}, {"mark": 2, "visited_at": 1276100001, "place": "\u0417\u0434\u0430\u043d\u0438\u0435"}, {"mark": 4, "visited_at": 1309652239, "place": "\u0417\u0434\u0430\u043d\u0438\u0435"}, {"mark": 1, "visited_at": 1310488175, "place": "\u041c\u0430\u0433\u0430\u0437\u0438\u043d"}, {"mark": 3, "visited_at": 1340214669, "place": "\u041f\u0440\u0438\u0441\u0442\u0430\u043d\u044c"}, {"mark": 2, "visited_at": 1350833393, "place": "\u041f\u0435\u0440\u0435\u0443\u043b\u043e\u043a"}, {"mark": 3, "visited_at": 1354946782, "place": "\u0417\u0430\u0431\u043e\u0440"}, {"mark": 3, "visited_at": 1397135286, "place": "\u041d\u0430\u0431\u0435\u0440\u0435\u0436\u043d\u0430\u044f"}, {"mark": 2, "visited_at": 1413001762, "place": "\u0413\u0430\u0440\u0430\u0436"}]}
+GET	/locations/321	200	{"distance": 36, "city": "\u0411\u0435\u043b\u043e\u0432\u0441\u043a", "country": "\u0424\u0440\u0430\u043d\u0446\u0438\u044f", "place": "\u041c\u043e\u0440\u0435", "id": 321}
