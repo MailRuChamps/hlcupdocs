@@ -150,7 +150,7 @@
 
 ---
 
-> Пример ответа на запрос:  `GET: /users/1/visit?fromDate=-100`
+> Пример ответа на запрос:  `GET: /users/1/visits?fromDate=-100`
 
 `HTTP Status Code: 
 400
@@ -158,7 +158,7 @@
 
 ---
 
-> Пример ответа на запрос:  `GET: /users/1/visit?fromDate=abracadbra`
+> Пример ответа на запрос:  `GET: /users/1/visits?fromDate=abracadbra`
 
 `HTTP Status Code: 
 400
@@ -166,10 +166,10 @@
 
 ---
 
-> Пример ответа на запрос:  `GET: /users/somethingstringhere/visit?fromDate=1`
+> Пример ответа на запрос:  `GET: /users/somethingstringhere/visits?fromDate=1`
 
 `HTTP Status Code: 
-400
+404
 `
 
 ---
