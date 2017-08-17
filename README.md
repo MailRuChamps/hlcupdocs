@@ -29,4 +29,4 @@
 
 ---
 
-> [cups@mail.ru](mailto: cups@mail.ru) 
+`Команда чемпионатов Mail.Ru Group`
