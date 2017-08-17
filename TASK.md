@@ -117,7 +117,7 @@
 
 ---
 
-> Пример ответа на запрос:  `GET: /users/1/visits`
+> Пусть пользователь с `id` = 1 существует. Пример ответа на запрос:  `GET: /users/1/visits`
 
 `HTTP Status Code: 
 200
@@ -161,7 +161,7 @@
 > Пример ответа на запрос:  `GET: /users/somethingstringhere/visit?fromDate=1`
 
 `HTTP Status Code: 
-404
+400
 `
 
 ---
