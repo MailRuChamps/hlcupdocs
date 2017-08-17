@@ -256,7 +256,7 @@
 
 ```json
     {
-        "email": "null",
+        "email": null,
         "first_name": "Jessie",
         "last_name": "Pinkman",
         "birth_date": 616550400
@@ -319,7 +319,7 @@
 ```json
     {
         "id": 245,
-        "email": "null",
+        "email": null,
         "first_name": "Маша",
         "last_name": "Пушкина",
         "gender": "f",
