@@ -26,4 +26,7 @@
 ### [Выложили тела POST-запросов](https://highloadcup.ru/news/4/) `16.08.2017 01:56:05`
 
 ### [Полет нормальный. Баги фиксим](https://highloadcup.ru/news/3/) `15.08.2017 20:18:06`
+
 ---
+
+> [cups@mail.ru](mailto: cups@mail.ru) 
