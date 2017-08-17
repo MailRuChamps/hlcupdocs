@@ -197,12 +197,24 @@
 `HTTP Status Code: 
 200
 ` 
+
 ```json
-   {
-   }
+   {}
 ```
 
- 
+> Пусть пользователь с `id` = 214 существует. Пример тела запроса:  `POST: /users/214`
+
+```json
+    {
+        "email": "gmail.com",
+        "first_name": "Jessie",
+        "last_name": "Pinkman",
+        "birth_date": 616550400
+    }    
+ ```
+`HTTP Status Code: 
+400
+`
 
 2.  Добавление новой сущности: **/\<entity>/new** 
 
