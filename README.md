@@ -29,4 +29,5 @@
 
 ---
 
-`Команда чемпионатов Mail.Ru Group`
+> Команда чемпионатов Mail.Ru Group
+> [Группа Вконтакте](https://vk.com/cupmrg)
