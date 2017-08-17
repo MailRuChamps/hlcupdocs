@@ -185,9 +185,6 @@
 
 > Пусть пользователь с `id` = 214 существует. Пример тела запроса:  `POST: /users/214`
 
-`HTTP Status Code: 
-200
-` 
 ```json
     {
         "email": "johndoe@gmail.com",
@@ -197,6 +194,13 @@
     }    
  ```
  > Ответ:
+`HTTP Status Code: 
+200
+` 
+```json
+   {
+   }
+```
 
  
 
