@@ -256,7 +256,7 @@
 
 ```json
     {
-        "email": "gmail.com",
+        "email": "null",
         "first_name": "Jessie",
         "last_name": "Pinkman",
         "birth_date": 616550400
