@@ -60,8 +60,9 @@
     }
 ```
 > Пример ответа на запрос:  `GET: /users/string`
-`HTTP Status Code
-    404
+
+`HTTP Status Code: 
+404
 `
 
 ##### 2.  Получение списка мест, которые посетил пользователь: `/users/\<id>/visits`
