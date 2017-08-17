@@ -59,10 +59,12 @@
         "birth_date": -1613433600
     }
 ```
+
 > Пример ответа на запрос:  `GET: /users/string`
 `HTTP Status Code: 
 404
 `
+
 > Пример ответа на запрос:  `GET: /users/string/somethingbad`
 `HTTP Status Code: 
 400
