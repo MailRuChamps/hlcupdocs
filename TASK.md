@@ -277,4 +277,8 @@
         "birth_date": 365299200
     }
  ```
+> Ответ:
 
+`HTTP Status Code: 
+200
+`
