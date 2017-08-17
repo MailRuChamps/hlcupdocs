@@ -61,9 +61,9 @@
 ```
 
 > Пример ответа на запрос:  `GET: /users/string`
-`HTTP Status Code: 
-404
-`
+ `HTTP Status Code: 
+ 404
+ `
 
 > Пример ответа на запрос:  `GET: /users/string/somethingbad`
 `HTTP Status Code: 
