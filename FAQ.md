@@ -26,8 +26,9 @@ API.
 
 **Какие серверные технологии можно использовать на соревновании?**
 Участник может использовать любые серверные технологии, языки программирования, фреймворки по своему усмотрению 
-(C++, Java + Tomcat, Python + Django, Ruby + RoR, JavaScript + NodeJs, Haskell или что-то
-еще). Также и для хранения данных: MySQL, Redis, MongoDB, Memcached - всё, что получится установить в docker.
+>C++, Java + Tomcat, Python + Django, Ruby + RoR, JavaScript + NodeJs, Haskell или что-то
+еще). 
+Также и для хранения данных: MySQL, Redis, MongoDB, Memcached - всё, что получится установить в docker.
 
 **Какие технические ресурсы выдаются участнику?**
 
