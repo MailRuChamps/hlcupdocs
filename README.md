@@ -1,5 +1,11 @@
-## [Описание задачи чемпионата](https://github.com/sat2707/hlcupdocs/blob/master/HOWTO.md)
+Полезное
+========
 
-## [Базовое решение](https://github.com/sat2707/hlcupdocs/blob/master/EXAMPLE.md)
+### [Техническое задание](TECHNICAL_TASK.md)
 
-## [Запуск стрельбы в yandex-tank локально](https://github.com/sat2707/hlcupdocs/blob/master/TANK.md)
+### [Пример решения задачи с последовательностью действий](EXAMPLE.md)
+
+### [Запуск стрельбы в yandex-tank локально](TANK.md)
+
+### [Чат в Телеграмме](https://goo.gl/A9hkR8)
+
