@@ -1,13 +1,13 @@
 Полезное
 ========
 
-### [Часто задаваемые вопросы](https://github.com/sat2707/hlcupdocs/blob/master/FAQ.md)
+### [Часто задаваемые вопросы](FAQ.md)
 
-### [Техническое задание](https://github.com/sat2707/hlcupdocs/blob/master/TECHNICAL_TASK.md)
+### [Техническое задание](TECHNICAL_TASK.md)
 
-### [Пример решения задачи с последовательностью действий](https://github.com/sat2707/hlcupdocs/blob/master/EXAMPLE.md)
+### [Пример решения задачи с последовательностью действий](EXAMPLE.md)
 
-### [Запуск стрельбы в yandex-tank локально](https://github.com/sat2707/hlcupdocs/blob/master/TANK.md)
+### [Запуск стрельбы в yandex-tank локально](TANK.md)
 
 ### [Чат в Телеграмме](https://goo.gl/A9hkR8)
 
