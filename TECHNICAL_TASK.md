@@ -316,6 +316,18 @@
 
 > В случае если места с переданным `id` нет - отдавать __404__. Если по указанным параметрам не было посещений, то `{"avg": 0}`
 
+> Небольшой пример проверки дат в этом запросе на python:
+```python
+        from datetime import datetime
+        from dateutil.relativedelta import relativedelta
+        import calendar
+
+        now = datetime.now() - relativedelta(years = fromAge)
+        timestamp = calendar.timegm(now.timetuple())
+```
+
+> Дальше проверяется `birthdate` < `timestamp` либо `birthdate` > `timestamp` соответственно.
+
 Методы обновления данных (POST)
 -------------------------------
 ### 1. Обновление данных о сущности: `/<entity>/<id>`
