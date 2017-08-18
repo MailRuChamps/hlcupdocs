@@ -316,7 +316,7 @@
 
 > В случае если места с переданным `id` нет - отдавать __404__. Если по указанным параметрам не было посещений, то `{"avg": 0}`
 
-> Небольшой пример проверки дат в этом запросе на python:
+> Небольшой пример проверки дат в этом запросе на python (fromAge - количество лет):
 ```python
         from datetime import datetime
         from dateutil.relativedelta import relativedelta
