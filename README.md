@@ -3,7 +3,7 @@
 
 ### [Часто задаваемые вопросы](https://github.com/sat2707/hlcupdocs/blob/master/FAQ.md)
 
-### [Техническое задание](https://github.com/sat2707/hlcupdocs/blob/master/TechnicalTask.md)
+### [Техническое задание](https://github.com/sat2707/hlcupdocs/blob/master/TECHNICAL_TASK.md)
 
 ### [Пример решения задачи с последовательностью действий](https://github.com/sat2707/hlcupdocs/blob/master/EXAMPLE.md)
 
