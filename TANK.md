@@ -23,7 +23,7 @@ done
 `docker.for.mac.localhost`:
 
 ```bash
-sed -i s/127.0.0.1:80/docker.for.mac.localhost:8000/g load/load_*.ini
+sed -i '' s/127.0.0.1:80/docker.for.mac.localhost/g load/load_*.ini
 ```
 
 ### Overload
