@@ -38,4 +38,7 @@ echo ВАШ_ТОКЕН > token.txt
 
 # раскомментируем плагин overload
 sed -i s/\#plugin_uploader/plugin_uploader/ load/load_*.ini
+
+# MAC OS / раскомментируем плагин overload
+sed -i '' s/\#plugin_uploader/plugin_uploader/ load/load_*.ini
 ```
