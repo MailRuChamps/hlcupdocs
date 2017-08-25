@@ -71,6 +71,44 @@ RAM`. Жесткий диск: `10 GB HDD`.
 обработать данные из полученного `JSON-файла`, а также успеть прогреться.
 Корректная работа с этими данными - необходимое условие победы.
 
+А как вы запускаете docker?
+-------------------------------
+
+> Вот максимально близкие к боевым примеры конфига демона докера и конфига compose:
+
+```
+{
+  "userns-remap": "custom_user"
+}
+```
+
+```
+networks:
+  internal-net:
+    external:
+      name: internal-net
+services:
+  client_8570:
+    cpuset: 0-3
+    expose:
+    - 80
+    image: ***
+    mem_limit: 4096M
+    memswap_limit: 4096M
+    networks:
+    -  internal-net
+    volumes:
+    - ***:/tmp/data:ro
+  tank:
+    depends_on: &id001
+    - client_8570
+    image: tank
+    links: *id001
+    networks:
+    -  internal-net
+version: '2'
+```
+
 Какие виды обстрела существуют?
 -------------------------------
 > Существует два типа проверки решения: экспресс-обстрел и рейтинговая
