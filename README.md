@@ -9,3 +9,4 @@
 
 ### [Чат в Телеграмме](https://goo.gl/A9hkR8)
 
+### [FAQ](FAQ.md)
