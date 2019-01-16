@@ -1,5 +1,5 @@
 FROM nginx:1.13
-MAINTAINER Maksim Kislenko <m.kislenko@corp.mail.ru>
+LABEL maintainer="Maksim Kislenko <m.kislenko@corp.mail.ru>"
 
 WORKDIR /etc/nginx/conf.d
 COPY ./deploy/nginx.conf ./minimal.conf
